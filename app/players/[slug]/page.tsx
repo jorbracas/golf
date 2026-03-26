@@ -19,10 +19,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
-const AMAZON_TAG = 'yourtag-21' // Replace with your actual Amazon Associates tag
+const AMAZON_TAG = 'dronewithca0b-20' // Replace with your actual Amazon Associates tag
 
 function AmazonLink({ asin, label, description, tag }: { asin: string; label: string; description: string; tag: string }) {
-  const url = `https://www.amazon.co.uk/dp/${asin}?tag=${tag}`
+  const url = `https://www.amazon.com/dp/${asin}?tag=${tag}`
   return (
     <a
       href={url}

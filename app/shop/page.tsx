@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Tour-tested golf equipment curated by 4Sports Golf professionals. Irons, balls, putters and more.',
 }
 
-const AMAZON_TAG = 'yourtag-21' // Replace with your actual Amazon Associates tag
+const AMAZON_TAG = 'dronewithca0b-20' // Replace with your actual Amazon Associates tag
 
 export default function ShopPage() {
   return (
@@ -53,7 +53,7 @@ export default function ShopPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {products.map((product) => {
-              const amazonUrl = `https://www.amazon.co.uk/dp/${product.asin}?tag=${AMAZON_TAG}`
+              const amazonUrl = `https://www.amazon.com/dp/${product.asin}?tag=${AMAZON_TAG}`
               return (
                 <div key={product.id} className="group card-dark flex flex-col overflow-hidden hover:border-gold-500 transition-all duration-300">
                   {/* Image */}
@@ -105,18 +105,14 @@ export default function ShopPage() {
                       </p>
                     )}
 
-                    <div className="flex items-center justify-between mt-auto pt-4 border-t border-fairway-700">
-                      <span className="font-display text-xl text-stone-100">
-                        {product.price_from}
-                        <span className="text-stone-500 text-xs font-body ml-1">from</span>
-                      </span>
+                    <div className="mt-auto pt-4 border-t border-fairway-700">
                       <a
                         href={amazonUrl}
                         target="_blank"
                         rel="noopener noreferrer sponsored"
-                        className="btn-gold text-xs py-2 px-4"
+                        className="btn-gold text-xs py-2 px-4 w-full justify-center"
                       >
-                        Amazon →
+                        Check price on Amazon →
                       </a>
                     </div>
                   </div>
@@ -131,7 +127,7 @@ export default function ShopPage() {
       <section className="py-12 px-4 sm:px-6 lg:px-8 bg-fairway-800 border-t border-fairway-700">
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-stone-600 text-xs font-body leading-relaxed">
-            4Sports Golf is a participant in the Amazon Services LLC Associates Program, an affiliate advertising programme designed to provide a means for sites to earn advertising fees by advertising and linking to amazon.co.uk. Prices and availability are subject to change. Last updated prices may differ from current Amazon listings.
+            4Sports Golf is a participant in the Amazon Services LLC Associates Program, an affiliate advertising programme designed to provide a means for sites to earn advertising fees by advertising and linking to amazon.com. Product availability and pricing are determined solely by Amazon and displayed on their website at the time of purchase.
           </p>
         </div>
       </section>
