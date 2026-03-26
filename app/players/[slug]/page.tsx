@@ -19,10 +19,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
-const AMAZON_TAG = 'dronewithca0b-20' // Replace with your actual Amazon Associates tag
+const AMAZON_TAG = 'dronewithca0b-20'
 
-function AmazonLink({ asin, label, description, tag }: { asin: string; label: string; description: string; tag: string }) {
-  const url = `https://www.amazon.com/dp/${asin}?tag=${tag}`
+function AmazonLink({ amazonUrl, label, description }: { amazonUrl: string; label: string; description: string }) {
+  const url = amazonUrl
   return (
     <a
       href={url}
@@ -109,7 +109,7 @@ export default function PlayerPage({ params }: Props) {
                   </p>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     {player.amazon_links.map((link) => (
-                      <AmazonLink key={link.asin} tag={AMAZON_TAG} {...link} />
+                      <AmazonLink key={link.label} {...link} />
                     ))}
                   </div>
                 </div>

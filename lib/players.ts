@@ -23,7 +23,7 @@ export type Player = {
   }
   amazon_links: {
     label: string
-    asin: string
+    amazonUrl: string
     description: string
   }[]
   wikipedia_url: string
@@ -73,17 +73,17 @@ Off the course, Edoardo is involved in golf development in Italy and is a vocal 
     amazon_links: [
       {
         label: 'TaylorMade P770 Irons',
-        asin: 'B0CXYZ1234',
+        amazonUrl: 'https://www.amazon.com/dp/B0DBK5RBXH?tag=dronewithca0b-20',
         description: 'Tour-preferred irons favoured by precision ball-strikers like Edoardo.',
       },
       {
         label: 'TaylorMade TP5 Golf Balls',
-        asin: 'B0CXYZ5678',
+        amazonUrl: 'https://www.amazon.com/s?k=TaylorMade+TP5+golf+balls&tag=dronewithca0b-20',
         description: 'Five-layer tour ball for maximum distance and spin control.',
       },
       {
         label: 'Ryder Cup: The Complete History',
-        asin: 'B0CXYZ9012',
+        amazonUrl: 'https://www.amazon.com/s?k=Ryder+Cup+history+book&tag=dronewithca0b-20',
         description: 'Comprehensive history of the tournament where Edoardo made his mark.',
       },
     ],
@@ -132,17 +132,17 @@ Andrea is known among fellow professionals for his professionalism and work ethi
     amazon_links: [
       {
         label: 'Callaway Apex Pro Irons',
-        asin: 'B0CXYZ3456',
+        amazonUrl: 'https://www.amazon.com/s?k=Callaway+Apex+Pro+irons&tag=dronewithca0b-20',
         description: 'Tour-quality forged irons for players who demand precision and feel.',
       },
       {
         label: 'Scotty Cameron Special Select Putter',
-        asin: 'B0CXYZ7890',
+        amazonUrl: 'https://www.amazon.com/s?k=Scotty+Cameron+Special+Select+Newport+2+putter&tag=dronewithca0b-20',
         description: 'Premium milled putter trusted by tour professionals worldwide.',
       },
       {
         label: 'Golf Mental Game Mastery',
-        asin: 'B0CXYZABCD',
+        amazonUrl: 'https://www.amazon.com/s?k=golf+mental+game+book&tag=dronewithca0b-20',
         description: 'Develop the composed mindset that separates tour professionals from the rest.',
       },
     ],
@@ -192,17 +192,17 @@ Beyond his playing record, Ramsey is known within the game for his authenticity 
     amazon_links: [
       {
         label: 'Titleist Pro V1x Golf Balls',
-        asin: 'B0CXYZEFGH',
+        amazonUrl: 'https://www.amazon.com/dp/B01N7W2V8C?tag=dronewithca0b-20',
         description: 'The tour\'s most trusted ball — distance, spin, and feel in one package.',
       },
       {
         label: 'Titleist T100 Irons',
-        asin: 'B0CXYZIJKL',
+        amazonUrl: 'https://www.amazon.com/s?k=Titleist+T100+irons&tag=dronewithca0b-20',
         description: 'Precision forged irons for players who demand workability and feedback.',
       },
       {
         label: 'The US Amateur: A History',
-        asin: 'B0CXYZMNO',
+        amazonUrl: 'https://www.amazon.com/s?k=US+Amateur+golf+championship+book&tag=dronewithca0b-20',
         description: 'Celebrating the championship where Ramsey announced himself to the world.',
       },
     ],
@@ -251,17 +251,17 @@ He is widely considered one of the most interesting and intellectually honest fi
     amazon_links: [
       {
         label: 'Ping i230 Irons',
-        asin: 'B0CXYZPQRS',
+        amazonUrl: 'https://www.amazon.com/s?k=Ping+i230+irons&tag=dronewithca0b-20',
         description: 'Tour-level forged irons combining distance and pinpoint accuracy.',
       },
       {
         label: 'Ping PLD Milled Putter',
-        asin: 'B0CXYZTUV',
+        amazonUrl: 'https://www.amazon.com/s?k=Ping+PLD+Milled+putter&tag=dronewithca0b-20',
         description: 'Precision milled putting surface for unmatched consistency on the greens.',
       },
       {
         label: 'Golf: The Mind Game',
-        asin: 'B0CXYZWXYZ',
+        amazonUrl: 'https://www.amazon.com/s?k=golf+mind+game+book&tag=dronewithca0b-20',
         description: 'Master the mental side of golf — Pepperell\'s real competitive edge.',
       },
     ],
