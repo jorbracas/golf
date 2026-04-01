@@ -5,7 +5,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Privacy Policy / Datenschutzerklärung',
   description: 'Privacy Policy for 4Sports Golf — how we handle your data in full compliance with GDPR (EU) 2016/679.',
-  robots: { index: true },
+  robots: { index: false, follow: false },
   alternates: { canonical: 'https://4sportsgolf.com/privacy' },
 }
 

@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Image Credits',
   description: 'Attribution for all photography used on 4Sports Golf.',
+  robots: { index: false, follow: false },
 }
 
 export default function CreditsPage() {

@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const metadata: Metadata = {
   title: 'Impressum',
   description: 'Legal notice for 4Sports Golf — Angaben gemäß § 5 TMG.',
-  robots: { index: false },
+  robots: { index: false, follow: false },
   alternates: { canonical: 'https://4sportsgolf.com/impressum' },
 }
 
