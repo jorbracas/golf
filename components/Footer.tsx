@@ -67,6 +67,7 @@ export default function Footer() {
                 { label: 'Privacy Policy', href: '/privacy' },
                 { label: 'Affiliate Disclosure', href: '/disclosure' },
                 { label: 'Image Credits', href: '/credits' },
+                { label: 'Cookie-Einstellungen', href: '/privacy#cookies' },
               ].map((l) => (
                 <li key={l.href}>
                   <Link href={l.href} className="text-stone-400 hover:text-gold-400 text-sm transition-colors font-body">

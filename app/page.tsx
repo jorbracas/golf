@@ -10,12 +10,14 @@ export default function HomePage() {
     <>
       {/* Hero */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden grain">
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{
-            backgroundImage:
-              "url('https://images.unsplash.com/photo-1560175400-e78e1a7b6f08?w=1800&q=80')",
-          }}
+        {/* FIX: use Next/Image instead of CSS backgroundImage — optimised, WebP, preloaded */}
+        <Image
+          src="https://images.unsplash.com/photo-1560175400-e78e1a7b6f08?w=1800&q=80"
+          alt=""
+          fill
+          priority
+          className="object-cover object-center"
+          sizes="100vw"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-fairway-900/80 via-fairway-900/60 to-fairway-900" />
 
@@ -95,6 +97,7 @@ export default function HomePage() {
                     alt={player.name}
                     fill
                     className="object-cover grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-105"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-fairway-900 via-fairway-900/20 to-transparent" />
                   <div className="absolute top-3 right-3 text-2xl">{player.flag}</div>
@@ -142,6 +145,7 @@ export default function HomePage() {
                     alt={post.title}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-fairway-800/80 to-transparent" />
                   <div className="absolute top-4 left-4">

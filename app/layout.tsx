@@ -18,6 +18,7 @@ const outfit = Outfit({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://4sportsgolf.com'),
   title: {
     default: '4Sports Golf — Professional Golf Management & Insights',
     template: '%s | 4Sports Golf',
@@ -30,6 +31,23 @@ export const metadata: Metadata = {
     locale: 'en_GB',
     url: 'https://4sportsgolf.com',
     siteName: '4Sports Golf',
+    images: [
+      {
+        url: '/opengraph-image',
+        width: 1200,
+        height: 630,
+        alt: '4Sports Golf — Professional Golf Management',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    site: '@4sportsgolf',
+    creator: '@4sportsgolf',
+    images: ['/opengraph-image'],
+  },
+  alternates: {
+    canonical: 'https://4sportsgolf.com',
   },
 }
 
