@@ -133,7 +133,7 @@ export default function PrivacyPage() {
             <div className="text-stone-400 font-body text-sm leading-relaxed space-y-4">
               <p>
                 This website itself sets one item in your browser's localStorage to remember your cookie preferences. When you click Amazon affiliate links, Amazon sets third-party cookies on your device.
-                You can <Link href="#" onClick={() => { if (typeof window !== 'undefined') { localStorage.removeItem('4sg_consent_v1'); window.location.reload() } }} className="text-gold-400 hover:text-gold-300 transition-colors underline underline-offset-2">manage or withdraw your consent</Link> at any time.
+                You can manage or withdraw your consent at any time using the button below.
               </p>
 
               {/* Cookie table */}
