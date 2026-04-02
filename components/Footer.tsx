@@ -79,10 +79,12 @@ export default function Footer() {
             </ul>
             <h4 className="section-label mt-8 mb-4">Contact</h4>
             <ul className="space-y-2">
-              <li className="text-stone-500 text-xs font-body">Jorge Bravo Castrejón</li>
-              <li className="text-stone-500 text-xs font-body">Grellstrasse 13, 10409 Berlin</li>
+              <li className="text-stone-500 text-xs font-body">Berlin, Germany</li>
               <li>
-                <ObfuscatedEmail />
+                <ObfuscatedEmail className="text-stone-400 hover:text-gold-400 text-xs transition-colors font-body" label="Send us an email →" />
+              </li>
+              <li>
+                <a href="/impressum" className="text-stone-600 hover:text-stone-400 text-xs font-body transition-colors">Legal notice (Impressum) →</a>
               </li>
             </ul>
           </div>
@@ -91,7 +93,7 @@ export default function Footer() {
         <div className="border-t border-fairway-700 mt-12 pt-8">
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
             <p className="text-stone-600 text-xs font-body">
-              © {new Date().getFullYear()} 4Sports Golf — Jorge Bravo Castrejón. All rights reserved.
+              © {new Date().getFullYear()} 4Sports Golf. All rights reserved.
             </p>
             <div className="flex items-center gap-4">
               <p className="text-stone-700 text-xs font-body">

@@ -235,7 +235,7 @@ export default function CookieBanner() {
 
               {/* Footer note */}
               <p className="text-stone-600 text-xs font-body mb-5 leading-relaxed">
-                Controller: Jorge Bravo Castrejón, Grellstrasse 13, 10409 Berlin.{' '}
+                Controller: 4Sports Golf, Berlin, Germany.{' '}
                 <Link href="/privacy" className="text-gold-600 hover:text-gold-400 transition-colors">
                   Full privacy policy →
                 </Link>
