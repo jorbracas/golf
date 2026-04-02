@@ -1,5 +1,6 @@
 import { ManageCookiesButton } from './ManageCookiesButton'
 import type { Metadata } from 'next'
+import { ObfuscatedEmail } from '@/components/ObfuscatedEmail'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
@@ -96,7 +97,7 @@ export default function PrivacyPage() {
                 <p className="font-semibold text-stone-100">Jorge Bravo Castrejón</p>
                 <p>Grellstrasse 13</p>
                 <p>10409 Berlin, Germany</p>
-                <p>E-Mail: <a href="mailto:jorbracas@gmail.com" className="text-gold-400 hover:text-gold-300 transition-colors">jorbracas@gmail.com</a></p>
+                <p>E-Mail: <ObfuscatedEmail /></p>
               </div>
               <p className="text-stone-500 text-xs">
                 No Data Protection Officer is required under Art. 37 GDPR for this website, as it does not carry out large-scale processing of special categories of data.
@@ -231,7 +232,7 @@ export default function PrivacyPage() {
           <div className="card-dark p-8">
             <h2 className="display-heading text-xl text-stone-100 mb-5">9. Your Rights Under GDPR</h2>
             <div className="text-stone-400 font-body text-sm leading-relaxed space-y-4">
-              <p>As a data subject under the GDPR, you have the following rights. To exercise any of them, contact <a href="mailto:jorbracas@gmail.com" className="text-gold-400 hover:text-gold-300 transition-colors">jorbracas@gmail.com</a>. We will respond within one month (Art. 12(3) GDPR).</p>
+              <p>As a data subject under the GDPR, you have the following rights. To exercise any of them, contact <ObfuscatedEmail />. We will respond within one month (Art. 12(3) GDPR).</p>
               <div className="space-y-3">
                 {gdprRights.map((r) => (
                   <div key={r.article} className="flex items-start gap-3 pb-3 border-b border-fairway-700/50 last:border-0 last:pb-0">

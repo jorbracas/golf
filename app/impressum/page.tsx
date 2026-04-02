@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { ObfuscatedEmail } from '@/components/ObfuscatedEmail'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
@@ -42,9 +43,7 @@ export default function ImpressumPage() {
             <div className="text-stone-300 font-body text-sm space-y-2">
               <p>
                 E-Mail:{' '}
-                <a href="mailto:jorbracas@gmail.com" className="text-gold-400 hover:text-gold-300 transition-colors">
-                  jorbracas@gmail.com
-                </a>
+                <ObfuscatedEmail />
               </p>
               <p className="text-stone-500 text-xs mt-3">
                 Gemäß § 5 Abs. 1 Nr. 2 TMG ist die Angabe einer E-Mail-Adresse als Kontaktmittel ausreichend. Eine Telefonnummer wird freiwillig nicht angegeben.

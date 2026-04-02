@@ -1,3 +1,4 @@
+import { ObfuscatedEmail } from '@/components/ObfuscatedEmail'
 import Link from 'next/link'
 
 export default function Footer() {
@@ -81,9 +82,7 @@ export default function Footer() {
               <li className="text-stone-500 text-xs font-body">Jorge Bravo Castrejón</li>
               <li className="text-stone-500 text-xs font-body">Grellstrasse 13, 10409 Berlin</li>
               <li>
-                <a href="mailto:jorbracas@gmail.com" className="text-stone-400 hover:text-gold-400 text-xs transition-colors font-body">
-                  jorbracas@gmail.com
-                </a>
+                <ObfuscatedEmail />
               </li>
             </ul>
           </div>

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { ObfuscatedEmail } from '@/components/ObfuscatedEmail'
 
 export const metadata: Metadata = {
   title: 'Image Credits',
@@ -112,9 +113,7 @@ export default function CreditsPage() {
             <h2 className="display-heading text-xl text-stone-100 mb-5">Copyright Claims</h2>
             <p className="text-stone-400 font-body text-sm leading-relaxed">
               If you believe any content on this website infringes your copyright, please contact us at{' '}
-              <a href="mailto:jorbracas@gmail.com" className="text-gold-400 hover:text-gold-300 transition-colors">
-                jorbracas@gmail.com
-              </a>{' '}
+              <ObfuscatedEmail />{' '}
               and we will address your concern promptly.
             </p>
           </div>

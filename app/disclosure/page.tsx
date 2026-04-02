@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { ObfuscatedEmail } from '@/components/ObfuscatedEmail'
 
 export const metadata: Metadata = {
   title: 'Affiliate Disclosure',
@@ -102,9 +103,7 @@ export default function DisclosurePage() {
             <h2 className="display-heading text-xl text-stone-100 mb-5">Questions?</h2>
             <p className="text-stone-400 font-body text-sm leading-relaxed">
               If you have any questions about our affiliate relationships or how we select products, contact us at{' '}
-              <a href="mailto:jorbracas@gmail.com" className="text-gold-400 hover:text-gold-300 transition-colors">
-                jorbracas@gmail.com
-              </a>.
+              <ObfuscatedEmail />.
             </p>
           </div>
 
