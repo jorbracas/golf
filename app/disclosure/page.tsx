@@ -47,10 +47,13 @@ export default function DisclosurePage() {
                 4Sports Golf is a participant in the Amazon Services LLC Associates Program, an affiliate advertising programme designed to provide a means for sites to earn advertising fees by advertising and linking to <strong className="text-stone-300">Amazon.com</strong>.
               </p>
               <p>
-                Whenever you see a link labelled "View on Amazon" or "Amazon →", that is an affiliate link. We earn a commission when you click through and make a qualifying purchase within a set cookie window (typically 24 hours).
+                Affiliate links appear throughout this website — in the Pro Shop section, in buying guides, and within editorial articles. Whenever you see a link labelled &quot;Amazon →&quot;, &quot;Check price on Amazon&quot;, &quot;Find on Amazon&quot;, or similar, that is an affiliate link. We earn a commission when you click through and make a qualifying purchase within a set cookie window (typically 24 hours).
               </p>
               <p>
                 Our Amazon Associate tag is: <code className="text-gold-400 bg-fairway-700 px-2 py-0.5 text-xs">dronewithca0b-20</code>
+              </p>
+              <p>
+                This website publishes hundreds of buying guides and product comparison articles. All Amazon links in those articles are affiliate links. The price you pay on Amazon is exactly the same whether or not you use our link.
               </p>
             </div>
           </div>
@@ -74,9 +77,10 @@ export default function DisclosurePage() {
               <ul className="space-y-2">
                 {[
                   'Open in a new tab',
-                  'Display a label such as "View on Amazon →" or "Amazon →"',
-                  'Link to an Amazon product page',
+                  'Display a label such as "Amazon →", "Check price on Amazon", "Find on Amazon", or "Browse on Amazon"',
+                  'Link to an Amazon product or search results page',
                   'Include our affiliate tag in the URL: dronewithca0b-20',
+                  'Appear prominently in our Pro Shop section and within buying guide articles',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2">
                     <span className="text-gold-600 flex-shrink-0 mt-0.5">—</span>
@@ -84,6 +88,9 @@ export default function DisclosurePage() {
                   </li>
                 ))}
               </ul>
+              <p className="text-stone-500 text-xs mt-2">
+                Buying guide articles on this site contain multiple affiliate links. Each link is labelled at the point of placement.
+              </p>
             </div>
           </div>
 

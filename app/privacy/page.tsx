@@ -109,7 +109,7 @@ export default function PrivacyPage() {
           <div className="card-dark p-8">
             <h2 className="display-heading text-xl text-stone-100 mb-5">2. Scope of This Policy</h2>
             <p className="text-stone-400 font-body text-sm leading-relaxed">
-              This policy applies to <strong className="text-stone-300">4sportsgolf.com</strong> — a static informational website about professional golf. The site does not operate user accounts, contact forms, comments sections, or newsletter subscriptions. The primary personal data processing activities are server access logs (processed by our hosting provider), image delivery (via Unsplash CDN), and Amazon affiliate tracking (when you choose to click product links).
+              This policy applies to <strong className="text-stone-300">4sportsgolf.com</strong> — a golf information and equipment website covering professional golf, buying guides, and practical how-to content. The site does not operate user accounts, contact forms, comments sections, or newsletter subscriptions. The primary personal data processing activities are server access logs (processed by our hosting provider), image delivery (via Unsplash CDN), and Amazon affiliate tracking (when you choose to click product links in our Pro Shop or buying guide articles).
             </p>
           </div>
 
