@@ -12,6 +12,8 @@ import { renderMarkdown } from '@/lib/markdown'
 type Props = { params: { slug: string } }
 
 // No revalidate — fully static at build time
+// Slugs not in generateStaticParams → 404, never on-demand ISR
+export const dynamicParams = false
 export const dynamic = 'force-static'
 
 export async function generateStaticParams() {

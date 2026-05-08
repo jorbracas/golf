@@ -9,6 +9,7 @@ import { renderMarkdown } from '@/lib/markdown'
 
 type Props = { params: { slug: string } }
 
+export const dynamicParams = false // unknown slugs → 404, no on-demand ISR
 export const dynamic = 'force-static'
 
 export async function generateStaticParams() {
