@@ -3,7 +3,6 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import {
   getShopArticle,
-  getAllShopSlugs,
   getRelatedShopArticles,
   CATEGORY_IMAGES,
 } from '@/lib/shopArticles'
@@ -11,13 +10,22 @@ import { renderMarkdown } from '@/lib/markdown'
 
 type Props = { params: { slug: string } }
 
-// No revalidate — fully static at build time
-// Slugs not in generateStaticParams → 404, never on-demand ISR
-export const dynamicParams = false
-export const dynamic = 'force-static'
+// ISR: cache each page for 24h, then regenerate on next request.
+// Unknown slugs are rendered on-demand (not 404'd) and then cached.
+export const revalidate = 86400   // 24 hours
+// dynamicParams defaults to true → unknown slugs → ISR, not 404
+
+// Pre-render only the top N slugs per category at build time.
+// The remaining ~3 500 pages are generated on first visit and cached.
+const PREBUILD_PER_CATEGORY = 20
 
 export async function generateStaticParams() {
-  return getAllShopSlugs().map((slug) => ({ slug }))
+  const { getShopArticlesByCategory, SHOP_CATEGORIES } = await import('@/lib/shopArticles')
+  const slugs: string[] = []
+  for (const cat of SHOP_CATEGORIES) {
+    getShopArticlesByCategory(cat, PREBUILD_PER_CATEGORY).forEach((a) => slugs.push(a.slug))
+  }
+  return [...new Set(slugs)].map((slug) => ({ slug }))
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
