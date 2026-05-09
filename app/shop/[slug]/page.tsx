@@ -25,7 +25,7 @@ export async function generateStaticParams() {
   for (const cat of SHOP_CATEGORIES) {
     getShopArticlesByCategory(cat, PREBUILD_PER_CATEGORY).forEach((a) => slugs.push(a.slug))
   }
-  return [...new Set(slugs)].map((slug) => ({ slug }))
+  return Array.from(new Set(slugs)).map((slug) => ({ slug }))
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
