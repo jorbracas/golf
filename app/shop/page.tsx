@@ -117,7 +117,7 @@ export default function ShopPage() {
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
                 {articles.map((article) => (
-                  <Link key={article.slug} href={`/shop/${article.slug}`} className="group card-dark p-4 hover:border-gold-500 transition-all duration-200">
+                  <Link prefetch={false} key={article.slug} href={`/shop/${article.slug}`} className="group card-dark p-4 hover:border-gold-500 transition-all duration-200">
                     <h4 className="text-stone-300 text-sm font-body group-hover:text-gold-300 transition-colors leading-snug mb-2">{article.title}</h4>
                     <p className="text-stone-600 text-xs font-body line-clamp-2 mb-3">{article.metaDescription}</p>
                     <div className="flex items-center justify-between">
@@ -143,7 +143,7 @@ export default function ShopPage() {
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 {golfEquipmentArticles.map((article) => (
-                  <Link key={article.slug} href={`/shop/${article.slug}`} className="group card-dark p-4 hover:border-gold-500 transition-all duration-200">
+                  <Link prefetch={false} key={article.slug} href={`/shop/${article.slug}`} className="group card-dark p-4 hover:border-gold-500 transition-all duration-200">
                     <h4 className="text-stone-300 text-sm font-body group-hover:text-gold-300 transition-colors leading-snug mb-2">{article.title}</h4>
                     <p className="text-stone-600 text-xs font-body line-clamp-2 mb-3">{article.metaDescription}</p>
                     <div className="flex items-center justify-between">

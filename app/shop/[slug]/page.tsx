@@ -77,7 +77,7 @@ export default function ShopArticlePage({ params }: Props) {
         >
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center gap-3 mb-5">
-              <Link href="/shop" className="text-stone-500 text-xs font-body hover:text-gold-400 transition-colors">
+              <Link prefetch={false} href="/shop" className="text-stone-500 text-xs font-body hover:text-gold-400 transition-colors">
                 ← Pro Shop
               </Link>
               <span className="text-stone-700 text-xs">·</span>
@@ -203,7 +203,7 @@ export default function ShopArticlePage({ params }: Props) {
                     <p className="section-label mb-4">More in {article.category}</p>
                     <div className="space-y-4">
                       {related.map((rel) => (
-                        <Link key={rel.slug} href={`/shop/${rel.slug}`} className="group block">
+                        <Link prefetch={false} key={rel.slug} href={`/shop/${rel.slug}`} className="group block">
                           <h4 className="text-stone-300 text-xs font-body group-hover:text-gold-300 transition-colors leading-snug mb-1">
                             {rel.title}
                           </h4>
@@ -211,7 +211,7 @@ export default function ShopArticlePage({ params }: Props) {
                         </Link>
                       ))}
                     </div>
-                    <Link
+                    <Link prefetch={false}
                       href={`/shop#${article.category.toLowerCase().replace(/\s+/g, '-')}`}
                       className="text-gold-500 hover:text-gold-300 text-xs font-body mt-4 block transition-colors"
                     >
@@ -226,7 +226,7 @@ export default function ShopArticlePage({ params }: Props) {
                   <p className="text-stone-500 text-xs font-body leading-relaxed">
                     4Sports Golf participates in the Amazon Associates Program. We may earn a commission when you click
                     Amazon links at no extra cost to you.{' '}
-                    <Link href="/disclosure" className="text-gold-600 hover:text-gold-400 transition-colors">
+                    <Link prefetch={false} href="/disclosure" className="text-gold-600 hover:text-gold-400 transition-colors">
                       Full disclosure →
                     </Link>
                   </p>
@@ -239,7 +239,7 @@ export default function ShopArticlePage({ params }: Props) {
         {/* Back */}
         <div className="py-6 px-4 sm:px-6 lg:px-8 border-t border-fairway-700">
           <div className="max-w-7xl mx-auto">
-            <Link href="/shop" className="text-gold-500 hover:text-gold-300 text-sm font-body tracking-wide transition-colors">
+            <Link prefetch={false} href="/shop" className="text-gold-500 hover:text-gold-300 text-sm font-body tracking-wide transition-colors">
               ← Back to Pro Shop
             </Link>
           </div>

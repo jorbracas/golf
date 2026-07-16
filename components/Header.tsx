@@ -19,7 +19,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 group">
+          <Link prefetch={false} href="/" className="flex items-center gap-3 group">
             <div className="w-8 h-8 bg-gold-500 flex items-center justify-center">
               <span className="text-fairway-900 font-display font-bold text-xs">4S</span>
             </div>
@@ -31,7 +31,7 @@ export default function Header() {
           {/* Desktop nav */}
           <nav className="hidden md:flex items-center gap-8">
             {nav.map((item) => (
-              <Link
+              <Link prefetch={false}
                 key={item.href}
                 href={item.href}
                 className={`text-sm font-body tracking-wide transition-colors duration-200 ${
@@ -43,7 +43,7 @@ export default function Header() {
                 {item.label}
               </Link>
             ))}
-            <Link
+            <Link prefetch={false}
               href="/shop"
               className="btn-gold text-xs py-2 px-4"
             >
@@ -71,7 +71,7 @@ export default function Header() {
         {open && (
           <div className="md:hidden border-t border-fairway-700 py-4 space-y-3">
             {nav.map((item) => (
-              <Link
+              <Link prefetch={false}
                 key={item.href}
                 href={item.href}
                 onClick={() => setOpen(false)}

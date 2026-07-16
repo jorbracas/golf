@@ -104,7 +104,7 @@ export default function CookieBanner() {
 
               <p className="text-stone-400 text-xs font-body leading-relaxed mb-5">
                 We use essential cookies to keep the site running. We also use affiliate tracking cookies from Amazon — clicking product links may set Amazon cookies on your device. No analytics or advertising cookies are set by us.{' '}
-                <Link href="/privacy" className="text-gold-500 hover:text-gold-300 underline underline-offset-2 transition-colors">
+                <Link prefetch={false} href="/privacy" className="text-gold-500 hover:text-gold-300 underline underline-offset-2 transition-colors">
                   Privacy Policy
                 </Link>
               </p>
@@ -236,7 +236,7 @@ export default function CookieBanner() {
               {/* Footer note */}
               <p className="text-stone-600 text-xs font-body mb-5 leading-relaxed">
                 Controller: 4Sports Golf, Berlin, Germany.{' '}
-                <Link href="/privacy" className="text-gold-600 hover:text-gold-400 transition-colors">
+                <Link prefetch={false} href="/privacy" className="text-gold-600 hover:text-gold-400 transition-colors">
                   Full privacy policy →
                 </Link>
               </p>

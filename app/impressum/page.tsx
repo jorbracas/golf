@@ -80,7 +80,7 @@ export default function ImpressumPage() {
                 This website participates in the Amazon Associates Program. As an Amazon Associate, I earn from qualifying purchases made via links tagged with <code className="text-gold-400 bg-fairway-700 px-1.5 py-0.5 text-xs">dronewithca0b-20</code>. The price for you as a buyer remains the same.
               </p>
               <p className="text-stone-500 text-xs">
-                Vollständige Offenlegung: <Link href="/disclosure" className="text-gold-500 hover:text-gold-400 transition-colors">Affiliate Disclosure</Link>
+                Vollständige Offenlegung: <Link prefetch={false} href="/disclosure" className="text-gold-500 hover:text-gold-400 transition-colors">Affiliate Disclosure</Link>
               </p>
             </div>
           </div>
@@ -152,7 +152,7 @@ export default function ImpressumPage() {
                   Unsplash-Lizenz
                 </a>{' '}
                 verwendet, die eine kostenlose kommerzielle Nutzung ohne Namensnennung erlaubt. Die Fotos sind Platzhalterbilder und keine Fotografien der genannten Personen. Vollständige Bildnachweise:{' '}
-                <Link href="/credits" className="text-gold-400 hover:text-gold-300 transition-colors">
+                <Link prefetch={false} href="/credits" className="text-gold-400 hover:text-gold-300 transition-colors">
                   Image Credits
                 </Link>.
               </p>
@@ -167,12 +167,12 @@ export default function ImpressumPage() {
             <h2 className="display-heading text-2xl text-stone-100 mb-6">Datenschutz / Data Protection</h2>
             <p className="text-stone-400 font-body text-sm leading-relaxed">
               Informationen zur Verarbeitung personenbezogener Daten auf dieser Website finden Sie in unserer{' '}
-              <Link href="/privacy" className="text-gold-400 hover:text-gold-300 transition-colors">
+              <Link prefetch={false} href="/privacy" className="text-gold-400 hover:text-gold-300 transition-colors">
                 Datenschutzerklärung
               </Link>
               {' '}gemäß DSGVO (EU) 2016/679.
               {' '}/ For information on how personal data is processed on this website, please see our{' '}
-              <Link href="/privacy" className="text-gold-400 hover:text-gold-300 transition-colors">
+              <Link prefetch={false} href="/privacy" className="text-gold-400 hover:text-gold-300 transition-colors">
                 Privacy Policy
               </Link>{' '}
               in accordance with GDPR (EU) 2016/679.

@@ -34,7 +34,7 @@ export default function BlogPage() {
             <p className="section-label mb-8">Featured</p>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
               {featured.map((post) => (
-                <Link key={post.slug} href={`/blog/${post.slug}`} className="group relative overflow-hidden card-dark hover:border-gold-500 transition-all duration-300">
+                <Link prefetch={false} key={post.slug} href={`/blog/${post.slug}`} className="group relative overflow-hidden card-dark hover:border-gold-500 transition-all duration-300">
                   <div className="relative h-64 overflow-hidden">
                     <Image src={post.image} alt={post.title} fill className="object-cover grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-105" sizes="(max-width: 1024px) 100vw, 50vw" />
                     <div className="absolute inset-0 bg-gradient-to-t from-fairway-900 via-fairway-900/30 to-transparent" />
@@ -61,7 +61,7 @@ export default function BlogPage() {
             <p className="section-label mb-6">Tour & Equipment</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {regular.map((post) => (
-                <Link key={post.slug} href={`/blog/${post.slug}`} className="group card-dark overflow-hidden hover:border-gold-500 transition-all duration-300">
+                <Link prefetch={false} key={post.slug} href={`/blog/${post.slug}`} className="group card-dark overflow-hidden hover:border-gold-500 transition-all duration-300">
                   <div className="relative h-44 overflow-hidden">
                     <Image src={post.image} alt={post.title} fill className="object-cover grayscale group-hover:grayscale-0 transition-all duration-500" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" />
                     <div className="absolute inset-0 bg-gradient-to-t from-fairway-900/80 to-transparent" />
@@ -90,7 +90,7 @@ export default function BlogPage() {
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {newArticles.map((article) => (
-                <Link
+                <Link prefetch={false}
                   key={article.slug}
                   href={`/blog/${article.slug}`}
                   className="group card-dark p-5 hover:border-gold-500 transition-all duration-200"

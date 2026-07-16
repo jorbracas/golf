@@ -266,7 +266,7 @@ export default function PlayerPage({ params }: Props) {
         {/* Back link */}
         <div className="py-8 px-4 sm:px-6 lg:px-8 border-t border-fairway-700">
           <div className="max-w-7xl mx-auto">
-            <Link href="/players" className="text-gold-500 hover:text-gold-300 text-sm font-body tracking-wide transition-colors">
+            <Link prefetch={false} href="/players" className="text-gold-500 hover:text-gold-300 text-sm font-body tracking-wide transition-colors">
               ← All Players
             </Link>
           </div>

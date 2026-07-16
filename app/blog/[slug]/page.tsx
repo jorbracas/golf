@@ -107,7 +107,7 @@ export default function BlogPostPage({ params }: Props) {
                       <p className="section-label mb-5">Featured Players</p>
                       <div className="space-y-4">
                         {relatedPlayers.map((player) => player && (
-                          <Link key={player.slug} href={`/players/${player.slug}`} className="flex items-center gap-4 group">
+                          <Link prefetch={false} key={player.slug} href={`/players/${player.slug}`} className="flex items-center gap-4 group">
                             <div className="relative w-14 h-14 flex-shrink-0 overflow-hidden">
                               <Image src={player.image} alt={player.name} fill className="object-cover grayscale group-hover:grayscale-0 transition-all duration-300" sizes="56px" />
                             </div>
@@ -125,7 +125,7 @@ export default function BlogPostPage({ params }: Props) {
                       <p className="section-label mb-5">More in {post.category}</p>
                       <div className="space-y-5">
                         {relatedPosts.map((rp) => (
-                          <Link key={rp.slug} href={`/blog/${rp.slug}`} className="group block">
+                          <Link prefetch={false} key={rp.slug} href={`/blog/${rp.slug}`} className="group block">
                             <h4 className="text-stone-300 text-sm font-body group-hover:text-gold-300 transition-colors mb-1 leading-snug">{rp.title}</h4>
                             <p className="text-stone-600 text-xs font-body">{rp.readTime} read</p>
                           </Link>
@@ -137,7 +137,7 @@ export default function BlogPostPage({ params }: Props) {
                     <p className="section-label mb-3">Equipment</p>
                     <h3 className="display-heading text-lg text-stone-100 mb-3">Shop Tour-Tested Gear</h3>
                     <p className="text-stone-400 text-sm font-body mb-5">Curated equipment used by our professional players.</p>
-                    <Link href="/shop" className="btn-gold text-xs py-2 px-4 w-full justify-center">Browse Shop →</Link>
+                    <Link prefetch={false} href="/shop" className="btn-gold text-xs py-2 px-4 w-full justify-center">Browse Shop →</Link>
                   </div>
                 </aside>
               </div>
@@ -145,7 +145,7 @@ export default function BlogPostPage({ params }: Props) {
           </section>
           <div className="py-8 px-4 sm:px-6 lg:px-8 border-t border-fairway-700">
             <div className="max-w-7xl mx-auto">
-              <Link href="/blog" className="text-gold-500 hover:text-gold-300 text-sm font-body tracking-wide transition-colors">← All Articles</Link>
+              <Link prefetch={false} href="/blog" className="text-gold-500 hover:text-gold-300 text-sm font-body tracking-wide transition-colors">← All Articles</Link>
             </div>
           </div>
         </div>
@@ -173,7 +173,7 @@ export default function BlogPostPage({ params }: Props) {
         <section className="py-20 px-4 sm:px-6 lg:px-8 bg-fairway-800 border-b border-fairway-700">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center gap-3 mb-5">
-              <Link href="/blog" className="text-stone-500 text-xs font-body hover:text-gold-400 transition-colors">← Journal</Link>
+              <Link prefetch={false} href="/blog" className="text-stone-500 text-xs font-body hover:text-gold-400 transition-colors">← Journal</Link>
               <span className="text-stone-700 text-xs">·</span>
               <span className="bg-gold-500 text-fairway-900 text-xs font-body font-semibold px-3 py-1 uppercase tracking-wide">{newPost.category}</span>
             </div>
@@ -224,13 +224,13 @@ export default function BlogPostPage({ params }: Props) {
                   <p className="section-label mb-3">Equipment</p>
                   <h3 className="display-heading text-lg text-stone-100 mb-3">Shop Tour-Tested Gear</h3>
                   <p className="text-stone-400 text-sm font-body mb-5">Curated equipment used by our professional players.</p>
-                  <Link href="/shop" className="btn-gold text-xs py-2 px-4 w-full justify-center">Browse Shop →</Link>
+                  <Link prefetch={false} href="/shop" className="btn-gold text-xs py-2 px-4 w-full justify-center">Browse Shop →</Link>
                 </div>
                 <div className="card-dark p-5">
                   <p className="section-label mb-3">Disclosure</p>
                   <p className="text-stone-500 text-xs font-body leading-relaxed">
                     4Sports Golf participates in the Amazon Associates Program. We may earn a commission when you click Amazon links at no extra cost to you.{' '}
-                    <Link href="/disclosure" className="text-gold-600 hover:text-gold-400 transition-colors">Full disclosure →</Link>
+                    <Link prefetch={false} href="/disclosure" className="text-gold-600 hover:text-gold-400 transition-colors">Full disclosure →</Link>
                   </p>
                 </div>
               </aside>
@@ -239,7 +239,7 @@ export default function BlogPostPage({ params }: Props) {
         </section>
         <div className="py-8 px-4 sm:px-6 lg:px-8 border-t border-fairway-700">
           <div className="max-w-7xl mx-auto">
-            <Link href="/blog" className="text-gold-500 hover:text-gold-300 text-sm font-body tracking-wide transition-colors">← All Articles</Link>
+            <Link prefetch={false} href="/blog" className="text-gold-500 hover:text-gold-300 text-sm font-body tracking-wide transition-colors">← All Articles</Link>
           </div>
         </div>
       </div>

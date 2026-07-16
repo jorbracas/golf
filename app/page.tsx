@@ -34,10 +34,10 @@ export default function HomePage() {
             Representing the finest professional golfers on the DP World Tour. Biographies, tour analysis, and equipment guides for the serious player.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10">
-            <Link href="/players" className="btn-gold">
+            <Link prefetch={false} href="/players" className="btn-gold">
               Meet Our Players
             </Link>
-            <Link href="/blog" className="btn-outline">
+            <Link prefetch={false} href="/blog" className="btn-outline">
               Read the Blog
             </Link>
           </div>
@@ -79,14 +79,14 @@ export default function HomePage() {
                 Our Players
               </h2>
             </div>
-            <Link href="/players" className="text-gold-400 hover:text-gold-300 text-sm font-body tracking-wide transition-colors hidden sm:block">
+            <Link prefetch={false} href="/players" className="text-gold-400 hover:text-gold-300 text-sm font-body tracking-wide transition-colors hidden sm:block">
               View all →
             </Link>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {players.map((player) => (
-              <Link
+              <Link prefetch={false}
                 key={player.slug}
                 href={`/players/${player.slug}`}
                 className="group card-dark overflow-hidden"
@@ -131,14 +131,14 @@ export default function HomePage() {
                 From the Blog
               </h2>
             </div>
-            <Link href="/blog" className="text-gold-400 hover:text-gold-300 text-sm font-body tracking-wide transition-colors hidden sm:block">
+            <Link prefetch={false} href="/blog" className="text-gold-400 hover:text-gold-300 text-sm font-body tracking-wide transition-colors hidden sm:block">
               All articles →
             </Link>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {featuredPosts.map((post) => (
-              <Link key={post.slug} href={`/blog/${post.slug}`} className="group card-dark overflow-hidden flex flex-col">
+              <Link prefetch={false} key={post.slug} href={`/blog/${post.slug}`} className="group card-dark overflow-hidden flex flex-col">
                 <div className="relative h-56 overflow-hidden">
                   <Image
                     src={post.image}
@@ -187,7 +187,7 @@ export default function HomePage() {
           <p className="text-stone-400 max-w-xl mx-auto mt-6 mb-10 font-body leading-relaxed">
             Curated equipment guides featuring the clubs, balls, and accessories trusted by our tour professionals. Every recommendation tested at the highest level.
           </p>
-          <Link href="/shop" className="btn-gold">
+          <Link prefetch={false} href="/shop" className="btn-gold">
             Browse Equipment →
           </Link>
         </div>

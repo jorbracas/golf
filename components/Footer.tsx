@@ -36,7 +36,7 @@ export default function Footer() {
                 { label: 'Equipment Shop', href: '/shop' },
               ].map((l) => (
                 <li key={l.href}>
-                  <Link href={l.href} className="text-stone-400 hover:text-gold-400 text-sm transition-colors font-body">
+                  <Link prefetch={false} href={l.href} className="text-stone-400 hover:text-gold-400 text-sm transition-colors font-body">
                     {l.label}
                   </Link>
                 </li>
@@ -51,7 +51,7 @@ export default function Footer() {
                 { label: 'Eddie Pepperell', href: '/players/eddie-pepperell' },
               ].map((l) => (
                 <li key={l.href}>
-                  <Link href={l.href} className="text-stone-400 hover:text-gold-400 text-sm transition-colors font-body">
+                  <Link prefetch={false} href={l.href} className="text-stone-400 hover:text-gold-400 text-sm transition-colors font-body">
                     {l.label}
                   </Link>
                 </li>
@@ -71,7 +71,7 @@ export default function Footer() {
                 { label: 'Cookie-Einstellungen', href: '/privacy#cookies' },
               ].map((l) => (
                 <li key={l.href}>
-                  <Link href={l.href} className="text-stone-400 hover:text-gold-400 text-sm transition-colors font-body">
+                  <Link prefetch={false} href={l.href} className="text-stone-400 hover:text-gold-400 text-sm transition-colors font-body">
                     {l.label}
                   </Link>
                 </li>

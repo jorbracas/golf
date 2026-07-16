@@ -11,8 +11,8 @@ export default function NotFound() {
           This page has gone the way of a wayward drive — nowhere to be found. Let's get you back on the fairway.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link href="/" className="btn-gold">Back to Home</Link>
-          <Link href="/players" className="btn-outline">Our Players</Link>
+          <Link prefetch={false} href="/" className="btn-gold">Back to Home</Link>
+          <Link prefetch={false} href="/players" className="btn-outline">Our Players</Link>
         </div>
       </div>
     </div>

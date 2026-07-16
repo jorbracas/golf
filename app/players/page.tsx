@@ -27,7 +27,7 @@ export default function PlayersPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto space-y-8">
           {players.map((player, index) => (
-            <Link
+            <Link prefetch={false}
               key={player.slug}
               href={`/players/${player.slug}`}
               className="group card-dark flex flex-col sm:flex-row overflow-hidden hover:border-gold-500 transition-all duration-300"

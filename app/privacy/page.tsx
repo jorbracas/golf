@@ -223,7 +223,7 @@ export default function PrivacyPage() {
                 Images on this website are sourced from <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer" className="text-gold-400 hover:text-gold-300 transition-colors">Unsplash</a> and served via Next.js Image Optimization, which proxies requests through our Vercel infrastructure. <strong className="text-stone-300">Your browser connects to our Vercel servers, not directly to Unsplash's CDN</strong>, for all optimised images. However, the original hero background image on the home page may be loaded directly from Unsplash's CDN (<code className="text-stone-500 text-xs">images.unsplash.com</code>), which may process your IP address.
               </p>
               <p className="text-stone-500 text-xs">
-                <strong>Important notice:</strong> All photographs are stock images used as layout placeholders. They are not photographs of the named individuals (Edoardo Molinari, Andrea Pavan, Richie Ramsey, Eddie Pepperell). See <Link href="/credits" className="text-gold-500 hover:text-gold-400 transition-colors">Image Credits</Link>.
+                <strong>Important notice:</strong> All photographs are stock images used as layout placeholders. They are not photographs of the named individuals (Edoardo Molinari, Andrea Pavan, Richie Ramsey, Eddie Pepperell). See <Link prefetch={false} href="/credits" className="text-gold-500 hover:text-gold-400 transition-colors">Image Credits</Link>.
               </p>
             </div>
           </div>
