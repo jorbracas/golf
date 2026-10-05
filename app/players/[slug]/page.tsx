@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: `${player.name} — Professional Golf Biography`,
       description,
-      url: `https://4sportsgolf.com/players/${player.slug}`,
+      url: `https://www.4sportsgolf.com/players/${player.slug}`,
       images: [
         {
           url: player.image,
@@ -40,7 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       images: [player.image],
     },
     alternates: {
-      canonical: `https://4sportsgolf.com/players/${player.slug}`,
+      canonical: `https://www.4sportsgolf.com/players/${player.slug}`,
     },
   }
 }
@@ -94,7 +94,7 @@ export default function PlayerPage({ params }: Props) {
     name: player.name,
     description: player.bio,
     nationality: { '@type': 'Country', name: player.nationality },
-    url: `https://4sportsgolf.com/players/${player.slug}`,
+    url: `https://www.4sportsgolf.com/players/${player.slug}`,
     image: player.image,
     jobTitle: 'Professional Golfer',
     worksFor: { '@type': 'Organization', name: player.tour },
@@ -165,10 +165,10 @@ export default function PlayerPage({ params }: Props) {
                   <div className="mt-12">
                     <p className="section-label mb-2">Equipment</p>
                     <h2 className="display-heading text-2xl text-stone-100 mb-6">
-                      What {player.name.split(' ')[0]} Uses
+                      Gear for Players with a Similar Game
                     </h2>
                     <p className="text-stone-500 text-xs font-body mb-6">
-                      As an Amazon Associate, 4Sports Golf earns from qualifying purchases. Links include our affiliate tag.
+                      Our own suggestions, not the player&apos;s endorsement or confirmed bag. As an Amazon Associate, 4Sports Golf earns from qualifying purchases.
                     </p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                       {player.amazon_links.map((link) => (
@@ -199,21 +199,6 @@ export default function PlayerPage({ params }: Props) {
                     ))}
                   </dl>
                 </div>
-
-                {/* Equipment bag */}
-                {Object.keys(player.equipment).length > 0 && (
-                  <div className="card-dark p-6">
-                    <p className="section-label mb-5">In the Bag</p>
-                    <dl className="space-y-4">
-                      {Object.entries(player.equipment).map(([key, value]) => (
-                        <div key={key} className="flex justify-between items-start gap-4 pb-4 border-b border-fairway-700 last:border-0 last:pb-0">
-                          <dt className="text-stone-500 text-xs uppercase tracking-wide font-body capitalize">{key}</dt>
-                          <dd className="text-stone-200 text-sm font-body text-right">{value}</dd>
-                        </div>
-                      ))}
-                    </dl>
-                  </div>
-                )}
 
                 {/* Social + Wikipedia */}
                 <div className="card-dark p-6">

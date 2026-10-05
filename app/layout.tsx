@@ -18,25 +18,24 @@ const outfit = Outfit({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://4sportsgolf.com'),
+  metadataBase: new URL('https://www.4sportsgolf.com'),
   title: {
-    default: '4Sports Golf — Professional Golf Management & Insights',
+    default: '4Sports Golf — Player Profiles, Technique & Equipment Guides',
     template: '%s | 4Sports Golf',
   },
   description:
-    'Home of professional golf management. Biographies, tour news, and equipment guides for the serious golf enthusiast.',
-  keywords: ['golf', 'DP World Tour', 'European Tour', 'golf management', 'golf biography', 'golf equipment'],
+    'Independent golf site with DP World Tour player profiles, technique articles and equipment buying guides for indoor practice, clubs, balls and more.',
   openGraph: {
     type: 'website',
     locale: 'en_GB',
-    url: 'https://4sportsgolf.com',
+    url: 'https://www.4sportsgolf.com',
     siteName: '4Sports Golf',
     images: [
       {
         url: '/opengraph-image',
         width: 1200,
         height: 630,
-        alt: '4Sports Golf — Professional Golf Management',
+        alt: '4Sports Golf — Player Profiles & Equipment Guides',
       },
     ],
   },
@@ -45,9 +44,6 @@ export const metadata: Metadata = {
     site: '@4sportsgolf',
     creator: '@4sportsgolf',
     images: ['/opengraph-image'],
-  },
-  alternates: {
-    canonical: 'https://4sportsgolf.com',
   },
 }
 

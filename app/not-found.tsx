@@ -12,7 +12,7 @@ export default function NotFound() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link prefetch={false} href="/" className="btn-gold">Back to Home</Link>
-          <Link prefetch={false} href="/players" className="btn-outline">Our Players</Link>
+          <Link prefetch={false} href="/players" className="btn-outline">Player Profiles</Link>
         </div>
       </div>
     </div>

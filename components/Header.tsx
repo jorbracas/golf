@@ -7,7 +7,8 @@ import { usePathname } from 'next/navigation'
 const nav = [
   { label: 'Players', href: '/players' },
   { label: 'Blog', href: '/blog' },
-  { label: 'Shop', href: '/shop' },
+  { label: 'Guides', href: '/shop' },
+  { label: 'About', href: '/about' },
 ]
 
 export default function Header() {
@@ -44,10 +45,10 @@ export default function Header() {
               </Link>
             ))}
             <Link prefetch={false}
-              href="/shop"
+              href="/shop/category/indoor-and-practice"
               className="btn-gold text-xs py-2 px-4"
             >
-              Shop Equipment
+              Indoor &amp; Practice
             </Link>
           </nav>
 

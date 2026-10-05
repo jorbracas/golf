@@ -33,3 +33,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# original pre-prune data (26 MB), only needed to re-run scripts/apply_prune.py
+scripts/source/
+__pycache__/

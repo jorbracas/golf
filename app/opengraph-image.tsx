@@ -1,7 +1,7 @@
 import { ImageResponse } from 'next/og'
 
 export const runtime = 'edge'
-export const alt = '4Sports Golf — Professional Golf Management & Insights'
+export const alt = '4Sports Golf — Player Profiles & Equipment Guides'
 export const size = { width: 1200, height: 630 }
 export const contentType = 'image/png'
 
@@ -53,9 +53,11 @@ export default function OgImage() {
             fontWeight: 700,
             letterSpacing: '-1px',
             marginBottom: 16,
+            display: 'flex',
+            gap: 16,
           }}
         >
-          4Sports{' '}
+          <span>4Sports</span>
           <span style={{ color: '#c9973a' }}>Golf</span>
         </div>
         {/* Divider */}
@@ -74,7 +76,7 @@ export default function OgImage() {
             fontSize: 28,
           }}
         >
-          Professional Golf Management & Insights
+          Player Profiles · Technique · Equipment Guides
         </div>
         {/* Domain */}
         <div

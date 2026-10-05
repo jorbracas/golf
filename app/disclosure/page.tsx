@@ -53,7 +53,7 @@ export default function DisclosurePage() {
                 Our Amazon Associate tag is: <code className="text-gold-400 bg-fairway-700 px-2 py-0.5 text-xs">dronewithca0b-20</code>
               </p>
               <p>
-                This website publishes hundreds of buying guides and product comparison articles. All Amazon links in those articles are affiliate links. The price you pay on Amazon is exactly the same whether or not you use our link.
+                This website publishes buying guides and product comparison articles. All Amazon links in those articles are affiliate links. The price you pay on Amazon is exactly the same whether or not you use our link.
               </p>
             </div>
           </div>
@@ -62,7 +62,7 @@ export default function DisclosurePage() {
             <h2 className="display-heading text-xl text-stone-100 mb-5">Editorial Independence</h2>
             <div className="text-stone-400 font-body text-sm leading-relaxed space-y-3">
               <p>
-                Our affiliate relationships do not influence our editorial content. Products featured in our shop and recommended in our articles are selected on the basis of their quality, relevance, and use by professional golfers — not on commission rates.
+                Our affiliate relationships do not influence our editorial content. Products featured in our guides are selected on the basis of their quality, relevance and value for the reader — not on commission rates. Product suggestions on player profile pages are our own picks and are not endorsements by, or the confirmed equipment of, those players.
               </p>
               <p>
                 We would never recommend a product we do not genuinely believe is good for our readers. Our reputation for honest golf content matters more than any affiliate commission.
@@ -80,7 +80,7 @@ export default function DisclosurePage() {
                   'Display a label such as "Amazon →", "Check price on Amazon", "Find on Amazon", or "Browse on Amazon"',
                   'Link to an Amazon product or search results page',
                   'Include our affiliate tag in the URL: dronewithca0b-20',
-                  'Appear prominently in our Pro Shop section and within buying guide articles',
+                  'Appear in our equipment guides and within buying guide articles',
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2">
                     <span className="text-gold-600 flex-shrink-0 mt-0.5">—</span>

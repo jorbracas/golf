@@ -6,6 +6,8 @@ import { getPostBySlug, getAllPostSlugs, posts } from '@/lib/posts'
 import { getPlayerBySlug } from '@/lib/players'
 import { getNewBlogArticle, getAllNewBlogSlugs } from '@/lib/blogArticles'
 import { renderMarkdown } from '@/lib/markdown'
+import { ArticleBody, faqJsonLd, formatDate } from '@/components/ArticleBody'
+import { getShopArticle } from '@/lib/shopArticles'
 
 type Props = { params: { slug: string } }
 
@@ -27,12 +29,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
       openGraph: {
         title: post.title, description,
-        url: `https://4sportsgolf.com/blog/${post.slug}`,
+        url: `https://www.4sportsgolf.com/blog/${post.slug}`,
         type: 'article', publishedTime: post.date,
         images: [{ url: post.image, width: 1200, height: 630, alt: post.title }],
       },
       twitter: { card: 'summary_large_image', title: post.title, description, images: [post.image] },
-      alternates: { canonical: `https://4sportsgolf.com/blog/${post.slug}` },
+      alternates: { canonical: `https://www.4sportsgolf.com/blog/${post.slug}` },
     }
   }
   const newPost = getNewBlogArticle(params.slug)
@@ -42,10 +44,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: newPost.metaDescription,
       openGraph: {
         title: newPost.title, description: newPost.metaDescription,
-        url: `https://4sportsgolf.com/blog/${newPost.slug}`,
+        url: `https://www.4sportsgolf.com/blog/${newPost.slug}`,
         type: 'article',
+        ...(newPost.image ? { images: [{ url: newPost.image, width: newPost.imageWidth ?? 1536, height: newPost.imageHeight ?? 1024, alt: newPost.imageAlt }] } : {}),
       },
-      alternates: { canonical: `https://4sportsgolf.com/blog/${newPost.slug}` },
+      alternates: { canonical: `https://www.4sportsgolf.com/blog/${newPost.slug}` },
     }
   }
   return {}
@@ -73,11 +76,11 @@ export default function BlogPostPage({ params }: Props) {
       '@context': 'https://schema.org', '@type': 'BlogPosting',
       headline: post.title, description: post.excerpt, image: post.image,
       datePublished: post.date, dateModified: post.date,
-      url: `https://4sportsgolf.com/blog/${post.slug}`,
-      author: { '@type': 'Organization', name: '4Sports Golf', url: 'https://4sportsgolf.com' },
-      publisher: { '@type': 'Organization', name: '4Sports Golf', url: 'https://4sportsgolf.com',
-        logo: { '@type': 'ImageObject', url: 'https://4sportsgolf.com/opengraph-image' } },
-      mainEntityOfPage: { '@type': 'WebPage', '@id': `https://4sportsgolf.com/blog/${post.slug}` },
+      url: `https://www.4sportsgolf.com/blog/${post.slug}`,
+      author: { '@type': 'Organization', name: '4Sports Golf', url: 'https://www.4sportsgolf.com' },
+      publisher: { '@type': 'Organization', name: '4Sports Golf', url: 'https://www.4sportsgolf.com',
+        logo: { '@type': 'ImageObject', url: 'https://www.4sportsgolf.com/opengraph-image' } },
+      mainEntityOfPage: { '@type': 'WebPage', '@id': `https://www.4sportsgolf.com/blog/${post.slug}` },
     }
     return (
       <>
@@ -135,9 +138,9 @@ export default function BlogPostPage({ params }: Props) {
                   )}
                   <div className="card-dark p-6 border-gold-600/30">
                     <p className="section-label mb-3">Equipment</p>
-                    <h3 className="display-heading text-lg text-stone-100 mb-3">Shop Tour-Tested Gear</h3>
-                    <p className="text-stone-400 text-sm font-body mb-5">Curated equipment used by our professional players.</p>
-                    <Link prefetch={false} href="/shop" className="btn-gold text-xs py-2 px-4 w-full justify-center">Browse Shop →</Link>
+                    <h3 className="display-heading text-lg text-stone-100 mb-3">Equipment Guides</h3>
+                    <p className="text-stone-400 text-sm font-body mb-5">Independent buying guides for clubs, balls, practice gear and more.</p>
+                    <Link prefetch={false} href="/shop" className="btn-gold text-xs py-2 px-4 w-full justify-center">Browse guides →</Link>
                   </div>
                 </aside>
               </div>
@@ -157,17 +160,26 @@ export default function BlogPostPage({ params }: Props) {
   const newPost = getNewBlogArticle(params.slug)
   if (!newPost) notFound()
 
+  const faqLd = faqJsonLd(newPost.faq)
+  const relatedTitles: Record<string, string> = {}
+  for (const p of newPost.related ?? []) {
+    const m = p.match(/^\/(shop|blog)\/(.+)$/)
+    const a = m ? (m[1] === 'shop' ? getShopArticle(m[2]) : getNewBlogArticle(m[2])) : undefined
+    if (a) relatedTitles[p] = a.title
+  }
   const jsonLd = {
-    '@context': 'https://schema.org', '@type': 'HowTo',
-    name: newPost.title, description: newPost.metaDescription,
+    '@context': 'https://schema.org', '@type': 'Article',
+    headline: newPost.title, description: newPost.metaDescription,
     datePublished: newPost.date,
-    url: `https://4sportsgolf.com/blog/${newPost.slug}`,
-    author: { '@type': 'Organization', name: '4Sports Golf', url: 'https://4sportsgolf.com' },
+    dateModified: newPost.updated ?? newPost.date,
+    url: `https://www.4sportsgolf.com/blog/${newPost.slug}`,
+    author: { '@type': 'Organization', name: '4Sports Golf', url: 'https://www.4sportsgolf.com' },
   }
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      {faqLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />}
       <div className="pt-16">
         {/* Header */}
         <section className="py-20 px-4 sm:px-6 lg:px-8 bg-fairway-800 border-b border-fairway-700">
@@ -180,7 +192,7 @@ export default function BlogPostPage({ params }: Props) {
             <h1 className="display-heading text-3xl sm:text-4xl text-stone-100 mb-4 leading-tight">{newPost.title}</h1>
             <p className="text-stone-400 font-body text-base mb-5 max-w-2xl">{newPost.metaDescription}</p>
             <div className="flex items-center gap-4 text-xs text-stone-500 font-body">
-              <span>{newPost.date}</span><span>·</span><span>{newPost.readTime} read</span>
+              <span>{newPost.updated ? `Updated ${formatDate(newPost.updated)}` : formatDate(newPost.date)}</span><span>·</span><span>{newPost.readTime} read</span>
             </div>
           </div>
         </section>
@@ -203,7 +215,7 @@ export default function BlogPostPage({ params }: Props) {
                     ))}
                   </div>
                 )}
-                <div className="prose-golf">{renderMarkdown(newPost.content)}</div>
+                <ArticleBody image={newPost.image ? { src: newPost.image, alt: newPost.imageAlt ?? newPost.title, width: newPost.imageWidth, height: newPost.imageHeight } : undefined} content={newPost.content} tool={newPost.tool} sources={newPost.sources} related={newPost.related} relatedTitles={relatedTitles} />
                 {/* FAQ */}
                 {newPost.faq && newPost.faq.length > 0 && (
                   <div className="mt-10">
@@ -222,9 +234,9 @@ export default function BlogPostPage({ params }: Props) {
               <aside className="space-y-6">
                 <div className="card-dark p-5 border-gold-600/30">
                   <p className="section-label mb-3">Equipment</p>
-                  <h3 className="display-heading text-lg text-stone-100 mb-3">Shop Tour-Tested Gear</h3>
-                  <p className="text-stone-400 text-sm font-body mb-5">Curated equipment used by our professional players.</p>
-                  <Link prefetch={false} href="/shop" className="btn-gold text-xs py-2 px-4 w-full justify-center">Browse Shop →</Link>
+                  <h3 className="display-heading text-lg text-stone-100 mb-3">Equipment Guides</h3>
+                  <p className="text-stone-400 text-sm font-body mb-5">Independent buying guides for clubs, balls, practice gear and more.</p>
+                  <Link prefetch={false} href="/shop" className="btn-gold text-xs py-2 px-4 w-full justify-center">Browse guides →</Link>
                 </div>
                 <div className="card-dark p-5">
                   <p className="section-label mb-3">Disclosure</p>

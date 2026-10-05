@@ -6,6 +6,7 @@ import { getNewBlogArticles } from '@/lib/blogArticles'
 
 export const metadata: Metadata = {
   title: 'Golf Blog — Tips, Technique & Tour Coverage',
+  alternates: { canonical: 'https://www.4sportsgolf.com/blog' },
   description: 'In-depth golf articles: tour previews, equipment guides, technique how-tos, golf cart maintenance, and more.',
 }
 

@@ -4,8 +4,9 @@ import Image from 'next/image'
 import { players } from '@/lib/players'
 
 export const metadata: Metadata = {
-  title: 'Our Players',
-  description: 'Meet the professional golfers managed by 4Sports Golf on the DP World Tour.',
+  title: 'DP World Tour Player Profiles',
+  alternates: { canonical: 'https://www.4sportsgolf.com/players' },
+  description: 'Profiles of Edoardo Molinari, Andrea Pavan, Richie Ramsay and Eddie Pepperell: careers, highlights and playing style.',
 }
 
 export default function PlayersPage() {
@@ -14,8 +15,8 @@ export default function PlayersPage() {
       {/* Header */}
       <section className="py-24 px-4 sm:px-6 lg:px-8 bg-fairway-800 border-b border-fairway-700">
         <div className="max-w-7xl mx-auto">
-          <p className="section-label mb-4">The Roster</p>
-          <h1 className="display-heading text-5xl sm:text-6xl text-stone-100 mb-6">Our Players</h1>
+          <p className="section-label mb-4">DP World Tour</p>
+          <h1 className="display-heading text-5xl sm:text-6xl text-stone-100 mb-6">Player Profiles</h1>
           <div className="divider-gold" />
           <p className="text-stone-400 max-w-xl mt-6 font-body leading-relaxed text-lg">
             Four of professional golf's most respected names, competing week in week out on the DP World Tour.

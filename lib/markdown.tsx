@@ -56,13 +56,56 @@ export function renderMarkdown(content: string): ReactNode[] {
       )
       return
     }
+    // Image block: ![alt](src "optional caption")
+    const img = trimmed.match(/^!\[([^\]]*)\]\(([^\s)]+)(?:\s+"([^"]*)")?\)$/)
+    if (img) {
+      elements.push(
+        createElement('figure', { key: idx, className: 'my-8' },
+          createElement('img', { src: img[2], alt: img[1], loading: 'lazy', className: 'w-full h-auto border border-fairway-700 bg-fairway-800' }),
+          img[3] ? createElement('figcaption', { className: 'text-stone-500 text-xs font-body mt-2' }, img[3]) : null
+        )
+      )
+      return
+    }
+    // Fenced code block (used for simple ASCII diagrams)
+    if (trimmed.startsWith('```')) {
+      const code = trimmed.replace(/^```[a-z]*\n?/, '').replace(/\n?```$/, '')
+      elements.push(
+        createElement('pre', { key: idx, className: 'bg-fairway-800 border border-fairway-700 text-gold-300 text-xs sm:text-sm font-mono p-4 my-6 overflow-x-auto leading-relaxed' }, code)
+      )
+      return
+    }
+    // Table (GitHub-style pipes)
+    const tableLines = trimmed.split('\n')
+    if (tableLines.length >= 2 && tableLines.every((l) => l.trim().startsWith('|')) && /^\|?\s*:?-{2,}/.test(tableLines[1].trim())) {
+      const cells = (l: string) => l.trim().replace(/^\|/, '').replace(/\|$/, '').split('|').map((c) => c.trim())
+      const head = cells(tableLines[0])
+      const body = tableLines.slice(2).map(cells)
+      elements.push(
+        createElement('div', { key: idx, className: 'overflow-x-auto my-6 border border-fairway-700' },
+          createElement('table', { className: 'w-full text-sm font-body border-collapse' },
+            createElement('thead', { className: 'bg-fairway-800' },
+              createElement('tr', null, head.map((h, hi) =>
+                createElement('th', { key: hi, scope: 'col', className: 'text-left text-stone-200 font-semibold px-4 py-3 border-b border-fairway-700 whitespace-nowrap' }, inlineMarkdown(h))
+              ))
+            ),
+            createElement('tbody', null, body.map((row, ri) =>
+              createElement('tr', { key: ri, className: ri % 2 ? 'bg-fairway-800/40' : '' }, row.map((c, ci) =>
+                createElement('td', { key: ci, className: 'text-stone-400 px-4 py-2.5 border-b border-fairway-700/60 align-top' }, inlineMarkdown(c))
+              ))
+            ))
+          )
+        )
+      )
+      return
+    }
     // Unordered list
     const listLines = trimmed.split('\n')
     if (listLines.every((l) => /^[-*+]\s/.test(l.trimStart()))) {
       elements.push(
         createElement('ul', { key: idx, className: 'space-y-2 my-4 ml-4' },
           listLines.map((l, li) =>
-            createElement('li', { key: li, className: 'text-stone-400 font-body text-sm flex items-start gap-2' },
+            createElement('li', { key: li, className: 'text-stone-300 font-body text-[15px] sm:text-base flex items-start gap-2' },
               createElement('span', { className: 'text-gold-500 flex-shrink-0 mt-0.5' }, '—'),
               createElement('span', null, inlineMarkdown(l.replace(/^[-*+]\s+/, '')))
             )
@@ -96,7 +139,7 @@ export function renderMarkdown(content: string): ReactNode[] {
     // Mixed block with inline bold headers (e.g. **Term**: description)
     // Default: paragraph
     elements.push(
-      createElement('p', { key: idx, className: 'text-stone-400 font-body text-sm leading-relaxed my-3' },
+      createElement('p', { key: idx, className: 'text-stone-300 font-body text-[15px] sm:text-base leading-relaxed my-4' },
         inlineMarkdown(trimmed.replace(/\n/g, ' '))
       )
     )

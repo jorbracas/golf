@@ -153,8 +153,8 @@ Andrea is known among fellow professionals for his professionalism and work ethi
     },
   },
   {
-    slug: 'richie-ramsey',
-    name: 'Richie Ramsey',
+    slug: 'richie-ramsay',
+    name: 'Richie Ramsay',
     nationality: 'Scottish',
     flag: '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
     born: '3 July 1983, Aberdeen, Scotland',
@@ -165,16 +165,16 @@ Andrea is known among fellow professionals for his professionalism and work ethi
     tour: 'DP World Tour',
     status: 'Active',
     image: 'https://images.unsplash.com/photo-1593111774240-d529f12cf4ce?w=800&q=80',
-    bio: 'Richie Ramsey is a Scottish professional golfer from Aberdeen, one of the most respected figures in British golf. A multiple European Tour winner, Ramsey is known for his powerful game and fierce competitive spirit.',
-    bio_extended: `Richie Ramsey was born and raised in Aberdeen, Scotland, a city with deep connections to the North Sea oil industry and an equally strong golfing tradition. Growing up near some of Scotland\'s finest links courses forged a playing style built on resilience, shot-making, and the ability to perform in the most demanding conditions.
+    bio: 'Richie Ramsay is a Scottish professional golfer from Aberdeen, one of the most respected figures in British golf. A multiple European Tour winner, Ramsay is known for his powerful game and fierce competitive spirit.',
+    bio_extended: `Richie Ramsay was born and raised in Aberdeen, Scotland, a city with deep connections to the North Sea oil industry and an equally strong golfing tradition. Growing up near some of Scotland\'s finest links courses forged a playing style built on resilience, shot-making, and the ability to perform in the most demanding conditions.
 
-Before turning professional, Ramsey had a distinguished amateur career, culminating in winning the 2006 US Amateur Championship — one of golf\'s most prestigious amateur titles. That victory at Hazeltine National Golf Club announced him to the world and set the expectations for a professional career that would follow.
+Before turning professional, Ramsay had a distinguished amateur career, culminating in winning the 2006 US Amateur Championship — one of golf\'s most prestigious amateur titles. That victory at Hazeltine National Golf Club announced him to the world and set the expectations for a professional career that would follow.
 
 He turned professional immediately after and quickly earned his European Tour card. His first tour victory came at the 2008 Johnnie Walker Championship at Gleneagles, on home soil in Scotland, a moment of particular personal significance.
 
-Ramsey has gone on to win multiple times on the European Tour, establishing himself as one of Scottish golf\'s most consistent performers over multiple decades. His long game — particularly his driving — is among the strongest on tour, giving him the ability to overpower many courses when playing well.
+Ramsay has gone on to win multiple times on the European Tour, establishing himself as one of Scottish golf\'s most consistent performers over multiple decades. His long game — particularly his driving — is among the strongest on tour, giving him the ability to overpower many courses when playing well.
 
-Beyond his playing record, Ramsey is known within the game for his authenticity and directness. He speaks candidly about life on tour, the pressures of professional sport, and the mental challenges of sustaining a long career.`,
+Beyond his playing record, Ramsay is known within the game for his authenticity and directness. He speaks candidly about life on tour, the pressures of professional sport, and the mental challenges of sustaining a long career.`,
     achievements: [
       '2006 US Amateur Champion — Hazeltine National',
       'Multiple DP World Tour victories',
@@ -203,10 +203,10 @@ Beyond his playing record, Ramsey is known within the game for his authenticity 
       {
         label: 'The US Amateur: A History',
         amazonUrl: 'https://www.amazon.com/s?k=US+Amateur+golf+championship+book&tag=dronewithca0b-20',
-        description: 'Celebrating the championship where Ramsey announced himself to the world.',
+        description: 'Celebrating the championship where Ramsay announced himself to the world.',
       },
     ],
-    wikipedia_url: 'https://en.wikipedia.org/wiki/Richie_Ramsey',
+    wikipedia_url: 'https://en.wikipedia.org/wiki/Richie_Ramsay',
     social: {
       twitter: 'richie_ramsey',
       instagram: 'richieramseygolf',

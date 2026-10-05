@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 440" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+  <title id="t">EZGO gas golf cart fuel pump hose diagram</title>
+  <desc id="d">Fuel flows from the tank through an inline filter into the pump's IN port and out of the OUT port to the carburettor. A separate pulse line runs from the engine crankcase to the pump's pulse port and carries no fuel.</desc>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#d4b76a"/>
+    </marker>
+    <marker id="p" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#8fb8a0"/>
+    </marker>
+  </defs>
+  <rect width="960" height="440" fill="#122015"/>
+
+  <!-- Tank -->
+  <rect x="40" y="70" width="170" height="120" rx="14" fill="#1a2e1d" stroke="#e7e5e4" stroke-width="2"/>
+  <text x="125" y="122" text-anchor="middle" fill="#f5f5f4" font-size="22" font-weight="600">Fuel tank</text>
+  <text x="125" y="150" text-anchor="middle" fill="#a8a29e" font-size="15">vented cap</text>
+
+  <!-- Filter -->
+  <rect x="265" y="110" width="80" height="40" rx="20" fill="#1a2e1d" stroke="#e7e5e4" stroke-width="2"/>
+  <text x="305" y="136" text-anchor="middle" fill="#f5f5f4" font-size="15">filter</text>
+
+  <!-- Pump -->
+  <rect x="405" y="80" width="200" height="110" rx="8" fill="#1a2e1d" stroke="#d4b76a" stroke-width="3"/>
+  <text x="505" y="128" text-anchor="middle" fill="#f5f5f4" font-size="22" font-weight="700">Fuel pump</text>
+  <text x="505" y="155" text-anchor="middle" fill="#a8a29e" font-size="14">pulse diaphragm, no wiring</text>
+  <!-- port labels -->
+  <text x="378" y="116" text-anchor="middle" fill="#d4b76a" font-size="15" font-weight="700">IN</text>
+  <text x="640" y="121" text-anchor="middle" fill="#d4b76a" font-size="15" font-weight="700">OUT</text>
+  <text x="515" y="212" fill="#8fb8a0" font-size="15" font-weight="700">PULSE</text>
+
+  <!-- Carb -->
+  <rect x="700" y="70" width="210" height="120" rx="14" fill="#1a2e1d" stroke="#e7e5e4" stroke-width="2"/>
+  <text x="805" y="122" text-anchor="middle" fill="#f5f5f4" font-size="22" font-weight="600">Carburettor</text>
+  <text x="805" y="150" text-anchor="middle" fill="#a8a29e" font-size="15">fuel inlet</text>
+
+  <!-- Engine -->
+  <rect x="380" y="300" width="250" height="100" rx="14" fill="#1a2e1d" stroke="#e7e5e4" stroke-width="2"/>
+  <text x="505" y="345" text-anchor="middle" fill="#f5f5f4" font-size="22" font-weight="600">Engine crankcase</text>
+  <text x="505" y="373" text-anchor="middle" fill="#a8a29e" font-size="15">pulse fitting</text>
+
+  <!-- Fuel lines -->
+  <line x1="210" y1="130" x2="263" y2="130" stroke="#d4b76a" stroke-width="5" marker-end="url(#a)"/>
+  <line x1="345" y1="130" x2="403" y2="130" stroke="#d4b76a" stroke-width="5" marker-end="url(#a)"/>
+  <line x1="605" y1="135" x2="698" y2="135" stroke="#d4b76a" stroke-width="5" marker-end="url(#a)"/>
+  <!-- Pulse line (two-way pulses) -->
+  <line x1="505" y1="298" x2="505" y2="192" stroke="#8fb8a0" stroke-width="5" stroke-dasharray="10 7" marker-end="url(#p)" marker-start="url(#p)"/>
+
+  <!-- Legend -->
+  <line x1="40" y1="262" x2="90" y2="262" stroke="#d4b76a" stroke-width="5"/>
+  <text x="100" y="267" fill="#e7e5e4" font-size="15">Fuel flow</text>
+  <line x1="40" y1="292" x2="90" y2="292" stroke="#8fb8a0" stroke-width="5" stroke-dasharray="10 7"/>
+  <text x="100" y="297" fill="#e7e5e4" font-size="15">Pulse line (air pressure only, no fuel)</text>
+  <text x="40" y="420" fill="#78716c" font-size="13">4sportsgolf.com · Layout varies by model and year; check arrows or IN/OUT marks on your pump.</text>
+</svg>

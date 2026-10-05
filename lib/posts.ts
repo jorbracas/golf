@@ -21,7 +21,7 @@ export const posts: Post[] = [
     readTime: '8 min',
     image: 'https://images.unsplash.com/photo-1560175400-e78e1a7b6f08?w=1200&q=80',
     featured: true,
-    relatedPlayers: ['eddie-pepperell', 'richie-ramsey'],
+    relatedPlayers: ['eddie-pepperell', 'richie-ramsay'],
     content: `The 2025 DP World Tour season promises to be one of the most compelling in recent memory. With the Ryder Cup cycle entering its mid-point, ranking points carry extra weight, and the field of contenders has rarely been more open.
 
 ## The Italian Contingent
@@ -30,7 +30,7 @@ Italy's representation on tour has never been stronger. Following Francesco Moli
 
 ## Scotland's Enduring Strength
 
-Scottish golf maintains its depth across generations. Richie Ramsey, now in his late thirties, continues to demonstrate that longevity in professional golf is about consistency of preparation as much as raw talent. His performances in links conditions — a natural advantage for any golfer who grew up on the east coast of Scotland — remain among the best on tour.
+Scottish golf maintains its depth across generations. Richie Ramsay, now in his late thirties, continues to demonstrate that longevity in professional golf is about consistency of preparation as much as raw talent. His performances in links conditions — a natural advantage for any golfer who grew up on the east coast of Scotland — remain among the best on tour.
 
 ## The Pepperell Factor
 
@@ -49,7 +49,7 @@ The equipment landscape continues to evolve rapidly. Multi-material driver const
     readTime: '6 min',
     image: 'https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=1200&q=80',
     featured: false,
-    relatedPlayers: ['edoardo-molinari', 'richie-ramsey'],
+    relatedPlayers: ['edoardo-molinari', 'richie-ramsay'],
     content: `The Ryder Cup is professional golf's greatest team event. Understanding how players qualify for Europe's side reveals as much about the strategic landscape of the DP World Tour as it does about the event itself.
 
 ## The Points System
@@ -100,7 +100,7 @@ The best iron is the one that suits your current game while leaving room for dev
     readTime: '12 min',
     image: 'https://images.unsplash.com/photo-1592919505780-303950717480?w=1200&q=80',
     featured: false,
-    relatedPlayers: ['richie-ramsey'],
+    relatedPlayers: ['richie-ramsay'],
     content: `Scotland is where golf began, and links golf — played on the coastal strips of rough, wind-battered land between the beach and the farmland — remains the purest expression of the game. Every player should experience it at least once.
 
 ## What Makes Links Golf Different

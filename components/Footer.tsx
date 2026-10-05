@@ -18,7 +18,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-stone-400 text-sm leading-relaxed max-w-xs mb-4">
-              Biographies, insights, and equipment guides for the serious golf enthusiast. Home of professional golf management since 2006.
+              An independent golf site: DP World Tour player profiles, technique articles and equipment guides. Not affiliated with any player, tour or management company.
             </p>
             <div className="bg-fairway-900/60 border border-fairway-700 p-4 text-xs text-stone-500 font-body leading-relaxed">
               <span className="text-gold-600 font-semibold">Affiliate Disclosure: </span>
@@ -31,9 +31,10 @@ export default function Footer() {
             <h4 className="section-label mb-4">Explore</h4>
             <ul className="space-y-3">
               {[
-                { label: 'Our Players', href: '/players' },
+                { label: 'Player Profiles', href: '/players' },
                 { label: 'Golf Blog', href: '/blog' },
-                { label: 'Equipment Shop', href: '/shop' },
+                { label: 'Equipment Guides', href: '/shop' },
+                { label: 'About', href: '/about' },
               ].map((l) => (
                 <li key={l.href}>
                   <Link prefetch={false} href={l.href} className="text-stone-400 hover:text-gold-400 text-sm transition-colors font-body">
@@ -47,7 +48,7 @@ export default function Footer() {
               {[
                 { label: 'Edoardo Molinari', href: '/players/edoardo-molinari' },
                 { label: 'Andrea Pavan', href: '/players/andrea-pavan' },
-                { label: 'Richie Ramsey', href: '/players/richie-ramsey' },
+                { label: 'Richie Ramsay', href: '/players/richie-ramsay' },
                 { label: 'Eddie Pepperell', href: '/players/eddie-pepperell' },
               ].map((l) => (
                 <li key={l.href}>

@@ -31,7 +31,7 @@ export default function CreditsPage() {
               <div>
                 <h2 className="display-heading text-xl text-stone-100 mb-3">Important Notice About Photographs</h2>
                 <p className="text-stone-300 font-body text-sm leading-relaxed">
-                  All photographs currently used on this website are <strong>stock images sourced from Unsplash</strong> and are used as layout placeholders only. They are <strong>not photographs of the named individuals</strong> (Edoardo Molinari, Andrea Pavan, Richie Ramsey, or Eddie Pepperell). These images will be replaced with properly licensed or original photography.
+                  All photographs currently used on this website are <strong>stock images sourced from Unsplash</strong> and are used as layout placeholders only. They are <strong>not photographs of the named individuals</strong> (Edoardo Molinari, Andrea Pavan, Richie Ramsay, or Eddie Pepperell). These images will be replaced with properly licensed or original photography.
                 </p>
               </div>
             </div>

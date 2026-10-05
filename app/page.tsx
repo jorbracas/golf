@@ -1,7 +1,10 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { players } from '@/lib/players'
 import { posts } from '@/lib/posts'
+
+export const metadata: Metadata = { alternates: { canonical: 'https://www.4sportsgolf.com' } }
 
 export default function HomePage() {
   const featuredPosts = posts.filter((p) => p.featured).slice(0, 2)
@@ -22,20 +25,20 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-gradient-to-b from-fairway-900/80 via-fairway-900/60 to-fairway-900" />
 
         <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-20">
-          <p className="section-label mb-6 animate-fade-in">Professional Golf Management</p>
+          <p className="section-label mb-6 animate-fade-in">Independent Golf Journal</p>
           <h1 className="display-heading text-5xl sm:text-7xl lg:text-8xl text-stone-100 mb-6">
-            Where Golf{' '}
-            <span className="text-gold-400 italic">Excellence</span>
+            Play Better,{' '}
+            <span className="text-gold-400 italic">Practise</span>
             <br />
-            Meets Ambition
+            Smarter
           </h1>
           <div className="divider-gold mx-auto" />
           <p className="text-stone-300 text-lg sm:text-xl max-w-2xl mx-auto mt-6 font-body leading-relaxed">
-            Representing the finest professional golfers on the DP World Tour. Biographies, tour analysis, and equipment guides for the serious player.
+            Player profiles from the DP World Tour, practical technique articles and independent equipment guides — from building a home practice setup to choosing the right ball.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10">
             <Link prefetch={false} href="/players" className="btn-gold">
-              Meet Our Players
+              Player Profiles
             </Link>
             <Link prefetch={false} href="/blog" className="btn-outline">
               Read the Blog
@@ -55,10 +58,10 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 text-center">
             {[
-              { value: '4', label: 'Tour Professionals' },
-              { value: '20+', label: 'Years of Management' },
-              { value: '15+', label: 'DP World Tour Wins' },
-              { value: '3', label: 'Ryder Cup Appearances' },
+              { value: '4', label: 'Player Profiles' },
+              { value: '8', label: 'Equipment Sections' },
+              { value: '380+', label: 'Buying Guides' },
+              { value: '60', label: 'How-to Articles' },
             ].map((stat) => (
               <div key={stat.label}>
                 <div className="font-display text-4xl font-bold text-gold-400 mb-1">{stat.value}</div>
@@ -74,9 +77,9 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto">
           <div className="flex items-end justify-between mb-12">
             <div>
-              <p className="section-label mb-3">The Roster</p>
+              <p className="section-label mb-3">DP World Tour</p>
               <h2 className="display-heading text-4xl sm:text-5xl text-stone-100">
-                Our Players
+                Player Profiles
               </h2>
             </div>
             <Link prefetch={false} href="/players" className="text-gold-400 hover:text-gold-300 text-sm font-body tracking-wide transition-colors hidden sm:block">
@@ -179,16 +182,16 @@ export default function HomePage() {
         <div className="max-w-4xl mx-auto text-center">
           <p className="section-label mb-4">Equipment</p>
           <h2 className="display-heading text-4xl sm:text-5xl text-stone-100 mb-6">
-            Play What the{' '}
-            <span className="text-gold-400 italic">Professionals</span>{' '}
-            Play
+            Choose Gear That{' '}
+            <span className="text-gold-400 italic">Fits</span>{' '}
+            Your Game
           </h2>
           <div className="divider-gold mx-auto" />
           <p className="text-stone-400 max-w-xl mx-auto mt-6 mb-10 font-body leading-relaxed">
-            Curated equipment guides featuring the clubs, balls, and accessories trusted by our tour professionals. Every recommendation tested at the highest level.
+            Independent buying guides for launch monitors and practice nets, clubs and shafts, golf balls, bags, rangefinders and more — written to help you compare options, not to push one brand.
           </p>
           <Link prefetch={false} href="/shop" className="btn-gold">
-            Browse Equipment →
+            Browse Guides →
           </Link>
         </div>
       </section>

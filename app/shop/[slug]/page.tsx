@@ -4,28 +4,31 @@ import { notFound } from 'next/navigation'
 import {
   getShopArticle,
   getRelatedShopArticles,
+  getAllShopSlugs,
+  categorySlug,
   CATEGORY_IMAGES,
 } from '@/lib/shopArticles'
-import { renderMarkdown } from '@/lib/markdown'
+import { getNewBlogArticle } from '@/lib/blogArticles'
+import { ArticleBody, faqJsonLd, formatDate } from '@/components/ArticleBody'
 
 type Props = { params: { slug: string } }
 
-// ISR: cache each page for 24h, then regenerate on next request.
-// Unknown slugs are rendered on-demand (not 404'd) and then cached.
-export const revalidate = 86400   // 24 hours
-// dynamicParams defaults to true → unknown slugs → ISR, not 404
-
-// Pre-render only the top N slugs per category at build time.
-// The remaining ~3 500 pages are generated on first visit and cached.
-const PREBUILD_PER_CATEGORY = 20
+// All kept guides are pre-rendered; anything else is a 404 (removed URLs get 410/301 from middleware).
+export const dynamicParams = false
 
 export async function generateStaticParams() {
-  const { getShopArticlesByCategory, SHOP_CATEGORIES } = await import('@/lib/shopArticles')
-  const slugs: string[] = []
-  for (const cat of SHOP_CATEGORIES) {
-    getShopArticlesByCategory(cat, PREBUILD_PER_CATEGORY).forEach((a) => slugs.push(a.slug))
+  return getAllShopSlugs().map((slug) => ({ slug }))
+}
+
+function relatedTitleMap(paths?: string[]) {
+  const out: Record<string, string> = {}
+  for (const p of paths ?? []) {
+    const m = p.match(/^\/(shop|blog)\/(.+)$/)
+    if (!m) continue
+    const a = m[1] === 'shop' ? getShopArticle(m[2]) : getNewBlogArticle(m[2])
+    if (a) out[p] = a.title
   }
-  return Array.from(new Set(slugs)).map((slug) => ({ slug }))
+  return out
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -37,12 +40,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: article.title,
       description: article.metaDescription,
-      url: `https://4sportsgolf.com/shop/${article.slug}`,
+      url: `https://www.4sportsgolf.com/shop/${article.slug}`,
       type: 'article',
-      images: [{ url: CATEGORY_IMAGES[article.category] || CATEGORY_IMAGES['Golf Equipment'], width: 800, height: 600 }],
+      images: article.image
+        ? [{ url: article.image, width: article.imageWidth ?? 1536, height: article.imageHeight ?? 1024, alt: article.imageAlt }]
+        : [{ url: CATEGORY_IMAGES[article.category] || CATEGORY_IMAGES['Golf Equipment'], width: 800, height: 600 }],
     },
     twitter: { card: 'summary_large_image', title: article.title, description: article.metaDescription },
-    alternates: { canonical: `https://4sportsgolf.com/shop/${article.slug}` },
+    alternates: { canonical: `https://www.4sportsgolf.com/shop/${article.slug}` },
   }
 }
 
@@ -50,7 +55,8 @@ export default function ShopArticlePage({ params }: Props) {
   const article = getShopArticle(params.slug)
   if (!article) notFound()
 
-  const related = getRelatedShopArticles(article.slug, article.category, 4)
+  const related = getRelatedShopArticles(article.slug, article.category, 6)
+  const hubHref = `/shop/category/${categorySlug(article.category)}`
   const categoryImage = CATEGORY_IMAGES[article.category] || CATEGORY_IMAGES['Golf Equipment']
 
   // JSON-LD
@@ -60,14 +66,29 @@ export default function ShopArticlePage({ params }: Props) {
     headline: article.title,
     description: article.metaDescription,
     datePublished: article.date,
-    url: `https://4sportsgolf.com/shop/${article.slug}`,
-    author: { '@type': 'Organization', name: '4Sports Golf', url: 'https://4sportsgolf.com' },
-    publisher: { '@type': 'Organization', name: '4Sports Golf', url: 'https://4sportsgolf.com' },
+    dateModified: article.updated ?? article.date,
+    ...(article.image ? { image: `https://www.4sportsgolf.com${article.image}` } : {}),
+    url: `https://www.4sportsgolf.com/shop/${article.slug}`,
+    author: { '@type': 'Organization', name: '4Sports Golf', url: 'https://www.4sportsgolf.com' },
+    publisher: { '@type': 'Organization', name: '4Sports Golf', url: 'https://www.4sportsgolf.com' },
+  }
+  const faqLd = faqJsonLd(article.faq)
+  const relatedTitles = relatedTitleMap(article.related)
+  const breadcrumbLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Equipment guides', item: 'https://www.4sportsgolf.com/shop' },
+      { '@type': 'ListItem', position: 2, name: article.category, item: `https://www.4sportsgolf.com${hubHref}` },
+      { '@type': 'ListItem', position: 3, name: article.title, item: `https://www.4sportsgolf.com/shop/${article.slug}` },
+    ],
   }
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
+      {faqLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />}
 
       <div className="pt-16">
         {/* Header */}
@@ -78,19 +99,19 @@ export default function ShopArticlePage({ params }: Props) {
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center gap-3 mb-5">
               <Link prefetch={false} href="/shop" className="text-stone-500 text-xs font-body hover:text-gold-400 transition-colors">
-                ← Pro Shop
+                Equipment guides
               </Link>
-              <span className="text-stone-700 text-xs">·</span>
-              <span className="bg-gold-500 text-fairway-900 text-xs font-body font-semibold px-3 py-1 uppercase tracking-wide">
+              <span className="text-stone-700 text-xs">/</span>
+              <Link prefetch={false} href={hubHref} className="bg-gold-500 hover:bg-gold-400 text-fairway-900 text-xs font-body font-semibold px-3 py-1 uppercase tracking-wide transition-colors">
                 {article.category}
-              </span>
+              </Link>
             </div>
             <h1 className="display-heading text-3xl sm:text-4xl text-stone-100 mb-4 leading-tight">
               {article.title}
             </h1>
             <p className="text-stone-400 font-body text-base mb-5 max-w-2xl">{article.metaDescription}</p>
             <div className="flex items-center gap-4 text-xs text-stone-500 font-body">
-              <span>{article.date}</span>
+              {article.updated ? <span>Updated {formatDate(article.updated)}</span> : <span>{formatDate(article.date)}</span>}
               <span>·</span>
               <span>{article.readTime} read</span>
             </div>
@@ -130,9 +151,7 @@ export default function ShopArticlePage({ params }: Props) {
                 </div>
 
                 {/* Article body */}
-                <div className="prose-golf">
-                  {renderMarkdown(article.content)}
-                </div>
+                <ArticleBody image={article.image ? { src: article.image, alt: article.imageAlt ?? article.title, width: article.imageWidth, height: article.imageHeight } : undefined} content={article.content} tool={article.tool} sources={article.sources} related={article.related} relatedTitles={relatedTitles} />
 
                 {/* FAQ */}
                 {article.faq && article.faq.length > 0 && (
@@ -177,26 +196,6 @@ export default function ShopArticlePage({ params }: Props) {
 
               {/* Sidebar */}
               <aside className="space-y-6">
-                {/* Quick links */}
-                <div className="card-dark p-5">
-                  <p className="section-label mb-4">In This Guide</p>
-                  <ul className="space-y-2">
-                    {article.amazonLinks.map(([anchor, url], i) => (
-                      <li key={i}>
-                        <a
-                          href={url}
-                          target="_blank"
-                          rel="noopener noreferrer sponsored"
-                          className="text-stone-400 text-xs font-body hover:text-gold-300 transition-colors flex items-start gap-2"
-                        >
-                          <span className="text-gold-600 flex-shrink-0">→</span>
-                          <span>{anchor}</span>
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-
                 {/* Related articles */}
                 {related.length > 0 && (
                   <div className="card-dark p-5">
@@ -212,7 +211,7 @@ export default function ShopArticlePage({ params }: Props) {
                       ))}
                     </div>
                     <Link prefetch={false}
-                      href={`/shop#${article.category.toLowerCase().replace(/\s+/g, '-')}`}
+                      href={hubHref}
                       className="text-gold-500 hover:text-gold-300 text-xs font-body mt-4 block transition-colors"
                     >
                       Browse all {article.category} →
@@ -240,7 +239,7 @@ export default function ShopArticlePage({ params }: Props) {
         <div className="py-6 px-4 sm:px-6 lg:px-8 border-t border-fairway-700">
           <div className="max-w-7xl mx-auto">
             <Link prefetch={false} href="/shop" className="text-gold-500 hover:text-gold-300 text-sm font-body tracking-wide transition-colors">
-              ← Back to Pro Shop
+              ← All equipment guides
             </Link>
           </div>
         </div>

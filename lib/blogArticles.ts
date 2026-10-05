@@ -13,6 +13,14 @@ export type BlogArticle = {
   readTime: string
   faq: FAQ[]
   amazonLinks: AmazonLink[]
+  updated?: string
+  sources?: [string, string][]
+  tool?: string
+  image?: string                   // /images/articles/<slug>.webp
+  imageAlt?: string
+  imageWidth?: number
+  imageHeight?: number
+  related?: string[]
   isNew: true
 }
 
@@ -51,4 +59,4 @@ export function getNewBlogArticlesByCategory(category: string): BlogArticle[] {
   return loadArticles().filter((a) => a.category === category)
 }
 
-export const BLOG_CATEGORIES = ['Golf Cart', 'Technique', 'Maintenance', 'Disc Golf', 'How To'] as const
+export const BLOG_CATEGORIES = ['Golf Cart', 'Technique', 'Maintenance', 'How To'] as const

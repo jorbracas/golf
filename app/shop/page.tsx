@@ -1,35 +1,33 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
-import { products, categories } from '@/lib/products'
-import { getShopArticlesByCategory, SHOP_CATEGORIES, CATEGORY_IMAGES } from '@/lib/shopArticles'
+import { products } from '@/lib/products'
+import { getShopArticlesByCategory, SHOP_CATEGORIES, CATEGORY_IMAGES, CATEGORY_INTROS, categorySlug } from '@/lib/shopArticles'
 
 export const metadata: Metadata = {
-  title: 'Golf Equipment Shop & Buying Guides',
+  title: 'Golf Equipment Buying Guides',
   description:
-    'Tour-tested golf equipment curated by 4Sports Golf professionals. Plus hundreds of buying guides for golf carts, balls, clubs, apparel and more.',
+    'Independent golf equipment guides: indoor practice and launch monitors, clubs and shafts, golf balls, bags, rangefinders, apparel, accessories and golf carts.',
+  alternates: { canonical: 'https://www.4sportsgolf.com/shop' },
 }
 
 export default function ShopPage() {
-  const categoryPreviews = SHOP_CATEGORIES.filter((c) => c !== 'Golf Equipment').map((cat) => ({
+  const categoryPreviews = SHOP_CATEGORIES.map((cat) => ({
     category: cat,
     articles: getShopArticlesByCategory(cat, 6),
     image: CATEGORY_IMAGES[cat],
     total: getShopArticlesByCategory(cat).length,
   })).filter((c) => c.articles.length > 0)
 
-  const golfEquipmentArticles = getShopArticlesByCategory('Golf Equipment', 6)
-  const golfEquipmentTotal = getShopArticlesByCategory('Golf Equipment').length
-
   return (
     <div className="pt-16">
       <section className="py-24 px-4 sm:px-6 lg:px-8 bg-fairway-800 border-b border-fairway-700">
         <div className="max-w-7xl mx-auto">
           <p className="section-label mb-4">Equipment</p>
-          <h1 className="display-heading text-5xl sm:text-6xl text-stone-100 mb-6">The Pro Shop</h1>
+          <h1 className="display-heading text-5xl sm:text-6xl text-stone-100 mb-6">Equipment Guides</h1>
           <div className="divider-gold" />
           <p className="text-stone-400 max-w-2xl mt-6 font-body leading-relaxed text-lg">
-            Tour-tested gear and comprehensive buying guides — everything you need to choose the right equipment.
+            Independent buying guides to help you choose the right equipment — from a home practice setup to the ball you play on Sunday.
           </p>
           <p className="text-stone-600 text-xs mt-4 font-body">
             As an Amazon Associate, 4Sports Golf earns from qualifying purchases.
@@ -39,21 +37,21 @@ export default function ShopPage() {
 
       <section className="sticky top-16 z-40 bg-fairway-900/95 backdrop-blur-sm border-b border-fairway-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex gap-1 overflow-x-auto py-4">
-            {categories.map((cat) => (
-              <span key={cat} className={`whitespace-nowrap text-xs font-body tracking-wide px-4 py-2 border cursor-pointer transition-colors flex-shrink-0 ${cat === 'All' ? 'border-gold-500 text-gold-400 bg-gold-500/10' : 'border-fairway-700 text-stone-500 hover:border-gold-600 hover:text-stone-300'}`}>
-                {cat}
-              </span>
+          <nav className="flex gap-1 overflow-x-auto py-4" aria-label="Guide categories">
+            {categoryPreviews.map(({ category }) => (
+              <Link prefetch={false} key={category} href={`/shop/category/${categorySlug(category)}`} className="whitespace-nowrap text-xs font-body tracking-wide px-4 py-2 border border-fairway-700 text-stone-400 hover:border-gold-600 hover:text-stone-200 transition-colors flex-shrink-0">
+                {category}
+              </Link>
             ))}
-          </div>
+          </nav>
         </div>
       </section>
 
       {/* Curated Products */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <p className="section-label mb-3">Tour Selected</p>
-          <h2 className="display-heading text-3xl text-stone-100 mb-8">Curated Equipment</h2>
+          <p className="section-label mb-3">Editor&apos;s Selection</p>
+          <h2 className="display-heading text-3xl text-stone-100 mb-8">Popular Equipment</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {products.map((product) => (
               <div key={product.id} className="group card-dark flex flex-col overflow-hidden hover:border-gold-500 transition-all duration-300">
@@ -80,11 +78,6 @@ export default function ShopPage() {
                       </li>
                     ))}
                   </ul>
-                  {product.who_uses && (
-                    <p className="text-xs text-stone-500 font-body mb-4 italic">
-                      Used by: <span className="text-gold-500 not-italic">{product.who_uses}</span>
-                    </p>
-                  )}
                   <div className="mt-auto pt-4 border-t border-fairway-700">
                     <a href={product.amazonUrl} target="_blank" rel="noopener noreferrer sponsored" className="btn-gold text-xs py-2 px-4 w-full justify-center">
                       Check price on Amazon →
@@ -112,9 +105,12 @@ export default function ShopPage() {
                 <div className="relative w-8 h-8 overflow-hidden flex-shrink-0 rounded-sm">
                   <Image src={image} alt={category} fill className="object-cover" sizes="32px" />
                 </div>
-                <h3 className="display-heading text-xl text-stone-100">{category}</h3>
+                <h3 className="display-heading text-xl text-stone-100">
+                  <Link prefetch={false} href={`/shop/category/${categorySlug(category)}`} className="hover:text-gold-300 transition-colors">{category}</Link>
+                </h3>
                 <span className="text-stone-600 text-xs font-body">— {total} guides</span>
               </div>
+              <p className="text-stone-500 text-sm font-body mb-5 max-w-3xl">{CATEGORY_INTROS[category]}</p>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
                 {articles.map((article) => (
                   <Link prefetch={false} key={article.slug} href={`/shop/${article.slug}`} className="group card-dark p-4 hover:border-gold-500 transition-all duration-200">
@@ -128,33 +124,13 @@ export default function ShopPage() {
                 ))}
               </div>
               {total > 6 && (
-                <p className="text-stone-500 text-xs font-body">
-                  Showing 6 of {total} guides in {category}. Browse individual guides above or use Google to find specific topics.
-                </p>
+                <Link prefetch={false} href={`/shop/category/${categorySlug(category)}`} className="text-gold-500 hover:text-gold-300 text-sm font-body transition-colors">
+                  View all {total} {category} guides →
+                </Link>
               )}
             </div>
           ))}
 
-          {golfEquipmentArticles.length > 0 && (
-            <div id="golf-equipment" className="mb-14">
-              <div className="flex items-center gap-4 mb-5">
-                <h3 className="display-heading text-xl text-stone-100">Golf Equipment</h3>
-                <span className="text-stone-600 text-xs font-body">— {golfEquipmentTotal} guides</span>
-              </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                {golfEquipmentArticles.map((article) => (
-                  <Link prefetch={false} key={article.slug} href={`/shop/${article.slug}`} className="group card-dark p-4 hover:border-gold-500 transition-all duration-200">
-                    <h4 className="text-stone-300 text-sm font-body group-hover:text-gold-300 transition-colors leading-snug mb-2">{article.title}</h4>
-                    <p className="text-stone-600 text-xs font-body line-clamp-2 mb-3">{article.metaDescription}</p>
-                    <div className="flex items-center justify-between">
-                      <span className="text-stone-600 text-xs font-body">{article.readTime} read</span>
-                      <span className="text-gold-600 text-xs font-body group-hover:text-gold-400 transition-colors">Read guide →</span>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          )}
         </div>
       </section>
 
