@@ -8,22 +8,58 @@
   "category": "Golf Carts",
   "date": "2026-03-19",
   "updated": "2026-10-05",
-  "related": ["/shop/golf-cart-dimensions", "/shop/yamaha-golf-cart-governor-adjustment", "/shop/best-2-stroke-yamaha-golf-cart", "/blog/how-to-tell-if-a-golf-cart-battery-is-bad"],
+  "related": [
+    "/shop/golf-cart-dimensions",
+    "/shop/yamaha-golf-cart-governor-adjustment",
+    "/shop/best-2-stroke-yamaha-golf-cart",
+    "/blog/how-to-tell-if-a-golf-cart-battery-is-bad"
+  ],
   "sources": [
-    ["Hook Up My Cart – Yamaha golf cart models by year", "https://hookupmycart.com/tech-center/yamaha-golf-cart-year-guide/"],
-    ["Golf Cart Gears – Golf cart dimensions and weight guide", "https://golfcartgears.com/golf-cart-dimensions-and-weight-guide/"]
+    [
+      "Hook Up My Cart – Yamaha golf cart models by year",
+      "https://hookupmycart.com/tech-center/yamaha-golf-cart-year-guide/"
+    ],
+    [
+      "Golf Cart Gears – Golf cart dimensions and weight guide",
+      "https://golfcartgears.com/golf-cart-dimensions-and-weight-guide/"
+    ]
   ],
   "amazon": [
-    ["Yamaha G2 parts", "yamaha g2 golf cart parts"],
-    ["Golf cart seat covers (G-series)", "yamaha g2 seat cover"],
-    ["36V golf cart chargers", "36v golf cart charger"]
+    [
+      "Yamaha G2 parts",
+      "yamaha g2 golf cart parts"
+    ],
+    [
+      "Golf cart seat covers (G-series)",
+      "yamaha g2 seat cover"
+    ],
+    [
+      "36V golf cart chargers",
+      "36v golf cart charger"
+    ]
   ],
   "faq": [
-    {"question": "What years was the Yamaha G2 made?", "answer": "From 1985 to 1991, in both gas and electric versions."},
-    {"question": "How do I know if my Yamaha is a G2?", "answer": "Check the serial number, usually under the seat towards the front or on the frame under the front bumper. G2 gas carts start with J38 (and JA2 from 1988); electric G2s start with J41 (and JE2 from 1988)."},
-    {"question": "Is the Yamaha G2 36 or 48 volt?", "answer": "The electric G2 is a 36-volt cart."},
-    {"question": "Is a Yamaha G2 worth buying?", "answer": "As a cheap runabout or project, yes, if the frame is solid and the price reflects its age. Parts are still available, but expect wear in steering, brakes and wiring, and budget for batteries on electric versions."}
-  ]
+    {
+      "question": "What years was the Yamaha G2 made?",
+      "answer": "From 1985 to 1991, in both gas and electric versions."
+    },
+    {
+      "question": "How do I know if my Yamaha is a G2?",
+      "answer": "Check the serial number, usually under the seat towards the front or on the frame under the front bumper. G2 gas carts start with J38 (and JA2 from 1988); electric G2s start with J41 (and JE2 from 1988)."
+    },
+    {
+      "question": "Is the Yamaha G2 36 or 48 volt?",
+      "answer": "The electric G2 is a 36-volt cart."
+    },
+    {
+      "question": "Is a Yamaha G2 worth buying?",
+      "answer": "As a cheap runabout or project, yes, if the frame is solid and the price reflects its age. Parts are still available, but expect wear in steering, brakes and wiring, and budget for batteries on electric versions."
+    }
+  ],
+  "image": "/images/articles/yamaha-g2-golf-cart-review.webp",
+  "imageAlt": "Older beige two-seat golf cart with a white canopy parked on a cart path beside a golf course in autumn",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 The Yamaha G2 is a classic Yamaha golf car built from **1985 to 1991**, in **gas** and **36-volt electric** versions. Today it's a budget runabout or a project cart. Solid ones are still worth buying **if the price reflects their age** and you check the frame, steering and brakes carefully.

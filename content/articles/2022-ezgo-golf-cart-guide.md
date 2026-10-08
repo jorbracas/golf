@@ -8,22 +8,58 @@
   "category": "Golf Carts",
   "date": "2026-03-17",
   "updated": "2026-10-05",
-  "related": ["/blog/how-to-tell-what-year-a-ezgo-golf-cart-is", "/shop/used-ezgo-golf-cart-value", "/blog/how-to-tell-if-a-golf-cart-battery-is-bad", "/shop/golf-cart-dimensions"],
+  "related": [
+    "/blog/how-to-tell-what-year-a-ezgo-golf-cart-is",
+    "/shop/used-ezgo-golf-cart-value",
+    "/blog/how-to-tell-if-a-golf-cart-battery-is-bad",
+    "/shop/golf-cart-dimensions"
+  ],
   "sources": [
-    ["Nick's Golf Carts – E-Z-GO golf cart prices and used values", "https://nicksgolfcarts.com/ez-go-golf-cart-prices/"],
-    ["E-Z-GO – Liberty", "https://ezgo.txtsv.com/fleet/models/liberty"]
+    [
+      "Nick's Golf Carts – E-Z-GO golf cart prices and used values",
+      "https://nicksgolfcarts.com/ez-go-golf-cart-prices/"
+    ],
+    [
+      "E-Z-GO – Liberty",
+      "https://ezgo.txtsv.com/fleet/models/liberty"
+    ]
   ],
   "amazon": [
-    ["E-Z-GO RXV / TXT seat covers", "ezgo rxv seat cover"],
-    ["Golf cart storage covers", "golf cart storage cover ezgo"],
-    ["Golf cart battery meters", "golf cart battery meter 48v"]
+    [
+      "E-Z-GO RXV / TXT seat covers",
+      "ezgo rxv seat cover"
+    ],
+    [
+      "Golf cart storage covers",
+      "golf cart storage cover ezgo"
+    ],
+    [
+      "Golf cart battery meters",
+      "golf cart battery meter 48v"
+    ]
   ],
   "faq": [
-    {"question": "How much is a 2022 E-Z-GO golf cart worth?", "answer": "Used E-Z-GOs typically keep about 55–70% of their new price at 3–5 years old. A 2022 model in 2026 is in that bracket, so a cart that cost around $12,000 new would usually be worth roughly $6,600–$8,400, depending on model, battery type and condition."},
-    {"question": "Which 2022 E-Z-GO models were available?", "answer": "The personal line included the Freedom TXT and RXV two-seaters, the Liberty four-passenger with all forward-facing seats, the Express utility/multi-passenger models and street-legal versions, with ELiTE lithium or lead-acid electric and gas options depending on model."},
-    {"question": "How do I check that an E-Z-GO is really a 2022?", "answer": "Read the serial number plate (on most models under the passenger side of the dash or on the frame near the seat) and decode the year from it; don't rely on the seller's description or the body style, since bodies and seats are often swapped."},
-    {"question": "Is a 2022 E-Z-GO lithium cart a good buy?", "answer": "Often, yes: ELiTE lithium packs need no watering and typically outlast lead-acid. Ask for the battery's purchase date and any warranty transfer, and test the range on a drive."}
-  ]
+    {
+      "question": "How much is a 2022 E-Z-GO golf cart worth?",
+      "answer": "Used E-Z-GOs typically keep about 55–70% of their new price at 3–5 years old. A 2022 model in 2026 is in that bracket, so a cart that cost around $12,000 new would usually be worth roughly $6,600–$8,400, depending on model, battery type and condition."
+    },
+    {
+      "question": "Which 2022 E-Z-GO models were available?",
+      "answer": "The personal line included the Freedom TXT and RXV two-seaters, the Liberty four-passenger with all forward-facing seats, the Express utility/multi-passenger models and street-legal versions, with ELiTE lithium or lead-acid electric and gas options depending on model."
+    },
+    {
+      "question": "How do I check that an E-Z-GO is really a 2022?",
+      "answer": "Read the serial number plate (on most models under the passenger side of the dash or on the frame near the seat) and decode the year from it; don't rely on the seller's description or the body style, since bodies and seats are often swapped."
+    },
+    {
+      "question": "Is a 2022 E-Z-GO lithium cart a good buy?",
+      "answer": "Often, yes: ELiTE lithium packs need no watering and typically outlast lead-acid. Ask for the battery's purchase date and any warranty transfer, and test the range on a drive."
+    }
+  ],
+  "image": "/images/articles/2022-ezgo-golf-cart-guide.webp",
+  "imageAlt": "Row of identical two-seat electric fleet golf carts with golf bags strapped on, parked outside a clubhouse in the morning",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 A 2022 E-Z-GO is now about four years old. That's often a sweet spot for used buyers: modern features, plenty of life left and a price well below new. Used E-Z-GOs typically keep **about 55–70% of their new price at 3–5 years old**, so expect most 2022 carts to sell for **roughly two-thirds of what they cost new**. Battery type and condition explain most of the difference between two carts that look the same.

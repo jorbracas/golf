@@ -8,23 +8,62 @@
   "category": "Golf Carts",
   "date": "2026-01-18",
   "updated": "2026-10-05",
-  "related": ["/shop/best-low-speed-vehicle-golf-cart", "/shop/best-4-seat-forward-facing-golf-carts", "/shop/golf-cart-body-kits-bronco", "/shop/golf-cart-dimensions"],
+  "related": [
+    "/shop/best-low-speed-vehicle-golf-cart",
+    "/shop/best-4-seat-forward-facing-golf-carts",
+    "/shop/golf-cart-body-kits-bronco",
+    "/shop/golf-cart-dimensions"
+  ],
   "sources": [
-    ["BMWBLOG – Club Car CRU penned by BMW Designworks", "https://www.bmwblog.com/2022/11/22/club-car-cru-bmw-designworks-six-seater-ev/"],
-    ["Fast Company – Why BMW redesigned the humble golf cart", "https://www.fastcompany.com/90813889/why-bmw-just-redesigned-the-humble-golf-cart"],
-    ["GOLF.com – The $30,000 Club Car CRU", "https://golf.com/lifestyle/club-car-cru-new-golf-cart-inspired-vehicle/"]
+    [
+      "BMWBLOG – Club Car CRU penned by BMW Designworks",
+      "https://www.bmwblog.com/2022/11/22/club-car-cru-bmw-designworks-six-seater-ev/"
+    ],
+    [
+      "Fast Company – Why BMW redesigned the humble golf cart",
+      "https://www.fastcompany.com/90813889/why-bmw-just-redesigned-the-humble-golf-cart"
+    ],
+    [
+      "GOLF.com – The $30,000 Club Car CRU",
+      "https://golf.com/lifestyle/club-car-cru-new-golf-cart-inspired-vehicle/"
+    ]
   ],
   "amazon": [
-    ["Golf cart LED light kits", "golf cart led light kit"],
-    ["Premium golf cart seat covers", "golf cart seat covers premium"],
-    ["Golf cart Bluetooth sound bars", "golf cart sound bar bluetooth"]
+    [
+      "Golf cart LED light kits",
+      "golf cart led light kit"
+    ],
+    [
+      "Premium golf cart seat covers",
+      "golf cart seat covers premium"
+    ],
+    [
+      "Golf cart Bluetooth sound bars",
+      "golf cart sound bar bluetooth"
+    ]
   ],
   "faq": [
-    {"question": "Does BMW make golf carts?", "answer": "No. BMW does not manufacture or sell golf carts. Its design consultancy, BMW Group Designworks, designed the Club Car CRU, which is built and sold by Club Car. BMW earns no revenue from CRU sales."},
-    {"question": "How much is the BMW-designed Club Car CRU?", "answer": "It launched in November 2022 with a starting price of $29,334."},
-    {"question": "Is the Club Car CRU street legal?", "answer": "Yes. It is classified as a low-speed vehicle (LSV), so it can be registered for public roads where LSVs are allowed, with a top speed of 25 mph."},
-    {"question": "What about golf carts with BMW-style bodies?", "answer": "Some aftermarket bodies and custom builds borrow styling cues from BMW and other car brands. They are not BMW products, and replica badges or grilles can raise trademark issues; judge them as custom carts on build quality and parts support."}
-  ]
+    {
+      "question": "Does BMW make golf carts?",
+      "answer": "No. BMW does not manufacture or sell golf carts. Its design consultancy, BMW Group Designworks, designed the Club Car CRU, which is built and sold by Club Car. BMW earns no revenue from CRU sales."
+    },
+    {
+      "question": "How much is the BMW-designed Club Car CRU?",
+      "answer": "It launched in November 2022 with a starting price of $29,334."
+    },
+    {
+      "question": "Is the Club Car CRU street legal?",
+      "answer": "Yes. It is classified as a low-speed vehicle (LSV), so it can be registered for public roads where LSVs are allowed, with a top speed of 25 mph."
+    },
+    {
+      "question": "What about golf carts with BMW-style bodies?",
+      "answer": "Some aftermarket bodies and custom builds borrow styling cues from BMW and other car brands. They are not BMW products, and replica badges or grilles can raise trademark issues; judge them as custom carts on build quality and parts support."
+    }
+  ],
+  "image": "/images/articles/best-bmw-golf-cart.webp",
+  "imageAlt": "Premium dark grey electric golf cart with LED headlights and quilted leather seats on a villa driveway at sunset",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 **BMW doesn't make or sell golf carts.** What people usually mean by a "BMW golf cart" is the **Club Car CRU**, a six-seat electric low-speed vehicle **designed by BMW Group Designworks** (BMW's design studio) and **built and sold by Club Car**. It launched in November 2022 at **$29,334**. BMW only did the design work and earns nothing from sales.

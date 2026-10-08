@@ -8,23 +8,62 @@
   "category": "Golf Carts",
   "date": "2026-01-29",
   "updated": "2026-10-05",
-  "related": ["/shop/best-low-speed-vehicle-golf-cart", "/shop/best-golf-carts-china-guide", "/shop/how-far-can-a-golf-cart-go", "/shop/golf-cart-dimensions"],
+  "related": [
+    "/shop/best-low-speed-vehicle-golf-cart",
+    "/shop/best-golf-carts-china-guide",
+    "/shop/how-far-can-a-golf-cart-go",
+    "/shop/golf-cart-dimensions"
+  ],
   "sources": [
-    ["Import Junkies – Coco Coupe 60V electric 4-seater listing", "https://www.importjunkies.com/products/coco-coupe-60v-electric-4-seater-golf-cart-lsv-car-champaign-gray"],
-    ["MotorWatt EV database – Coco Coupe LE", "https://ev.motorwatt.com/ev-database/database-electric-golf-carts/coco-golf-car-1"],
-    ["Hartville Golf Carts – Coco Coupe", "https://hartvillegolfcarts.com/product-category/make/coco-coupe/"]
+    [
+      "Import Junkies – Coco Coupe 60V electric 4-seater listing",
+      "https://www.importjunkies.com/products/coco-coupe-60v-electric-4-seater-golf-cart-lsv-car-champaign-gray"
+    ],
+    [
+      "MotorWatt EV database – Coco Coupe LE",
+      "https://ev.motorwatt.com/ev-database/database-electric-golf-carts/coco-golf-car-1"
+    ],
+    [
+      "Hartville Golf Carts – Coco Coupe",
+      "https://hartvillegolfcarts.com/product-category/make/coco-coupe/"
+    ]
   ],
   "amazon": [
-    ["60V golf cart chargers", "60v golf cart charger"],
-    ["LSV safety triangles and kits", "low speed vehicle safety kit"],
-    ["Car-style seat covers", "small car seat covers"]
+    [
+      "60V golf cart chargers",
+      "60v golf cart charger"
+    ],
+    [
+      "LSV safety triangles and kits",
+      "low speed vehicle safety kit"
+    ],
+    [
+      "Car-style seat covers",
+      "small car seat covers"
+    ]
   ],
   "faq": [
-    {"question": "What is a Coco Coupe golf cart?", "answer": "A small retro-styled electric car with doors, sold through golf cart dealers and online importers as a golf cart / low-speed vehicle. Listings typically show a 60V system, around 1.5 kW motor, 2+2 seating and up to about 35 miles of range."},
-    {"question": "How much does a Coco Coupe cost?", "answer": "Listings we found ranged from about $9,500 to $10,800 before shipping, with options such as air conditioning extra."},
-    {"question": "Is the Coco Coupe street legal?", "answer": "It is marketed as an LSV, but street-legal status depends on the specific vehicle: it needs a 17-digit VIN, FMVSS 500 compliance labelling and the required equipment, plus registration and insurance under your state's rules. Ask the seller for the certificate of origin before you pay."},
-    {"question": "Who services a Coco Coupe?", "answer": "Usually the selling dealer or importer. Because these are niche vehicles, confirm parts availability (batteries, controller, body panels) and warranty terms in writing before buying."}
-  ]
+    {
+      "question": "What is a Coco Coupe golf cart?",
+      "answer": "A small retro-styled electric car with doors, sold through golf cart dealers and online importers as a golf cart / low-speed vehicle. Listings typically show a 60V system, around 1.5 kW motor, 2+2 seating and up to about 35 miles of range."
+    },
+    {
+      "question": "How much does a Coco Coupe cost?",
+      "answer": "Listings we found ranged from about $9,500 to $10,800 before shipping, with options such as air conditioning extra."
+    },
+    {
+      "question": "Is the Coco Coupe street legal?",
+      "answer": "It is marketed as an LSV, but street-legal status depends on the specific vehicle: it needs a 17-digit VIN, FMVSS 500 compliance labelling and the required equipment, plus registration and insurance under your state's rules. Ask the seller for the certificate of origin before you pay."
+    },
+    {
+      "question": "Who services a Coco Coupe?",
+      "answer": "Usually the selling dealer or importer. Because these are niche vehicles, confirm parts availability (batteries, controller, body panels) and warranty terms in writing before buying."
+    }
+  ],
+  "image": "/images/articles/best-coco-coupe-golf-cart.webp",
+  "imageAlt": "Retro 1950s-style golf cart in cream and turquoise with chrome grille, bumper and whitewall tyres on a palm-lined beach street",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 The Coco Coupe is a **retro-styled electric mini car** with doors, round headlights and a two-tone paint scheme, sold through golf cart dealers and online importers as a **golf cart / low-speed vehicle (LSV)**. Listings typically show a **60 V system with a ~1.5 kW motor, 2+2 seating and "up to ~35 miles" of range**, at around **$9,500–$11,000** before shipping.

@@ -8,22 +8,58 @@
   "category": "Golf Carts",
   "date": "2026-03-15",
   "updated": "2026-10-05",
-  "related": ["/shop/yamaha-golf-cart-governor-adjustment", "/shop/yamaha-electric-golf-cart-review", "/shop/ezgo-golf-cart-fuel-pump-diagram-guide", "/shop/yamaha-g2-golf-cart-review"],
+  "related": [
+    "/shop/yamaha-golf-cart-governor-adjustment",
+    "/shop/yamaha-electric-golf-cart-review",
+    "/shop/ezgo-golf-cart-fuel-pump-diagram-guide",
+    "/shop/yamaha-g2-golf-cart-review"
+  ],
   "sources": [
-    ["Yamaha Golf Car – Gas engines and model prices", "https://www.yamahagolfcar.com/fleet/gas-engines/"],
-    ["Yamaha Golf Car – Drive2 Fleet QuieTech EFI", "https://www.yamahagolfcar.com/models/drive-2-fleet-quietech-efi"]
+    [
+      "Yamaha Golf Car – Gas engines and model prices",
+      "https://www.yamahagolfcar.com/fleet/gas-engines/"
+    ],
+    [
+      "Yamaha Golf Car – Drive2 Fleet QuieTech EFI",
+      "https://www.yamahagolfcar.com/models/drive-2-fleet-quietech-efi"
+    ]
   ],
   "amazon": [
-    ["Yamaha Drive2 air filters", "yamaha drive2 air filter"],
-    ["Yamaha golf cart spark plugs", "yamaha golf cart spark plug"],
-    ["Fuel stabilizer", "fuel stabilizer small engine"]
+    [
+      "Yamaha Drive2 air filters",
+      "yamaha drive2 air filter"
+    ],
+    [
+      "Yamaha golf cart spark plugs",
+      "yamaha golf cart spark plug"
+    ],
+    [
+      "Fuel stabilizer",
+      "fuel stabilizer small engine"
+    ]
   ],
   "faq": [
-    {"question": "Does Yamaha make a fuel-injected golf cart?", "answer": "Yes. The Drive2 is offered with Yamaha's QuieTech EFI gas powertrain, and EFI versions have been sold since the Drive2 arrived around 2017. Yamaha lists the Drive2 PTV QuieTech EFI personal model at $9,899 MSRP."},
-    {"question": "Is EFI better than a carburettor on a golf cart?", "answer": "For most owners, yes: EFI meters fuel electronically, so the engine starts more easily when cold, runs more smoothly and is less prone to the gummed-up carburettor problems that follow long storage."},
-    {"question": "Can I adjust the governor on a Yamaha EFI cart?", "answer": "EFI carts manage engine speed electronically, so the mechanical governor adjustment used on older carbureted Yamahas doesn't apply in the same way. Speed changes on EFI carts usually involve the dealer or electronic tuning."},
-    {"question": "What maintenance does a Yamaha EFI cart need?", "answer": "Regular oil and filter changes, air filter service, spark plug and fuel filter replacement at the intervals in the owner's manual, and fresh fuel or stabiliser if the cart sits for long periods."}
-  ]
+    {
+      "question": "Does Yamaha make a fuel-injected golf cart?",
+      "answer": "Yes. The Drive2 is offered with Yamaha's QuieTech EFI gas powertrain, and EFI versions have been sold since the Drive2 arrived around 2017. Yamaha lists the Drive2 PTV QuieTech EFI personal model at $9,899 MSRP."
+    },
+    {
+      "question": "Is EFI better than a carburettor on a golf cart?",
+      "answer": "For most owners, yes: EFI meters fuel electronically, so the engine starts more easily when cold, runs more smoothly and is less prone to the gummed-up carburettor problems that follow long storage."
+    },
+    {
+      "question": "Can I adjust the governor on a Yamaha EFI cart?",
+      "answer": "EFI carts manage engine speed electronically, so the mechanical governor adjustment used on older carbureted Yamahas doesn't apply in the same way. Speed changes on EFI carts usually involve the dealer or electronic tuning."
+    },
+    {
+      "question": "What maintenance does a Yamaha EFI cart need?",
+      "answer": "Regular oil and filter changes, air filter service, spark plug and fuel filter replacement at the intervals in the owner's manual, and fresh fuel or stabiliser if the cart sits for long periods."
+    }
+  ],
+  "image": "/images/articles/yamaha-fuel-injected-golf-cart-review.webp",
+  "imageAlt": "Mechanic pointing at the air intake of a single-cylinder gas golf cart engine with the seat raised",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 Yamaha's fuel-injected golf cart is the **Drive2 with the QuieTech EFI** gas powertrain. Instead of a carburettor, an electronic fuel-injection system meters fuel into the engine. For owners that means **easier cold starts, steadier running, fewer storage-related fuel problems and a noticeably quieter cart**. Yamaha lists the personal **Drive2 PTV QuieTech EFI at $9,899 MSRP**, and EFI Drive2s have been around since about 2017, so there's a healthy used market.
