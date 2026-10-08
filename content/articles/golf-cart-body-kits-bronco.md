@@ -8,21 +8,54 @@
   "category": "Golf Carts",
   "date": "2025-10-22",
   "updated": "2026-10-05",
-  "related": ["/shop/golf-cart-truck-body-kits", "/shop/best-jeep-body-for-golf-cart", "/shop/best-golf-cart-lift-kits", "/blog/how-to-tell-what-year-a-ezgo-golf-cart-is"],
+  "related": [
+    "/shop/golf-cart-truck-body-kits",
+    "/shop/best-jeep-body-for-golf-cart",
+    "/shop/best-golf-cart-lift-kits",
+    "/blog/how-to-tell-what-year-a-ezgo-golf-cart-is"
+  ],
   "sources": [
-    ["Extreme Kartz – Golf cart body kits guide", "https://extremekartz.com/blogs/extreme-blogging/best-golf-cart-body-kits-guide"],
-    ["Buggies Unlimited – Choosing a lift kit", "https://blog.buggiesunlimited.com/choosing-the-proper-lift-kit-for-your-golf-cart/"]
+    [
+      "Extreme Kartz – Golf cart body kits guide",
+      "https://extremekartz.com/blogs/extreme-blogging/best-golf-cart-body-kits-guide"
+    ],
+    [
+      "Buggies Unlimited – Choosing a lift kit",
+      "https://blog.buggiesunlimited.com/choosing-the-proper-lift-kit-for-your-golf-cart/"
+    ]
   ],
   "amazon": [
-    ["Golf cart body kits", "golf cart body kit"],
-    ["Golf cart LED light kits", "golf cart led light kit"],
-    ["Golf cart fender flares", "golf cart fender flares"]
+    [
+      "Golf cart body kits",
+      "golf cart body kit"
+    ],
+    [
+      "Golf cart LED light kits",
+      "golf cart led light kit"
+    ],
+    [
+      "Golf cart fender flares",
+      "golf cart fender flares"
+    ]
   ],
   "faq": [
-    {"question": "Will a Bronco body kit fit my golf cart?", "answer": "Only if it is made for your exact model and year range. Common platforms are Club Car DS (1984+), Precedent/Onward/Tempo, E-Z-GO TXT (1994+) and RXV (2008+), and Yamaha Drive/Drive2. Check your serial number before ordering."},
-    {"question": "How much does a Bronco golf cart body cost?", "answer": "Most full ABS body kits sell for roughly $750–$2,000. Fiberglass retro bodies and kits with lights and paint included can cost more, and freight shipping is extra."},
-    {"question": "Is a golf cart body kit hard to install?", "answer": "Bolt-on ABS kits are designed for owners to fit with hand tools in a day, mostly removing the old front cowl and rear body and transferring lights and hardware. Fiberglass retro bodies may need trimming and more fitting time."}
-  ]
+    {
+      "question": "Will a Bronco body kit fit my golf cart?",
+      "answer": "Only if it is made for your exact model and year range. Common platforms are Club Car DS (1984+), Precedent/Onward/Tempo, E-Z-GO TXT (1994+) and RXV (2008+), and Yamaha Drive/Drive2. Check your serial number before ordering."
+    },
+    {
+      "question": "How much does a Bronco golf cart body cost?",
+      "answer": "Most full ABS body kits sell for roughly $750–$2,000. Fiberglass retro bodies and kits with lights and paint included can cost more, and freight shipping is extra."
+    },
+    {
+      "question": "Is a golf cart body kit hard to install?",
+      "answer": "Bolt-on ABS kits are designed for owners to fit with hand tools in a day, mostly removing the old front cowl and rear body and transferring lights and hardware. Fiberglass retro bodies may need trimming and more fitting time."
+    }
+  ],
+  "image": "/images/articles/golf-cart-body-kits-bronco.webp",
+  "imageAlt": "Lifted golf cart with a boxy retro SUV-style body kit in matte olive green, round headlights and all-terrain tyres, parked on gravel by a barn",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 A Bronco-style body kit replaces your cart's front cowl and rear body with panels shaped like a classic SUV: a squared nose, round headlights, flat fenders and a boxy rear. Most kits cost **about $750–$2,000**. You fit them with hand tools in a day or two, **as long as the kit is made for your exact cart model and year**.

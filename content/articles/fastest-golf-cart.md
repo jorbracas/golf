@@ -8,23 +8,62 @@
   "category": "Golf Carts",
   "date": "2026-02-01",
   "updated": "2026-10-05",
-  "related": ["/shop/yamaha-golf-cart-governor-adjustment", "/blog/how-to-make-a-golf-cart-fast", "/shop/best-low-speed-vehicle-golf-cart", "/shop/best-golf-cart-lift-kits"],
+  "related": [
+    "/shop/yamaha-golf-cart-governor-adjustment",
+    "/blog/how-to-make-a-golf-cart-fast",
+    "/shop/best-low-speed-vehicle-golf-cart",
+    "/shop/best-golf-cart-lift-kits"
+  ],
   "sources": [
-    ["Golf Digest – The world's fastest golf cart", "https://www.golfdigest.com/story/you-wont-believe-how-fast-the"],
-    ["MotorBiscuit – Fastest golf cart Guinness World Record", "https://www.motorbiscuit.com/fastest-golf-cart-broke-guinness-world-record-100-mph/"],
-    ["Club Car – Onward 4 Forward LSV specs", "https://www.clubcar.com/en-us/personal/street-legal-vehicles/onward-4-forward"]
+    [
+      "Golf Digest – The world's fastest golf cart",
+      "https://www.golfdigest.com/story/you-wont-believe-how-fast-the"
+    ],
+    [
+      "MotorBiscuit – Fastest golf cart Guinness World Record",
+      "https://www.motorbiscuit.com/fastest-golf-cart-broke-guinness-world-record-100-mph/"
+    ],
+    [
+      "Club Car – Onward 4 Forward LSV specs",
+      "https://www.clubcar.com/en-us/personal/street-legal-vehicles/onward-4-forward"
+    ]
   ],
   "amazon": [
-    ["High-speed golf cart motors", "golf cart high speed motor"],
-    ["Golf cart controllers", "golf cart motor controller 48v"],
-    ["Golf cart GPS speedometers", "golf cart speedometer gps"]
+    [
+      "High-speed golf cart motors",
+      "golf cart high speed motor"
+    ],
+    [
+      "Golf cart controllers",
+      "golf cart motor controller 48v"
+    ],
+    [
+      "Golf cart GPS speedometers",
+      "golf cart speedometer gps"
+    ]
   ],
   "faq": [
-    {"question": "What is the fastest golf cart in the world?", "answer": "The Guinness World Record is 118.76 mph (191 km/h), set in 2014 by Plum Quick Motors' 'Bandit' cart at Darlington Dragway in South Carolina."},
-    {"question": "How fast does a normal golf cart go?", "answer": "Most fleet and personal golf carts are governed to about 12–15 mph. Street-legal low-speed vehicles (LSVs) are capped at 25 mph."},
-    {"question": "How can I make my golf cart faster?", "answer": "On gas carts, a governor adjustment usually adds a few mph. On electric carts, a higher-speed motor and matching controller, or a lithium pack that holds voltage, make the biggest difference. Bigger tyres raise top speed slightly but cost torque. Upgrade brakes before you add speed."},
-    {"question": "Are lifted golf carts faster?", "answer": "Slightly, if they run taller tyres, since each wheel revolution covers more ground. But acceleration, hill climbing and braking get worse, and the higher centre of gravity makes fast corners riskier."}
-  ]
+    {
+      "question": "What is the fastest golf cart in the world?",
+      "answer": "The Guinness World Record is 118.76 mph (191 km/h), set in 2014 by Plum Quick Motors' 'Bandit' cart at Darlington Dragway in South Carolina."
+    },
+    {
+      "question": "How fast does a normal golf cart go?",
+      "answer": "Most fleet and personal golf carts are governed to about 12–15 mph. Street-legal low-speed vehicles (LSVs) are capped at 25 mph."
+    },
+    {
+      "question": "How can I make my golf cart faster?",
+      "answer": "On gas carts, a governor adjustment usually adds a few mph. On electric carts, a higher-speed motor and matching controller, or a lithium pack that holds voltage, make the biggest difference. Bigger tyres raise top speed slightly but cost torque. Upgrade brakes before you add speed."
+    },
+    {
+      "question": "Are lifted golf carts faster?",
+      "answer": "Slightly, if they run taller tyres, since each wheel revolution covers more ground. But acceleration, hill climbing and braking get worse, and the higher centre of gravity makes fast corners riskier."
+    }
+  ],
+  "image": "/images/articles/fastest-golf-cart.webp",
+  "imageAlt": "Low custom black performance golf cart driving fast on an empty runway at sunset",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 The fastest golf cart on record is **"Bandit"**, built by Plum Quick Motors. It hit **118.76 mph** at Darlington Dragway in South Carolina in 2014 and set the Guinness World Record. It looks like a golf cart, but it was a purpose-built drag machine.

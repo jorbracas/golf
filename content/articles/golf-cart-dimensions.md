@@ -8,25 +8,69 @@
   "category": "Golf Carts",
   "date": "2026-10-05",
   "updated": "2026-10-05",
-  "redirectFrom": ["/shop/golf-cart-dimensions-guide"],
-  "related": ["/shop/how-much-does-a-golf-cart-weigh", "/shop/golf-cart-parking-space-dimensions", "/shop/best-golf-buggy-width", "/shop/best-4-seat-forward-facing-golf-carts"],
+  "redirectFrom": [
+    "/shop/golf-cart-dimensions-guide"
+  ],
+  "related": [
+    "/shop/how-much-does-a-golf-cart-weigh",
+    "/shop/golf-cart-parking-space-dimensions",
+    "/shop/best-golf-buggy-width",
+    "/shop/best-4-seat-forward-facing-golf-carts"
+  ],
   "sources": [
-    ["Golf Cart Gears – Golf cart dimensions and weight guide", "https://golfcartgears.com/golf-cart-dimensions-and-weight-guide/"],
-    ["Golf Cart Report – How wide is a golf cart", "https://www.golfcartreport.com/how-wide-is-a-golf-cart/"],
-    ["Golf Cart Search – Forward-facing 4-seat models compared", "https://golfcartsearch.com/blog/forward-facing-golf-carts-4-seat-comparison-2026"]
+    [
+      "Golf Cart Gears – Golf cart dimensions and weight guide",
+      "https://golfcartgears.com/golf-cart-dimensions-and-weight-guide/"
+    ],
+    [
+      "Golf Cart Report – How wide is a golf cart",
+      "https://www.golfcartreport.com/how-wide-is-a-golf-cart/"
+    ],
+    [
+      "Golf Cart Search – Forward-facing 4-seat models compared",
+      "https://golfcartsearch.com/blog/forward-facing-golf-carts-4-seat-comparison-2026"
+    ]
   ],
   "amazon": [
-    ["Golf cart storage covers", "golf cart storage cover 2 passenger"],
-    ["Utility trailers and ramps for golf carts", "golf cart loading ramps"],
-    ["Measuring tapes (25 ft)", "25 ft tape measure"]
+    [
+      "Golf cart storage covers",
+      "golf cart storage cover 2 passenger"
+    ],
+    [
+      "Utility trailers and ramps for golf carts",
+      "golf cart loading ramps"
+    ],
+    [
+      "Measuring tapes (25 ft)",
+      "25 ft tape measure"
+    ]
   ],
   "faq": [
-    {"question": "What are the standard dimensions of a golf cart?", "answer": "A typical 2-seat golf cart is about 92–96 inches long (7.7–8 ft), 47–48 inches wide (about 4 ft) and 68–71 inches tall with the roof (about 5.8 ft)."},
-    {"question": "How wide is a golf cart?", "answer": "Most standard 2-seat carts are 47–48 inches wide. Lifted carts with offset wheels can reach 52 inches or more, and add mirrors when you measure for gates."},
-    {"question": "How long is a 4-seater golf cart?", "answer": "A 2+2 cart with a rear flip seat is around 108–112 inches; a forward-facing 4-seater is around 114–120 inches; 6-seaters run 130 inches or more."},
-    {"question": "What size garage do I need for a golf cart?", "answer": "Plan on a floor space of about 9 × 5 ft for a 2-seat cart and 11 × 5 ft for a 4-seater, with at least 7.5 ft of height for the roof, more if the cart is lifted."},
-    {"question": "What size trailer do I need for a golf cart?", "answer": "At least an 8 ft deck for a 2-seater and 10 ft for a 4-seater, 5 ft wide between the fenders (5.5 ft for lifted carts) and a trailer rated well above the cart's weight."}
-  ]
+    {
+      "question": "What are the standard dimensions of a golf cart?",
+      "answer": "A typical 2-seat golf cart is about 92–96 inches long (7.7–8 ft), 47–48 inches wide (about 4 ft) and 68–71 inches tall with the roof (about 5.8 ft)."
+    },
+    {
+      "question": "How wide is a golf cart?",
+      "answer": "Most standard 2-seat carts are 47–48 inches wide. Lifted carts with offset wheels can reach 52 inches or more, and add mirrors when you measure for gates."
+    },
+    {
+      "question": "How long is a 4-seater golf cart?",
+      "answer": "A 2+2 cart with a rear flip seat is around 108–112 inches; a forward-facing 4-seater is around 114–120 inches; 6-seaters run 130 inches or more."
+    },
+    {
+      "question": "What size garage do I need for a golf cart?",
+      "answer": "Plan on a floor space of about 9 × 5 ft for a 2-seat cart and 11 × 5 ft for a 4-seater, with at least 7.5 ft of height for the roof, more if the cart is lifted."
+    },
+    {
+      "question": "What size trailer do I need for a golf cart?",
+      "answer": "At least an 8 ft deck for a 2-seater and 10 ft for a 4-seater, 5 ft wide between the fenders (5.5 ft for lifted carts) and a trailer rated well above the cart's weight."
+    }
+  ],
+  "image": "/images/articles/golf-cart-dimensions.webp",
+  "imageAlt": "Man measuring the side clearance between a two-seat golf cart and the wall of a single-car garage with a tape measure",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 A standard 2-seat golf cart is about **92–96 inches long, 47–48 inches wide and 68–71 inches tall** with the roof on. That's roughly 8 ft × 4 ft × 6 ft. A 2+2 with a rear seat is around **108–112 inches long**, and forward-facing 4-seaters stretch to **114–120 inches**.

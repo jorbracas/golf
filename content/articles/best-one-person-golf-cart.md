@@ -8,22 +8,58 @@
   "category": "Golf Carts",
   "date": "2026-03-01",
   "updated": "2026-10-05",
-  "related": ["/shop/fastest-golf-cart", "/shop/golf-cart-dimensions", "/shop/best-walking-golf-bags", "/shop/how-long-does-a-game-of-golf-last"],
+  "related": [
+    "/shop/fastest-golf-cart",
+    "/shop/golf-cart-dimensions",
+    "/shop/best-walking-golf-bags",
+    "/shop/how-long-does-a-game-of-golf-last"
+  ],
   "sources": [
-    ["Cities Scooter – Single rider golf cart comparison", "https://citiescooter.com/blogs/news/the-best-single-rider-golf-cart"],
-    ["The Golf Wire – Finn single-rider golf carts", "https://thegolfwire.com/finn-scooters-single-rider-golf-carts/"]
+    [
+      "Cities Scooter – Single rider golf cart comparison",
+      "https://citiescooter.com/blogs/news/the-best-single-rider-golf-cart"
+    ],
+    [
+      "The Golf Wire – Finn single-rider golf carts",
+      "https://thegolfwire.com/finn-scooters-single-rider-golf-carts/"
+    ]
   ],
   "amazon": [
-    ["Electric golf scooters", "single rider golf scooter"],
-    ["Golf scooter bag holders", "golf scooter bag holder"],
-    ["Lightweight stand bags", "lightweight golf stand bag"]
+    [
+      "Electric golf scooters",
+      "single rider golf scooter"
+    ],
+    [
+      "Golf scooter bag holders",
+      "golf scooter bag holder"
+    ],
+    [
+      "Lightweight stand bags",
+      "lightweight golf stand bag"
+    ]
   ],
   "faq": [
-    {"question": "How much is a one-person golf cart?", "answer": "Most single-rider golf scooters cost about $2,000–$4,000. Premium designs such as surfboard-style GolfBoards have sold for around $7,000. Adaptive single-rider carts for golfers with mobility needs are a separate, more expensive category."},
-    {"question": "Are single-rider golf carts allowed on golf courses?", "answer": "It depends on the course. Many allow them on the same terms as carts, some require a waiver or proof of insurance, and some only allow their own rental fleet. Always call the pro shop before you bring one."},
-    {"question": "How far does a golf scooter go on a charge?", "answer": "Manufacturers typically quote 30–50 miles or 36+ holes on lithium packs. Hills, rider weight and cold weather reduce that."},
-    {"question": "What is the weight limit on a golf scooter?", "answer": "Commonly 250–350 lbs including the rider. Check the spec sheet, as two-wheel designs tend to have lower limits than three-wheel trikes."}
-  ]
+    {
+      "question": "How much is a one-person golf cart?",
+      "answer": "Most single-rider golf scooters cost about $2,000–$4,000. Premium designs such as surfboard-style GolfBoards have sold for around $7,000. Adaptive single-rider carts for golfers with mobility needs are a separate, more expensive category."
+    },
+    {
+      "question": "Are single-rider golf carts allowed on golf courses?",
+      "answer": "It depends on the course. Many allow them on the same terms as carts, some require a waiver or proof of insurance, and some only allow their own rental fleet. Always call the pro shop before you bring one."
+    },
+    {
+      "question": "How far does a golf scooter go on a charge?",
+      "answer": "Manufacturers typically quote 30–50 miles or 36+ holes on lithium packs. Hills, rider weight and cold weather reduce that."
+    },
+    {
+      "question": "What is the weight limit on a golf scooter?",
+      "answer": "Commonly 250–350 lbs including the rider. Check the spec sheet, as two-wheel designs tend to have lower limits than three-wheel trikes."
+    }
+  ],
+  "image": "/images/articles/best-one-person-golf-cart.webp",
+  "imageAlt": "Golfer standing on a single-rider electric golf board with the bag mounted at the front, riding across a fairway",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 A one-person golf cart is usually a **single-rider golf scooter**: an electric two- or three-wheeler with a mount for your bag. Most cost **$2,000–$4,000**, run 36 holes or more on a lithium pack and weigh a fraction of a normal cart. The catch is that **not every course will let you use one**, so call the course before you buy.

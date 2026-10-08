@@ -8,23 +8,62 @@
   "category": "Golf Carts",
   "date": "2026-10-05",
   "updated": "2026-10-05",
-  "redirectFrom": ["/shop/best-golf-cart-lift-guide", "/shop/best-4-inch-lift-kit-for-ezgo-golf-cart"],
-  "related": ["/shop/best-golf-cart-wheel-size", "/shop/best-205-50x10-golf-cart-tires-buyers-guide", "/shop/golf-cart-dimensions", "/shop/golf-cart-body-kits-bronco"],
+  "redirectFrom": [
+    "/shop/best-golf-cart-lift-guide",
+    "/shop/best-4-inch-lift-kit-for-ezgo-golf-cart"
+  ],
+  "related": [
+    "/shop/best-golf-cart-wheel-size",
+    "/shop/best-205-50x10-golf-cart-tires-buyers-guide",
+    "/shop/golf-cart-dimensions",
+    "/shop/golf-cart-body-kits-bronco"
+  ],
   "sources": [
-    ["Buggies Unlimited – Choosing the proper lift kit", "https://blog.buggiesunlimited.com/choosing-the-proper-lift-kit-for-your-golf-cart/"],
-    ["Nick's Golf Carts – Lift kits: options, costs and what fits", "https://nicksgolfcarts.com/golf-cart-lift-kits-options-costs-what-fits/"]
+    [
+      "Buggies Unlimited – Choosing the proper lift kit",
+      "https://blog.buggiesunlimited.com/choosing-the-proper-lift-kit-for-your-golf-cart/"
+    ],
+    [
+      "Nick's Golf Carts – Lift kits: options, costs and what fits",
+      "https://nicksgolfcarts.com/golf-cart-lift-kits-options-costs-what-fits/"
+    ]
   ],
   "amazon": [
-    ["Golf cart lift kits", "golf cart lift kit"],
-    ["Golf cart steering stabilizers", "golf cart steering stabilizer"],
-    ["Lifted golf cart wheel and tyre combos", "golf cart wheels tires 22 inch lifted"]
+    [
+      "Golf cart lift kits",
+      "golf cart lift kit"
+    ],
+    [
+      "Golf cart steering stabilizers",
+      "golf cart steering stabilizer"
+    ],
+    [
+      "Lifted golf cart wheel and tyre combos",
+      "golf cart wheels tires 22 inch lifted"
+    ]
   ],
   "faq": [
-    {"question": "What size tyres can I fit with a 4 inch lift?", "answer": "Usually up to about 20–22 inch tall tyres, depending on the kit and cart. A 6 inch lift typically takes up to 22–23 inch tyres, and long-travel kits up to around 25 inches."},
-    {"question": "How much does it cost to lift a golf cart?", "answer": "Kits run about $150–$400 for spindle or drop-axle, $400–$900 for A-arm and $1,000+ for long-travel. Add wheels and tyres ($400–$1,000+) and $150–$400 for installation if you don't do it yourself; most projects end up at $800–$2,000."},
-    {"question": "Does a lift kit make a golf cart slower?", "answer": "Bigger tyres can raise top speed slightly but reduce acceleration and hill-climbing torque, lengthen braking distance and can trim electric range. Many owners pair a lift with a higher-torque motor or controller."},
-    {"question": "Is a spindle lift or A-arm lift better?", "answer": "Spindle kits are cheaper and keep a near-stock ride, good for neighbourhood carts. A-arm kits replace the front suspension, ride better over bumps and take bigger tyres, better if you leave the pavement."}
-  ]
+    {
+      "question": "What size tyres can I fit with a 4 inch lift?",
+      "answer": "Usually up to about 20–22 inch tall tyres, depending on the kit and cart. A 6 inch lift typically takes up to 22–23 inch tyres, and long-travel kits up to around 25 inches."
+    },
+    {
+      "question": "How much does it cost to lift a golf cart?",
+      "answer": "Kits run about $150–$400 for spindle or drop-axle, $400–$900 for A-arm and $1,000+ for long-travel. Add wheels and tyres ($400–$1,000+) and $150–$400 for installation if you don't do it yourself; most projects end up at $800–$2,000."
+    },
+    {
+      "question": "Does a lift kit make a golf cart slower?",
+      "answer": "Bigger tyres can raise top speed slightly but reduce acceleration and hill-climbing torque, lengthen braking distance and can trim electric range. Many owners pair a lift with a higher-torque motor or controller."
+    },
+    {
+      "question": "Is a spindle lift or A-arm lift better?",
+      "answer": "Spindle kits are cheaper and keep a near-stock ride, good for neighbourhood carts. A-arm kits replace the front suspension, ride better over bumps and take bigger tyres, better if you leave the pavement."
+    }
+  ],
+  "image": "/images/articles/best-golf-cart-lift-kits.webp",
+  "imageAlt": "Lifted golf cart with knobby off-road tyres and visible front lift-kit suspension driving on a dusty trail at sunset",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 For most neighbourhood carts, a **4–6 inch spindle or A-arm lift** with **20–22 inch tyres** is the sweet spot. It gives you the look, more ground clearance and a ride that's still close to stock. Budget **$800–$2,000 all in** for the kit, wheels, tyres and installation. Long-travel kits and 23–25 inch tyres are for carts that actually go off pavement.

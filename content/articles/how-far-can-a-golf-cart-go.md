@@ -9,22 +9,58 @@
   "date": "2026-10-05",
   "updated": "2026-10-05",
   "tool": "cart-range",
-  "related": ["/blog/convert-golf-cart-to-lithium-battery", "/blog/how-to-tell-if-a-golf-cart-battery-is-bad", "/shop/best-golf-cart-lithium-battery-charger", "/shop/golf-cart-battery-dimensions"],
+  "related": [
+    "/blog/convert-golf-cart-to-lithium-battery",
+    "/blog/how-to-tell-if-a-golf-cart-battery-is-bad",
+    "/shop/best-golf-cart-lithium-battery-charger",
+    "/shop/golf-cart-battery-dimensions"
+  ],
   "sources": [
-    ["Golf Energy – How far does a 48V golf cart go on a full charge", "https://www.golf-energy.com/how-long-will-a-48-volt-golf-cart-run-on-a-full-charge/"],
-    ["Club Car – Onward 4 Forward (lithium options)", "https://www.clubcar.com/en-us/personal/street-legal-vehicles/onward-4-forward"]
+    [
+      "Golf Energy – How far does a 48V golf cart go on a full charge",
+      "https://www.golf-energy.com/how-long-will-a-48-volt-golf-cart-run-on-a-full-charge/"
+    ],
+    [
+      "Club Car – Onward 4 Forward (lithium options)",
+      "https://www.clubcar.com/en-us/personal/street-legal-vehicles/onward-4-forward"
+    ]
   ],
   "amazon": [
-    ["48V lithium golf cart batteries", "48v lithium golf cart battery 105ah"],
-    ["Golf cart battery state-of-charge meters", "golf cart battery meter 48v"],
-    ["Golf cart tyre pressure gauges", "low pressure tire gauge"]
+    [
+      "48V lithium golf cart batteries",
+      "48v lithium golf cart battery 105ah"
+    ],
+    [
+      "Golf cart battery state-of-charge meters",
+      "golf cart battery meter 48v"
+    ],
+    [
+      "Golf cart tyre pressure gauges",
+      "low pressure tire gauge"
+    ]
   ],
   "faq": [
-    {"question": "How many miles can a golf cart go on one charge?", "answer": "Typically 15–25 miles for a 48V lead-acid cart in good health and 30–50+ miles for a 48V lithium cart, depending on pack size, terrain, load and speed."},
-    {"question": "How many holes of golf can an electric cart play on one charge?", "answer": "An 18-hole round usually uses 4–6 miles of driving, so a healthy cart covers 36 holes or more with plenty in reserve. If yours struggles to finish 18, the batteries are probably worn."},
-    {"question": "Does a lithium battery really double range?", "answer": "Often close to it, for the same size pack. Lithium lets you use about 90% of its rated capacity, while lead-acid should only be run to about 50% to avoid shortening its life, and lithium is lighter too."},
-    {"question": "What reduces golf cart range the most?", "answer": "Hills (often 20–40% less range), extra passengers and lift kits with big tyres (10–25%), driving at top speed, under-inflated tyres, cold weather and ageing batteries."}
-  ]
+    {
+      "question": "How many miles can a golf cart go on one charge?",
+      "answer": "Typically 15–25 miles for a 48V lead-acid cart in good health and 30–50+ miles for a 48V lithium cart, depending on pack size, terrain, load and speed."
+    },
+    {
+      "question": "How many holes of golf can an electric cart play on one charge?",
+      "answer": "An 18-hole round usually uses 4–6 miles of driving, so a healthy cart covers 36 holes or more with plenty in reserve. If yours struggles to finish 18, the batteries are probably worn."
+    },
+    {
+      "question": "Does a lithium battery really double range?",
+      "answer": "Often close to it, for the same size pack. Lithium lets you use about 90% of its rated capacity, while lead-acid should only be run to about 50% to avoid shortening its life, and lithium is lighter too."
+    },
+    {
+      "question": "What reduces golf cart range the most?",
+      "answer": "Hills (often 20–40% less range), extra passengers and lift kits with big tyres (10–25%), driving at top speed, under-inflated tyres, cold weather and ageing batteries."
+    }
+  ],
+  "image": "/images/articles/how-far-can-a-golf-cart-go.webp",
+  "imageAlt": "Lithium battery pack under the raised seat of an electric golf cart with the charging cable plugged into the side port",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 A healthy **48 V lead-acid golf cart usually goes 15–25 miles** on a full charge. A **48 V lithium cart typically manages 30–50 miles or more**, depending on pack size. An 18-hole round is only 4–6 miles of driving, so any cart in decent shape should finish two rounds. If yours can't finish one, the batteries are the problem, not the cart.

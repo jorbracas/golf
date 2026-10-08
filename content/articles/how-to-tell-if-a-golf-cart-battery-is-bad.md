@@ -8,21 +8,54 @@
   "category": "Golf Cart",
   "date": "2026-10-05",
   "updated": "2026-10-05",
-  "related": ["/shop/how-far-can-a-golf-cart-go", "/blog/how-to-recondition-golf-cart-batteries", "/blog/how-to-charge-a-dead-golf-cart-battery", "/blog/convert-golf-cart-to-lithium-battery"],
+  "related": [
+    "/shop/how-far-can-a-golf-cart-go",
+    "/blog/how-to-recondition-golf-cart-batteries",
+    "/blog/how-to-charge-a-dead-golf-cart-battery",
+    "/blog/convert-golf-cart-to-lithium-battery"
+  ],
   "sources": [
-    ["Golf Energy – 48V golf cart runtime and usable capacity", "https://www.golf-energy.com/how-long-will-a-48-volt-golf-cart-run-on-a-full-charge/"]
+    [
+      "Golf Energy – 48V golf cart runtime and usable capacity",
+      "https://www.golf-energy.com/how-long-will-a-48-volt-golf-cart-run-on-a-full-charge/"
+    ]
   ],
   "amazon": [
-    ["Digital multimeters", "digital multimeter automotive"],
-    ["Battery hydrometers", "battery hydrometer"],
-    ["Golf cart battery terminal cleaners", "battery terminal cleaner brush"]
+    [
+      "Digital multimeters",
+      "digital multimeter automotive"
+    ],
+    [
+      "Battery hydrometers",
+      "battery hydrometer"
+    ],
+    [
+      "Golf cart battery terminal cleaners",
+      "battery terminal cleaner brush"
+    ]
   ],
   "faq": [
-    {"question": "What voltage should a fully charged 8 volt golf cart battery read?", "answer": "About 8.4–8.5 V at rest (several hours after charging, nothing connected). Under about 8.0 V at rest means it is roughly half discharged; one battery reading much lower than its neighbours after a full charge is the usual sign of a failing cell."},
-    {"question": "How do I find the bad battery in a golf cart pack?", "answer": "Fully charge the pack, let it rest, then measure each battery's voltage. Drive the cart for 10–15 minutes and measure again. The battery that drops furthest, or reads lowest both times, is the weak one. A hydrometer test on each cell confirms it on flooded batteries."},
-    {"question": "Can I replace just one golf cart battery?", "answer": "On a fairly new pack, yes. On a pack older than 2–3 years, a new battery among worn ones gets over- and under-charged and fails early, so replacing the whole set (or moving to lithium) is usually the better buy."},
-    {"question": "How long do golf cart batteries last?", "answer": "Flooded lead-acid packs typically last around 4–6 years with good watering and charging habits; neglect can halve that. Lithium packs are commonly rated for many more cycles and often outlast the cart."}
-  ]
+    {
+      "question": "What voltage should a fully charged 8 volt golf cart battery read?",
+      "answer": "About 8.4–8.5 V at rest (several hours after charging, nothing connected). Under about 8.0 V at rest means it is roughly half discharged; one battery reading much lower than its neighbours after a full charge is the usual sign of a failing cell."
+    },
+    {
+      "question": "How do I find the bad battery in a golf cart pack?",
+      "answer": "Fully charge the pack, let it rest, then measure each battery's voltage. Drive the cart for 10–15 minutes and measure again. The battery that drops furthest, or reads lowest both times, is the weak one. A hydrometer test on each cell confirms it on flooded batteries."
+    },
+    {
+      "question": "Can I replace just one golf cart battery?",
+      "answer": "On a fairly new pack, yes. On a pack older than 2–3 years, a new battery among worn ones gets over- and under-charged and fails early, so replacing the whole set (or moving to lithium) is usually the better buy."
+    },
+    {
+      "question": "How long do golf cart batteries last?",
+      "answer": "Flooded lead-acid packs typically last around 4–6 years with good watering and charging habits; neglect can halve that. Lithium packs are commonly rated for many more cycles and often outlast the cart."
+    }
+  ],
+  "image": "/images/articles/how-to-tell-if-a-golf-cart-battery-is-bad.webp",
+  "imageAlt": "Gloved hands testing a 6-volt lead-acid golf cart battery with a digital multimeter reading 6.32 volts",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 A golf cart battery is on its way out when **range drops noticeably, the cart slows on hills it used to climb, or one battery in the pack reads clearly lower than the others after a full charge.** Usually one or two batteries fail first and drag the rest of the pack down, so the job is to find which ones.

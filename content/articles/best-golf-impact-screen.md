@@ -8,22 +8,58 @@
   "category": "Indoor & Practice",
   "date": "2026-02-23",
   "updated": "2026-10-05",
-  "related": ["/shop/best-golf-screen-and-projector", "/shop/best-golf-enclosure", "/shop/golf-simulator-room-size", "/shop/best-golf-sim-buying-guide"],
+  "related": [
+    "/shop/best-golf-screen-and-projector",
+    "/shop/best-golf-enclosure",
+    "/shop/golf-simulator-room-size",
+    "/shop/best-golf-sim-buying-guide"
+  ],
   "sources": [
-    ["Home Performance Lab – Best golf simulator impact screen", "https://homeperformancelab.com/best-golf-simulator-impact-screen/"],
-    ["Rain or Shine Golf – Golf simulator impact screen guide", "https://rsgolf.com/blogs/lounge/golf-simulator-impact-screen-guide"]
+    [
+      "Home Performance Lab – Best golf simulator impact screen",
+      "https://homeperformancelab.com/best-golf-simulator-impact-screen/"
+    ],
+    [
+      "Rain or Shine Golf – Golf simulator impact screen guide",
+      "https://rsgolf.com/blogs/lounge/golf-simulator-impact-screen-guide"
+    ]
   ],
   "amazon": [
-    ["Golf simulator impact screens", "golf simulator impact screen"],
-    ["Ball bungees for screens", "ball bungee cords"],
-    ["Golf simulator enclosures", "golf simulator enclosure"]
+    [
+      "Golf simulator impact screens",
+      "golf simulator impact screen"
+    ],
+    [
+      "Ball bungees for screens",
+      "ball bungee cords"
+    ],
+    [
+      "Golf simulator enclosures",
+      "golf simulator enclosure"
+    ]
   ],
   "faq": [
-    {"question": "What is the best material for a golf impact screen?", "answer": "Premium three-layer screens (two polyester faces separated by spacer yarns) give the best picture, lowest noise and least bounce-back, and typically last 3–5+ years with regular use. Mid-tier reinforced polyester is a good value option; open-weave entry screens are cheapest but grainier and bouncier."},
-    {"question": "White or grey impact screen?", "answer": "Grey screens absorb more ambient light, giving better contrast in rooms with windows or overhead lights, and usually cost only a little more. White screens are brighter in a fully dark room."},
-    {"question": "How far should an impact screen be from the wall?", "answer": "Leave at least about 12 inches behind a tensioned screen and up to about 20 inches behind a loosely hanging one, so it can absorb the impact instead of bouncing the ball back."},
-    {"question": "How far should I stand from a golf impact screen?", "answer": "About 10–12 feet from the tee to the screen. Closer increases bounce-back risk."}
-  ]
+    {
+      "question": "What is the best material for a golf impact screen?",
+      "answer": "Premium three-layer screens (two polyester faces separated by spacer yarns) give the best picture, lowest noise and least bounce-back, and typically last 3–5+ years with regular use. Mid-tier reinforced polyester is a good value option; open-weave entry screens are cheapest but grainier and bouncier."
+    },
+    {
+      "question": "White or grey impact screen?",
+      "answer": "Grey screens absorb more ambient light, giving better contrast in rooms with windows or overhead lights, and usually cost only a little more. White screens are brighter in a fully dark room."
+    },
+    {
+      "question": "How far should an impact screen be from the wall?",
+      "answer": "Leave at least about 12 inches behind a tensioned screen and up to about 20 inches behind a loosely hanging one, so it can absorb the impact instead of bouncing the ball back."
+    },
+    {
+      "question": "How far should I stand from a golf impact screen?",
+      "answer": "About 10–12 feet from the tee to the screen. Closer increases bounce-back risk."
+    }
+  ],
+  "image": "/images/articles/best-golf-impact-screen.webp",
+  "imageAlt": "Golfer hitting an iron into a large impact screen in a home basement simulator showing a tree-lined fairway",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 An impact screen is the surface you hit into and project onto, so it affects **picture quality, noise, safety and lifespan**. For most home sims the best value is a **premium three-layer screen in grey**, installed with **bungees, a gap behind it, and 10–12 ft from the tee**. The installation matters as much as the material.
