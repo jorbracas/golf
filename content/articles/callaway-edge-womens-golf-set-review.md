@@ -8,22 +8,58 @@
   "category": "Clubs & Shafts",
   "date": "2026-01-28",
   "updated": "2026-10-05",
-  "related": ["/shop/best-golf-bags-for-women", "/shop/best-ladies-golf-bag-lightweight", "/blog/golf-tips-for-women", "/shop/what-is-a-golf-stick-called"],
+  "related": [
+    "/shop/best-golf-bags-for-women",
+    "/shop/best-ladies-golf-bag-lightweight",
+    "/blog/golf-tips-for-women",
+    "/shop/what-is-a-golf-stick-called"
+  ],
   "sources": [
-    ["Costco – Callaway Edge 10-piece Women's Graphite Set", "https://www.costco.com/p/-/callaway-edge-10-piece-womens-graphite-golf-club-set-right-handed/100464779"],
-    ["Costco Fan – Callaway Edge set at Costco", "https://costcofan.com/callaway-edge-10-piece-golf-club-set/"]
+    [
+      "Costco – Callaway Edge 10-piece Women's Graphite Set",
+      "https://www.costco.com/p/-/callaway-edge-10-piece-womens-graphite-golf-club-set-right-handed/100464779"
+    ],
+    [
+      "Costco Fan – Callaway Edge set at Costco",
+      "https://costcofan.com/callaway-edge-10-piece-golf-club-set/"
+    ]
   ],
   "amazon": [
-    ["Women's stand bags", "womens golf stand bag lightweight"],
-    ["Callaway women's complete sets", "callaway womens complete golf set"],
-    ["Women's golf gloves", "womens golf glove"]
+    [
+      "Women's stand bags",
+      "womens golf stand bag lightweight"
+    ],
+    [
+      "Callaway women's complete sets",
+      "callaway womens complete golf set"
+    ],
+    [
+      "Women's golf gloves",
+      "womens golf glove"
+    ]
   ],
   "faq": [
-    {"question": "What comes in the Callaway Edge women's set?", "answer": "Ten clubs: a titanium driver, 3-wood, 5-hybrid, 6–9 irons, pitching wedge, sand wedge and an Odyssey White Hot Pro putter, with headcovers for the driver, 3-wood, hybrid and putter. A golf bag is not included."},
-    {"question": "Is the Callaway Edge set good for beginners?", "answer": "Yes. It is built for forgiveness with cavity-back irons and a hybrid instead of long irons, and it is one of the better-value ways to get a matched set with a quality putter. Low-handicap players will outgrow it."},
-    {"question": "Where can I buy the Callaway Edge set?", "answer": "It is mainly sold through warehouse and big-box retailers, especially Costco, and stock comes and goes. The men's set has been listed at Costco around $600; check current pricing for the women's version."},
-    {"question": "Should a tall woman buy the men's Edge set instead?", "answer": "Some taller players (around 5'9\" and up) prefer the longer men's set; others are better served by a women's set with lighter shafts. If possible, try both lengths before buying."}
-  ]
+    {
+      "question": "What comes in the Callaway Edge women's set?",
+      "answer": "Ten clubs: a titanium driver, 3-wood, 5-hybrid, 6–9 irons, pitching wedge, sand wedge and an Odyssey White Hot Pro putter, with headcovers for the driver, 3-wood, hybrid and putter. A golf bag is not included."
+    },
+    {
+      "question": "Is the Callaway Edge set good for beginners?",
+      "answer": "Yes. It is built for forgiveness with cavity-back irons and a hybrid instead of long irons, and it is one of the better-value ways to get a matched set with a quality putter. Low-handicap players will outgrow it."
+    },
+    {
+      "question": "Where can I buy the Callaway Edge set?",
+      "answer": "It is mainly sold through warehouse and big-box retailers, especially Costco, and stock comes and goes. The men's set has been listed at Costco around $600; check current pricing for the women's version."
+    },
+    {
+      "question": "Should a tall woman buy the men's Edge set instead?",
+      "answer": "Some taller players (around 5'9\" and up) prefer the longer men's set; others are better served by a women's set with lighter shafts. If possible, try both lengths before buying."
+    }
+  ],
+  "image": "/images/articles/callaway-edge-womens-golf-set-review.webp",
+  "imageAlt": "Women's complete golf set with a cream stand bag and driver, fairway wood, hybrid, irons, wedge and putter laid out on a fairway",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 The Callaway Edge women's set is a **10-piece boxed set**: driver, 3-wood, 5-hybrid, 6–9 irons, pitching wedge, sand wedge and an **Odyssey White Hot Pro putter**, with graphite shafts and headcovers on the woods, hybrid and putter. It's aimed at **beginners and returning golfers** who want a matched, forgiving set from a major brand.

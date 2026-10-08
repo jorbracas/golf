@@ -8,21 +8,54 @@
   "category": "Golf Balls",
   "date": "2025-12-29",
   "updated": "2026-10-05",
-  "related": ["/shop/best-old-golf-balls", "/shop/callaway-hex-tour-golf-ball-review", "/shop/mens-vs-womens-golf-balls", "/shop/best-soft-feel-golf-balls"],
+  "related": [
+    "/shop/best-old-golf-balls",
+    "/shop/callaway-hex-tour-golf-ball-review",
+    "/shop/mens-vs-womens-golf-balls",
+    "/shop/best-soft-feel-golf-balls"
+  ],
   "sources": [
-    ["Golf Digest – Titleist Tour Soft replaces NXT line, Velocity updated", "https://www.golfdigest.com/story/titleist-tour-soft-ball-replaces-nxt-lineup-with-a-single-ball-and-its-largest-core-adds-heat-to-popular-velocity-line"],
-    ["The Golf News Net – Titleist replaces NXT line with Tour Soft", "https://thegolfnewsnet.com/golfnewsnetteam/2018/02/02/titleist-replaces-nxt-line-tour-soft-balls-updates-velocity-108234/"]
+    [
+      "Golf Digest – Titleist Tour Soft replaces NXT line, Velocity updated",
+      "https://www.golfdigest.com/story/titleist-tour-soft-ball-replaces-nxt-lineup-with-a-single-ball-and-its-largest-core-adds-heat-to-popular-velocity-line"
+    ],
+    [
+      "The Golf News Net – Titleist replaces NXT line with Tour Soft",
+      "https://thegolfnewsnet.com/golfnewsnetteam/2018/02/02/titleist-replaces-nxt-line-tour-soft-balls-updates-velocity-108234/"
+    ]
   ],
   "amazon": [
-    ["Titleist Tour Soft golf balls", "titleist tour soft golf balls"],
-    ["Titleist Velocity golf balls", "titleist velocity golf balls"],
-    ["Recycled Titleist NXT balls", "titleist nxt tour recycled golf balls"]
+    [
+      "Titleist Tour Soft golf balls",
+      "titleist tour soft golf balls"
+    ],
+    [
+      "Titleist Velocity golf balls",
+      "titleist velocity golf balls"
+    ],
+    [
+      "Recycled Titleist NXT balls",
+      "titleist nxt tour recycled golf balls"
+    ]
   ],
   "faq": [
-    {"question": "Does Titleist still make NXT golf balls?", "answer": "No. Titleist discontinued the NXT Tour and NXT Tour S in 2018 and replaced both with a single ball, the Tour Soft."},
-    {"question": "What replaced the Titleist NXT Tour S?", "answer": "The Titleist Tour Soft, launched in 2018 at $35 a dozen, with a very large 1.60-inch core and an ionomer-blend cover aimed at soft feel and distance."},
-    {"question": "Are recycled NXT balls worth buying?", "answer": "For practice and casual rounds, yes if they're in good condition, but they are now several years old at best. For a consistent ball you can buy again and again, choose a current model."}
-  ]
+    {
+      "question": "Does Titleist still make NXT golf balls?",
+      "answer": "No. Titleist discontinued the NXT Tour and NXT Tour S in 2018 and replaced both with a single ball, the Tour Soft."
+    },
+    {
+      "question": "What replaced the Titleist NXT Tour S?",
+      "answer": "The Titleist Tour Soft, launched in 2018 at $35 a dozen, with a very large 1.60-inch core and an ionomer-blend cover aimed at soft feel and distance."
+    },
+    {
+      "question": "Are recycled NXT balls worth buying?",
+      "answer": "For practice and casual rounds, yes if they're in good condition, but they are now several years old at best. For a consistent ball you can buy again and again, choose a current model."
+    }
+  ],
+  "image": "/images/articles/titleist-nxt-golf-balls-review.webp",
+  "imageAlt": "Three golf balls on a green at sunset, one rolling toward the hole next to the flagstick",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 Titleist **discontinued the NXT line in 2018**. The **NXT Tour** and **NXT Tour S** were replaced by one ball, the **Tour Soft**, launched at **$35 a dozen**. Any NXTs you find now are old stock or recycled. Fine for practice, but you can't keep buying the same ball.

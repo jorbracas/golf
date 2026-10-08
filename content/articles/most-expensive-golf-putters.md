@@ -8,22 +8,58 @@
   "category": "Clubs & Shafts",
   "date": "2026-01-11",
   "updated": "2026-10-05",
-  "related": ["/shop/best-golf-putting-greens", "/blog/golf-how-to-putt-ultimate-guide", "/shop/best-primeputt-golf-putting-mat", "/shop/golf-driver-head-size-guide"],
+  "related": [
+    "/shop/best-golf-putting-greens",
+    "/blog/golf-how-to-putt-ultimate-guide",
+    "/shop/best-primeputt-golf-putting-mat",
+    "/shop/golf-driver-head-size-guide"
+  ],
   "sources": [
-    ["ESPN – Tiger Woods' backup putter from 2002 sells for $393K", "https://www.espn.com/golf/story/_/id/32107564/tiger-woods-backup-putter-2002-sells-393k-auction"],
-    ["GOLF.com – Tiger Woods putter sells for record price", "https://golf.com/gear/putters/tiger-woods-putter-record-breaking/"],
-    ["Golf Club Brokers – Most valuable Scotty Cameron putters", "https://www.golfclubbrokers.com/blog/valuablescottycameronputters"]
+    [
+      "ESPN – Tiger Woods' backup putter from 2002 sells for $393K",
+      "https://www.espn.com/golf/story/_/id/32107564/tiger-woods-backup-putter-2002-sells-393k-auction"
+    ],
+    [
+      "GOLF.com – Tiger Woods putter sells for record price",
+      "https://golf.com/gear/putters/tiger-woods-putter-record-breaking/"
+    ],
+    [
+      "Golf Club Brokers – Most valuable Scotty Cameron putters",
+      "https://www.golfclubbrokers.com/blog/valuablescottycameronputters"
+    ]
   ],
   "amazon": [
-    ["Scotty Cameron putters", "scotty cameron putter"],
-    ["Premium milled putters", "milled putter"],
-    ["Putter headcovers", "putter headcover blade"]
+    [
+      "Scotty Cameron putters",
+      "scotty cameron putter"
+    ],
+    [
+      "Premium milled putters",
+      "milled putter"
+    ],
+    [
+      "Putter headcovers",
+      "putter headcover blade"
+    ]
   ],
   "faq": [
-    {"question": "What is the most expensive putter ever sold?", "answer": "A Tiger Woods backup Scotty Cameron Newport 2 that sold for $393,300 at auction in 2021. Other Tiger backup Newport 2s have sold for $328,576 (2022) and $154,928 (2020)."},
-    {"question": "Why are Scotty Cameron Circle T putters so expensive?", "answer": "The Circle T stamp marks tour-issue putters made for professionals rather than retail. They are produced in small numbers, and collectors pay roughly $5,000 to $40,000 depending on model, condition and provenance."},
-    {"question": "Do expensive putters help you putt better?", "answer": "Not by themselves. Fit (length, lie, loft), alignment and the right head shape for your stroke matter far more than price or rarity."}
-  ]
+    {
+      "question": "What is the most expensive putter ever sold?",
+      "answer": "A Tiger Woods backup Scotty Cameron Newport 2 that sold for $393,300 at auction in 2021. Other Tiger backup Newport 2s have sold for $328,576 (2022) and $154,928 (2020)."
+    },
+    {
+      "question": "Why are Scotty Cameron Circle T putters so expensive?",
+      "answer": "The Circle T stamp marks tour-issue putters made for professionals rather than retail. They are produced in small numbers, and collectors pay roughly $5,000 to $40,000 depending on model, condition and provenance."
+    },
+    {
+      "question": "Do expensive putters help you putt better?",
+      "answer": "Not by themselves. Fit (length, lie, loft), alignment and the right head shape for your stroke matter far more than price or rarity."
+    }
+  ],
+  "image": "/images/articles/most-expensive-golf-putters.webp",
+  "imageAlt": "Milled stainless steel blade putter with a leather grip displayed on dark green velvet in a glass case",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 The most expensive putter ever sold is a **Tiger Woods backup Scotty Cameron Newport 2**, which went for **$393,300 at auction in 2021**. Other Tiger backups have fetched **$328,576** and **$154,928**. Those prices come from who used the putter, not how it rolls the ball. For everyone else, "expensive" means **tour-issue Scotty Camerons at $5,000–$40,000** and premium retail putters at a few hundred dollars.

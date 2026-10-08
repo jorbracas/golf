@@ -8,21 +8,54 @@
   "category": "Apparel & Shoes",
   "date": "2025-12-06",
   "updated": "2026-10-05",
-  "related": ["/shop/best-mens-waterproof-golf-jacket", "/shop/best-waterproof-golf-trousers", "/shop/golf-bag-checklist", "/shop/best-golf-umbrella"],
+  "related": [
+    "/shop/best-mens-waterproof-golf-jacket",
+    "/shop/best-waterproof-golf-trousers",
+    "/shop/golf-bag-checklist",
+    "/shop/best-golf-umbrella"
+  ],
   "sources": [
-    ["REI Expert Advice – Rainwear: how to choose (waterproof and breathability ratings)", "https://www.rei.com/learn/expert-advice/rainwear.html"]
+    [
+      "REI Expert Advice – Rainwear: how to choose (waterproof and breathability ratings)",
+      "https://www.rei.com/learn/expert-advice/rainwear.html"
+    ]
   ],
   "amazon": [
-    ["Men's waterproof golf jackets", "mens waterproof golf jacket"],
-    ["Men's golf windbreakers", "mens golf windbreaker"],
-    ["Men's quarter-zip golf pullovers", "mens golf quarter zip pullover"]
+    [
+      "Men's waterproof golf jackets",
+      "mens waterproof golf jacket"
+    ],
+    [
+      "Men's golf windbreakers",
+      "mens golf windbreaker"
+    ],
+    [
+      "Men's quarter-zip golf pullovers",
+      "mens golf quarter zip pullover"
+    ]
   ],
   "faq": [
-    {"question": "What type of golf jacket do I need?", "answer": "For real rain, a waterproof jacket with taped seams; for dry but breezy days, a light windshirt or windbreaker; for cold, an insulated or softshell layer you can swing in. Many golfers own a waterproof shell plus a warm mid-layer and combine them."},
-    {"question": "What waterproof rating is good for golf?", "answer": "Fabrics are often rated in millimetres of water column. Around 10,000 mm and up generally handles steady rain; 20,000 mm+ is for sustained heavy rain. Seam taping and a good hood or collar matter as much as the number."},
-    {"question": "How should a golf jacket fit?", "answer": "Loose enough across the back and shoulders to make a full turn, with sleeves that don't ride up when your arms are extended. Stretch panels and a slightly longer back help; avoid bulky, noisy fabrics that catch at the top of the swing."},
-    {"question": "What's the difference between a golf jacket and a regular rain jacket?", "answer": "Golf jackets are cut for rotation (stretch, articulated shoulders), use quieter fabrics that don't rustle at address, and often have shorter or adjustable cuffs that stay out of the way of your hands."}
-  ]
+    {
+      "question": "What type of golf jacket do I need?",
+      "answer": "For real rain, a waterproof jacket with taped seams; for dry but breezy days, a light windshirt or windbreaker; for cold, an insulated or softshell layer you can swing in. Many golfers own a waterproof shell plus a warm mid-layer and combine them."
+    },
+    {
+      "question": "What waterproof rating is good for golf?",
+      "answer": "Fabrics are often rated in millimetres of water column. Around 10,000 mm and up generally handles steady rain; 20,000 mm+ is for sustained heavy rain. Seam taping and a good hood or collar matter as much as the number."
+    },
+    {
+      "question": "How should a golf jacket fit?",
+      "answer": "Loose enough across the back and shoulders to make a full turn, with sleeves that don't ride up when your arms are extended. Stretch panels and a slightly longer back help; avoid bulky, noisy fabrics that catch at the top of the swing."
+    },
+    {
+      "question": "What's the difference between a golf jacket and a regular rain jacket?",
+      "answer": "Golf jackets are cut for rotation (stretch, articulated shoulders), use quieter fabrics that don't rustle at address, and often have shorter or adjustable cuffs that stay out of the way of your hands."
+    }
+  ],
+  "image": "/images/articles/best-golf-jacket-mens.webp",
+  "imageAlt": "Golfer in a navy waterproof golf jacket with rain drops on the shoulders, holding a driver on a windswept links tee above the sea",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 The right men's golf jacket depends on **the weather you play in**: a **waterproof shell** for rain, a **windshirt** for dry breezy days, or an **insulated/softshell layer** for cold. Whatever the type, it has to let you **turn fully without the sleeves riding up or the fabric rustling at address**. That's what separates a golf jacket from a regular one.

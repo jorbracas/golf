@@ -9,21 +9,54 @@
   "date": "2026-10-05",
   "updated": "2026-10-05",
   "tool": "handicap",
-  "related": ["/shop/golf-handicap-calculator", "/shop/what-is-a-good-golf-score", "/blog/how-to-estimate-your-golf-handicap", "/blog/how-to-lower-your-golf-handicap"],
+  "related": [
+    "/shop/golf-handicap-calculator",
+    "/shop/what-is-a-good-golf-score",
+    "/blog/how-to-estimate-your-golf-handicap",
+    "/blog/how-to-lower-your-golf-handicap"
+  ],
   "sources": [
-    ["USGA – Rules of Handicapping, Rule 5.2a", "https://www.usga.org/handicapping/roh/Content/rules/5%202a%20For%20Fewer%20Than%2020%20Scores.htm"],
-    ["Golfsidekick – How the World Handicap System works", "https://www.golfsidekick.com/knowledge/how-the-handicap-system-works/"]
+    [
+      "USGA – Rules of Handicapping, Rule 5.2a",
+      "https://www.usga.org/handicapping/roh/Content/rules/5%202a%20For%20Fewer%20Than%2020%20Scores.htm"
+    ],
+    [
+      "Golfsidekick – How the World Handicap System works",
+      "https://www.golfsidekick.com/knowledge/how-the-handicap-system-works/"
+    ]
   ],
   "amazon": [
-    ["Golf scorecard holders", "golf scorecard holder"],
-    ["Beginner golf balls", "golf balls for beginners"],
-    ["Putting mats", "putting mat indoor"]
+    [
+      "Golf scorecard holders",
+      "golf scorecard holder"
+    ],
+    [
+      "Beginner golf balls",
+      "golf balls for beginners"
+    ],
+    [
+      "Putting mats",
+      "putting mat indoor"
+    ]
   ],
   "faq": [
-    {"question": "What handicap is a golfer who shoots 100?", "answer": "Typically a Handicap Index of about 22–26. On an average course (rating ~71, slope ~125) a 100 produces a differential of about 26; because your index uses your best rounds, regular 100-shooters with a few better days usually end up in the low-to-mid 20s."},
-    {"question": "Is a 100 golf score bad?", "answer": "No. Roughly 45% of adult golfers average 100 or more, and breaking 100 is the first real milestone for most players."},
-    {"question": "What handicap do I need to break 90?", "answer": "Consistently breaking 90 usually corresponds to a Handicap Index in the mid-teens or lower, depending on the courses you play."}
-  ]
+    {
+      "question": "What handicap is a golfer who shoots 100?",
+      "answer": "Typically a Handicap Index of about 22–26. On an average course (rating ~71, slope ~125) a 100 produces a differential of about 26; because your index uses your best rounds, regular 100-shooters with a few better days usually end up in the low-to-mid 20s."
+    },
+    {
+      "question": "Is a 100 golf score bad?",
+      "answer": "No. Roughly 45% of adult golfers average 100 or more, and breaking 100 is the first real milestone for most players."
+    },
+    {
+      "question": "What handicap do I need to break 90?",
+      "answer": "Consistently breaking 90 usually corresponds to a Handicap Index in the mid-teens or lower, depending on the courses you play."
+    }
+  ],
+  "image": "/images/articles/what-is-my-golf-handicap-if-i-shoot-100.webp",
+  "imageAlt": "Frustrated golfer holding his head after a poor bunker shot, with the ball still in the sand and a scorecard in his back pocket",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 If 100 is your normal score, your Handicap Index will usually land **somewhere around 22–26**. The exact number depends on the **course rating and slope** of the courses you play and on how much your scores vary. The handicap system averages your *best* rounds, so the occasional 94 pulls your index down more than a bad 108 pushes it up.

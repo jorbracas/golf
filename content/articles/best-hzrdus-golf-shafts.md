@@ -8,23 +8,62 @@
   "category": "Clubs & Shafts",
   "date": "2026-03-02",
   "updated": "2026-10-05",
-  "related": ["/shop/best-golf-shaft-for-driver", "/shop/stiff-vs-regular-golf-shaft", "/shop/best-golf-shaft-kick-point", "/shop/best-golf-swing-speed-tracker"],
+  "related": [
+    "/shop/best-golf-shaft-for-driver",
+    "/shop/stiff-vs-regular-golf-shaft",
+    "/shop/best-golf-shaft-kick-point",
+    "/shop/best-golf-swing-speed-tracker"
+  ],
   "sources": [
-    ["Fit My Golf Clubs – HZRDUS shaft chart", "https://www.fitmygolfclubs.com/blog/hzrdus-shaft-chart"],
-    ["Golf Club Brokers – Guide to Project X flex codes", "https://www.golfclubbrokers.com/blog/complete-guide-to-project-x-flex-codes"],
-    ["MyGolfSpy – Tested: Project X HZRDUS shafts", "https://mygolfspy.com/labs/projectx-hzrdus-shaft-review/"]
+    [
+      "Fit My Golf Clubs – HZRDUS shaft chart",
+      "https://www.fitmygolfclubs.com/blog/hzrdus-shaft-chart"
+    ],
+    [
+      "Golf Club Brokers – Guide to Project X flex codes",
+      "https://www.golfclubbrokers.com/blog/complete-guide-to-project-x-flex-codes"
+    ],
+    [
+      "MyGolfSpy – Tested: Project X HZRDUS shafts",
+      "https://mygolfspy.com/labs/projectx-hzrdus-shaft-review/"
+    ]
   ],
   "amazon": [
-    ["HZRDUS driver shafts", "project x hzrdus driver shaft"],
-    ["Golf swing speed radars", "golf swing speed radar"],
-    ["Shaft adapter sleeves", "golf driver shaft adapter sleeve"]
+    [
+      "HZRDUS driver shafts",
+      "project x hzrdus driver shaft"
+    ],
+    [
+      "Golf swing speed radars",
+      "golf swing speed radar"
+    ],
+    [
+      "Shaft adapter sleeves",
+      "golf driver shaft adapter sleeve"
+    ]
   ],
   "faq": [
-    {"question": "What do 5.5, 6.0 and 6.5 mean on an HZRDUS shaft?", "answer": "They are Project X flex codes: 5.5 is roughly regular, 6.0 stiff, 6.5 extra stiff, and TX tour extra stiff. HZRDUS shafts tend to play firmer than many other brands at the same label."},
-    {"question": "Which HZRDUS shaft is lowest spin?", "answer": "The HZRDUS Black (current Gen 5) and Smoke Black RDX are the low-launch, low-spin models, aimed at fast, aggressive swings (roughly 100+ mph driver speed)."},
-    {"question": "Is HZRDUS good for slower swing speeds?", "answer": "The Red models (Smoke Red RDX, Red CB) launch higher and suit moderate speeds of about 90–105 mph. Below about 85–90 mph, most players are better served by a lighter, softer shaft from another line."},
-    {"question": "Are HZRDUS stock shafts the same as aftermarket?", "answer": "Not always. Some 'made for' stock versions in new drivers differ from the aftermarket shafts with the same name. Check the exact model, weight and flex code on the shaft band."}
-  ]
+    {
+      "question": "What do 5.5, 6.0 and 6.5 mean on an HZRDUS shaft?",
+      "answer": "They are Project X flex codes: 5.5 is roughly regular, 6.0 stiff, 6.5 extra stiff, and TX tour extra stiff. HZRDUS shafts tend to play firmer than many other brands at the same label."
+    },
+    {
+      "question": "Which HZRDUS shaft is lowest spin?",
+      "answer": "The HZRDUS Black (current Gen 5) and Smoke Black RDX are the low-launch, low-spin models, aimed at fast, aggressive swings (roughly 100+ mph driver speed)."
+    },
+    {
+      "question": "Is HZRDUS good for slower swing speeds?",
+      "answer": "The Red models (Smoke Red RDX, Red CB) launch higher and suit moderate speeds of about 90–105 mph. Below about 85–90 mph, most players are better served by a lighter, softer shaft from another line."
+    },
+    {
+      "question": "Are HZRDUS stock shafts the same as aftermarket?",
+      "answer": "Not always. Some 'made for' stock versions in new drivers differ from the aftermarket shafts with the same name. Check the exact model, weight and flex code on the shaft band."
+    }
+  ],
+  "image": "/images/articles/best-hzrdus-golf-shafts.webp",
+  "imageAlt": "Matte black graphite driver shafts leaning against a wooden wall in a fitting bay, with a driver head and torque wrench on the bench",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 HZRDUS is Project X's line of graphite driver and wood shafts, known for **stable, low-torque profiles that suit faster, aggressive swings**. Pick the model by the **launch and spin you need**, and pick the flex code by **swing speed**. A 6.0 HZRDUS plays firmer than many brands' "stiff".

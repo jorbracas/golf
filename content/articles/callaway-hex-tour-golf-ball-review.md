@@ -8,24 +8,66 @@
   "category": "Golf Balls",
   "date": "2025-12-24",
   "updated": "2026-10-05",
-  "related": ["/shop/callaway-custom-golf-balls-review", "/shop/callaway-golf-balls-hx-hot-review", "/shop/best-old-golf-balls", "/shop/mens-vs-womens-golf-balls"],
+  "related": [
+    "/shop/callaway-custom-golf-balls-review",
+    "/shop/callaway-golf-balls-hx-hot-review",
+    "/shop/best-old-golf-balls",
+    "/shop/mens-vs-womens-golf-balls"
+  ],
   "sources": [
-    ["The Sand Trap – Callaway HX Tour review", "https://thesandtrap.com/b/balls/callaway_hx_tour_golf_balls"],
-    ["GolfWRX – Callaway HEX Black Tour", "https://golfwrx.com/22800/callaway-hex-black-tour/"],
-    ["Golf Channel – Callaway introduces HEX Chrome+", "https://www.golfchannel.com/news/callaway-introduces-hex-chrome-balls"],
-    ["MyGolfSpy – Callaway Chrome Tour, Chrome Tour X and Chrome Soft", "https://mygolfspy.com/news-opinion/callaway-chrome-tour-chrome-tour-x-and-chrome-soft-golf-balls/"]
+    [
+      "The Sand Trap – Callaway HX Tour review",
+      "https://thesandtrap.com/b/balls/callaway_hx_tour_golf_balls"
+    ],
+    [
+      "GolfWRX – Callaway HEX Black Tour",
+      "https://golfwrx.com/22800/callaway-hex-black-tour/"
+    ],
+    [
+      "Golf Channel – Callaway introduces HEX Chrome+",
+      "https://www.golfchannel.com/news/callaway-introduces-hex-chrome-balls"
+    ],
+    [
+      "MyGolfSpy – Callaway Chrome Tour, Chrome Tour X and Chrome Soft",
+      "https://mygolfspy.com/news-opinion/callaway-chrome-tour-chrome-tour-x-and-chrome-soft-golf-balls/"
+    ]
   ],
   "amazon": [
-    ["Callaway Chrome Tour balls", "callaway chrome tour golf balls"],
-    ["Callaway Chrome Soft balls", "callaway chrome soft golf balls"],
-    ["Recycled Callaway golf balls", "callaway recycled golf balls mint"]
+    [
+      "Callaway Chrome Tour balls",
+      "callaway chrome tour golf balls"
+    ],
+    [
+      "Callaway Chrome Soft balls",
+      "callaway chrome soft golf balls"
+    ],
+    [
+      "Recycled Callaway golf balls",
+      "callaway recycled golf balls mint"
+    ]
   ],
   "faq": [
-    {"question": "Does Callaway still make the HEX Tour golf ball?", "answer": "No. The HX Tour, HEX Black Tour and HEX Chrome tour balls were discontinued years ago. Callaway still uses HEX dimple patterns, but on the Chrome Tour, Chrome Tour X and Chrome Soft balls."},
-    {"question": "What replaced the Callaway HEX Black Tour?", "answer": "The Chrome Soft family, launched in 2015, became Callaway's premium line. Today's closest equivalents are Chrome Tour (mid-compression, Pro V1 rival) and Chrome Tour X (higher spin, Pro V1x rival)."},
-    {"question": "Are old Callaway HEX Tour balls still good?", "answer": "Stored cool and dry, they still play like decent urethane balls, but rubber cores slowly lose some resilience over many years and covers can yellow. They are fine for practice or casual rounds; for consistency, buy a current ball."},
-    {"question": "Why does Callaway use hexagonal dimples?", "answer": "Callaway's HEX aerodynamics use hexagons and pentagons instead of round dimples to cover more of the surface with dimples and reduce drag, which helps the ball hold its flight, particularly into wind."}
-  ]
+    {
+      "question": "Does Callaway still make the HEX Tour golf ball?",
+      "answer": "No. The HX Tour, HEX Black Tour and HEX Chrome tour balls were discontinued years ago. Callaway still uses HEX dimple patterns, but on the Chrome Tour, Chrome Tour X and Chrome Soft balls."
+    },
+    {
+      "question": "What replaced the Callaway HEX Black Tour?",
+      "answer": "The Chrome Soft family, launched in 2015, became Callaway's premium line. Today's closest equivalents are Chrome Tour (mid-compression, Pro V1 rival) and Chrome Tour X (higher spin, Pro V1x rival)."
+    },
+    {
+      "question": "Are old Callaway HEX Tour balls still good?",
+      "answer": "Stored cool and dry, they still play like decent urethane balls, but rubber cores slowly lose some resilience over many years and covers can yellow. They are fine for practice or casual rounds; for consistency, buy a current ball."
+    },
+    {
+      "question": "Why does Callaway use hexagonal dimples?",
+      "answer": "Callaway's HEX aerodynamics use hexagons and pentagons instead of round dimples to cover more of the surface with dimples and reduce drag, which helps the ball hold its flight, particularly into wind."
+    }
+  ],
+  "image": "/images/articles/callaway-hex-tour-golf-ball-review.webp",
+  "imageAlt": "Macro close-up of a white golf ball's dimple pattern resting on dewy fairway grass",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 The Callaway HEX Tour isn't made any more. Callaway's HEX-dimple tour balls (**HX Tour, HEX Black Tour and HEX Chrome**) were all discontinued years ago. If you find a box now, it's old stock or recycled. The current balls that do the same job are **Callaway Chrome Tour** and **Chrome Tour X**, which still use HEX dimples.

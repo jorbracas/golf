@@ -8,21 +8,53 @@
   "category": "Golf Basics",
   "date": "2026-10-05",
   "updated": "2026-10-05",
-  "redirectFrom": ["/shop/golf-stick-is-called"],
-  "related": ["/shop/golf-bag-checklist", "/shop/golf-driver-head-size-guide", "/shop/callaway-edge-womens-golf-set-review", "/shop/what-is-a-good-golf-score"],
+  "redirectFrom": [
+    "/shop/golf-stick-is-called"
+  ],
+  "related": [
+    "/shop/golf-bag-checklist",
+    "/shop/golf-driver-head-size-guide",
+    "/shop/callaway-edge-womens-golf-set-review",
+    "/shop/what-is-a-good-golf-score"
+  ],
   "sources": [
-    ["USGA – Rules of Golf, Rule 4 (Equipment; 14-club limit)", "https://www.usga.org/content/usga/home-page/custom-search-pages/rules/2019-golf-rules-and-interpretations/fr-rule-4.html"]
+    [
+      "USGA – Rules of Golf, Rule 4 (Equipment; 14-club limit)",
+      "https://www.usga.org/content/usga/home-page/custom-search-pages/rules/2019-golf-rules-and-interpretations/fr-rule-4.html"
+    ]
   ],
   "amazon": [
-    ["Complete beginner golf club sets", "complete golf club set beginner"],
-    ["Golf club head covers", "golf club head covers set"],
-    ["Golf club cleaning brushes", "golf club brush groove cleaner"]
+    [
+      "Complete beginner golf club sets",
+      "complete golf club set beginner"
+    ],
+    [
+      "Golf club head covers",
+      "golf club head covers set"
+    ],
+    [
+      "Golf club cleaning brushes",
+      "golf club brush groove cleaner"
+    ]
   ],
   "faq": [
-    {"question": "What is the golf stick called?", "answer": "A golf club. Each club has a grip, a shaft and a clubhead; the different types are driver, fairway woods, hybrids, irons, wedges and putter."},
-    {"question": "How many clubs are in a golf bag?", "answer": "Up to 14 are allowed under the Rules of Golf. A typical set is a driver, one or two fairway woods or hybrids, irons from about 5 to 9, two to four wedges and a putter."},
-    {"question": "What is the stick on the green called?", "answer": "That is the flagstick (or 'pin'), which marks the hole. You may leave it in or take it out when putting."}
-  ]
+    {
+      "question": "What is the golf stick called?",
+      "answer": "A golf club. Each club has a grip, a shaft and a clubhead; the different types are driver, fairway woods, hybrids, irons, wedges and putter."
+    },
+    {
+      "question": "How many clubs are in a golf bag?",
+      "answer": "Up to 14 are allowed under the Rules of Golf. A typical set is a driver, one or two fairway woods or hybrids, irons from about 5 to 9, two to four wedges and a putter."
+    },
+    {
+      "question": "What is the stick on the green called?",
+      "answer": "That is the flagstick (or 'pin'), which marks the hole. You may leave it in or take it out when putting."
+    }
+  ],
+  "image": "/images/articles/what-is-a-golf-stick-called.webp",
+  "imageAlt": "A full set of 14 golf clubs laid out on grass from driver and fairway woods through the irons and wedges to the putter",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 The "stick" you hit a golf ball with is called a **golf club**. Golfers carry a set of different clubs, up to **14** under the Rules of Golf, because each one hits the ball a different height and distance.

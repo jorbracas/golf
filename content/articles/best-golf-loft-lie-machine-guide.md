@@ -8,23 +8,62 @@
   "category": "Clubs & Shafts",
   "date": "2026-01-14",
   "updated": "2026-10-05",
-  "related": ["/shop/best-forgiving-golf-irons-guide", "/shop/standard-length-of-golf-irons", "/blog/how-to-measure-for-golf-shaft-length", "/shop/best-golf-impact-tape"],
+  "related": [
+    "/shop/best-forgiving-golf-irons-guide",
+    "/shop/standard-length-of-golf-irons",
+    "/blog/how-to-measure-for-golf-shaft-length",
+    "/shop/best-golf-impact-tape"
+  ],
   "sources": [
-    ["Mitchell Golf – FAQs (loft & lie machines)", "https://www.mitchellgolf.com/faqs/"],
-    ["GolfWRX – Golf Mechanix vs Mitchell cost difference", "https://forums.golfwrx.com/topic/1980388-golf-mechanix-vs-mitchell-why-the-massive-cost-difference/"],
-    ["Golfmechanix – Lie and loft altering tools", "https://www.golfmechanix.com/co/items.aspx?Pdts=15"]
+    [
+      "Mitchell Golf – FAQs (loft & lie machines)",
+      "https://www.mitchellgolf.com/faqs/"
+    ],
+    [
+      "GolfWRX – Golf Mechanix vs Mitchell cost difference",
+      "https://forums.golfwrx.com/topic/1980388-golf-mechanix-vs-mitchell-why-the-massive-cost-difference/"
+    ],
+    [
+      "Golfmechanix – Lie and loft altering tools",
+      "https://www.golfmechanix.com/co/items.aspx?Pdts=15"
+    ]
   ],
   "amazon": [
-    ["Lie angle boards", "golf lie board"],
-    ["Golf impact tape", "golf impact tape"],
-    ["Golf club loft and lie gauges", "golf loft lie gauge"]
+    [
+      "Lie angle boards",
+      "golf lie board"
+    ],
+    [
+      "Golf impact tape",
+      "golf impact tape"
+    ],
+    [
+      "Golf club loft and lie gauges",
+      "golf loft lie gauge"
+    ]
   ],
   "faq": [
-    {"question": "What does a loft and lie machine do?", "answer": "It clamps the clubhead and lets you measure and bend the hosel to change loft (how much the face points up) and lie (the angle between shaft and ground at address), so irons and wedges fit your swing and keep consistent distance gaps."},
-    {"question": "Can you bend cast irons?", "answer": "Often a little, but cast heads are harder and less forgiving to bend than forged ones, so adjustments are smaller and riskier. Some cast and multi-material heads should not be bent at all; check the manufacturer's guidance."},
-    {"question": "Is it worth buying a loft and lie machine for home use?", "answer": "Only if you build or adjust clubs regularly, for family or club members as well as yourself. For one set, a club fitter's loft-and-lie check is usually quick and inexpensive."},
-    {"question": "How often should I check my loft and lie?", "answer": "Many fitters suggest checking once a season if you play or practise a lot, especially with soft forged irons and wedges hit off mats, which can move over time."}
-  ]
+    {
+      "question": "What does a loft and lie machine do?",
+      "answer": "It clamps the clubhead and lets you measure and bend the hosel to change loft (how much the face points up) and lie (the angle between shaft and ground at address), so irons and wedges fit your swing and keep consistent distance gaps."
+    },
+    {
+      "question": "Can you bend cast irons?",
+      "answer": "Often a little, but cast heads are harder and less forgiving to bend than forged ones, so adjustments are smaller and riskier. Some cast and multi-material heads should not be bent at all; check the manufacturer's guidance."
+    },
+    {
+      "question": "Is it worth buying a loft and lie machine for home use?",
+      "answer": "Only if you build or adjust clubs regularly, for family or club members as well as yourself. For one set, a club fitter's loft-and-lie check is usually quick and inexpensive."
+    },
+    {
+      "question": "How often should I check my loft and lie?",
+      "answer": "Many fitters suggest checking once a season if you play or practise a lot, especially with soft forged irons and wedges hit off mats, which can move over time."
+    }
+  ],
+  "image": "/images/articles/best-golf-loft-lie-machine-guide.webp",
+  "imageAlt": "Club fitter in gloves bending an iron in a loft and lie machine with an angle gauge, other irons on the workbench",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 A loft and lie machine clamps a clubhead so you can **measure and bend the hosel**, changing **loft** (how much the face points up) and **lie** (the shaft angle at address). It keeps distance gaps even and stops the face pointing left or right of your target at impact. **Forged irons bend easily and safely; cast irons are harder and riskier to adjust.** For a single set, a club fitter is cheaper than buying a machine.
