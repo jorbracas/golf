@@ -8,21 +8,54 @@
   "category": "Apparel & Shoes",
   "date": "2026-03-12",
   "updated": "2026-10-05",
-  "related": ["/shop/cadet-vs-regular-golf-glove", "/shop/best-vice-golf-glove", "/shop/footjoy-cadet-golf-gloves-review", "/shop/golf-bag-checklist"],
+  "related": [
+    "/shop/cadet-vs-regular-golf-glove",
+    "/shop/best-vice-golf-glove",
+    "/shop/footjoy-cadet-golf-gloves-review",
+    "/shop/golf-bag-checklist"
+  ],
   "sources": [
-    ["USGA – Rules of Golf, Rule 4 (Equipment)", "https://www.usga.org/content/usga/home-page/custom-search-pages/rules/2019-golf-rules-and-interpretations/fr-rule-4.html"]
+    [
+      "USGA – Rules of Golf, Rule 4 (Equipment)",
+      "https://www.usga.org/content/usga/home-page/custom-search-pages/rules/2019-golf-rules-and-interpretations/fr-rule-4.html"
+    ]
   ],
   "amazon": [
-    ["Men's golf gloves (worn on left hand)", "mens golf glove left hand"],
-    ["Golf gloves for left-handed golfers (worn on right hand)", "golf glove right hand left handed golfer"],
-    ["Rain golf gloves (pairs)", "rain golf gloves pair"]
+    [
+      "Men's golf gloves (worn on left hand)",
+      "mens golf glove left hand"
+    ],
+    [
+      "Golf gloves for left-handed golfers (worn on right hand)",
+      "golf glove right hand left handed golfer"
+    ],
+    [
+      "Rain golf gloves (pairs)",
+      "rain golf gloves pair"
+    ]
   ],
   "faq": [
-    {"question": "Which hand does a right-handed golfer wear a glove on?", "answer": "The left hand, which is the lead hand at the top of the grip. Left-handed golfers wear it on the right hand."},
-    {"question": "Why do golfers only wear one glove?", "answer": "The lead hand does most of the gripping and is most prone to slipping and blisters. Most players keep the trail hand bare for feel, though wearing two gloves is completely legal."},
-    {"question": "Should I wear a golf glove when putting?", "answer": "Most golfers take it off for putting and delicate chips to get more feel, but it is personal preference."},
-    {"question": "How should a golf glove fit?", "answer": "Snug with no loose material at the fingertips or palm, and the closure tab should fasten about three-quarters of the way across. Cadet sizes have shorter fingers and a wider palm."}
-  ]
+    {
+      "question": "Which hand does a right-handed golfer wear a glove on?",
+      "answer": "The left hand, which is the lead hand at the top of the grip. Left-handed golfers wear it on the right hand."
+    },
+    {
+      "question": "Why do golfers only wear one glove?",
+      "answer": "The lead hand does most of the gripping and is most prone to slipping and blisters. Most players keep the trail hand bare for feel, though wearing two gloves is completely legal."
+    },
+    {
+      "question": "Should I wear a golf glove when putting?",
+      "answer": "Most golfers take it off for putting and delicate chips to get more feel, but it is personal preference."
+    },
+    {
+      "question": "How should a golf glove fit?",
+      "answer": "Snug with no loose material at the fingertips or palm, and the closure tab should fasten about three-quarters of the way across. Cadet sizes have shorter fingers and a wider palm."
+    }
+  ],
+  "image": "/images/articles/which-hand-do-you-wear-a-golf-glove.webp",
+  "imageAlt": "Right-handed golfer's grip at address with a white golf glove on the top (left) hand and the right hand bare",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 You wear a golf glove on your **lead hand**, the one at the top of the grip. For a **right-handed golfer that's the left hand**, and for a **left-handed golfer it's the right hand**. When you shop, "left-hand glove" means a glove worn *on* the left hand, which is the one right-handed players buy.

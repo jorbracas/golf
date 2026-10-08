@@ -8,22 +8,58 @@
   "category": "Technique",
   "date": "2025-11-05",
   "updated": "2026-10-05",
-  "related": ["/blog/how-to-stop-swaying-in-the-golf-swing", "/blog/how-to-get-more-distance-in-golf", "/blog/golf-setup-posture", "/shop/best-golf-swing-speed-tracker"],
+  "related": [
+    "/blog/how-to-stop-swaying-in-the-golf-swing",
+    "/blog/how-to-get-more-distance-in-golf",
+    "/blog/golf-setup-posture",
+    "/shop/best-golf-swing-speed-tracker"
+  ],
   "sources": [
-    ["Gavin Publishers – Lead and trail legs ground reaction forces and timing in average golfers", "https://www.gavinpublishers.com/article/view/lead-and-trail-legs-ground-reaction-forces-and-timing-during-the-golf-swing-with-different-clubs-in-average-golfers"],
-    ["Hume et al. – The role of biomechanics in maximising distance and accuracy of golf shots (ResearchGate)", "https://www.researchgate.net/publication/7845632_The_Role_of_Biomechanics_in_Maximising_Distance_and_Accuracy_of_Golf_Shots"]
+    [
+      "Gavin Publishers – Lead and trail legs ground reaction forces and timing in average golfers",
+      "https://www.gavinpublishers.com/article/view/lead-and-trail-legs-ground-reaction-forces-and-timing-during-the-golf-swing-with-different-clubs-in-average-golfers"
+    ],
+    [
+      "Hume et al. – The role of biomechanics in maximising distance and accuracy of golf shots (ResearchGate)",
+      "https://www.researchgate.net/publication/7845632_The_Role_of_Biomechanics_in_Maximising_Distance_and_Accuracy_of_Golf_Shots"
+    ]
   ],
   "amazon": [
-    ["Golf alignment sticks", "golf alignment sticks"],
-    ["Golf swing speed radars", "golf swing speed radar"],
-    ["Balance / stability pads", "balance pad foam"]
+    [
+      "Golf alignment sticks",
+      "golf alignment sticks"
+    ],
+    [
+      "Golf swing speed radars",
+      "golf swing speed radar"
+    ],
+    [
+      "Balance / stability pads",
+      "balance pad foam"
+    ]
   ],
   "faq": [
-    {"question": "How should my legs move in the golf swing?", "answer": "In the backswing the trail leg holds its flex while pressure moves into the trail side; in transition pressure shifts toward the lead foot, then the lead leg firms up ('posts') through impact so the hips can keep rotating."},
-    {"question": "What does 'posting' the lead leg mean?", "answer": "Straightening or firming the lead leg through impact. It acts like a brake on the lower body's lateral movement and helps convert that motion into rotation and club speed."},
-    {"question": "Why do I sway in the golf swing?", "answer": "Usually from shifting the hips sideways instead of turning, or letting the trail knee straighten or bow outward. Feeling pressure in the inside of the trail foot and turning around a stable trail leg helps."},
-    {"question": "Do my legs add distance?", "answer": "Yes. Research on golf biomechanics shows the legs push against the ground to create the forces that drive rotation; better ground use is one of the main differences between faster and slower swingers."}
-  ]
+    {
+      "question": "How should my legs move in the golf swing?",
+      "answer": "In the backswing the trail leg holds its flex while pressure moves into the trail side; in transition pressure shifts toward the lead foot, then the lead leg firms up ('posts') through impact so the hips can keep rotating."
+    },
+    {
+      "question": "What does 'posting' the lead leg mean?",
+      "answer": "Straightening or firming the lead leg through impact. It acts like a brake on the lower body's lateral movement and helps convert that motion into rotation and club speed."
+    },
+    {
+      "question": "Why do I sway in the golf swing?",
+      "answer": "Usually from shifting the hips sideways instead of turning, or letting the trail knee straighten or bow outward. Feeling pressure in the inside of the trail foot and turning around a stable trail leg helps."
+    },
+    {
+      "question": "Do my legs add distance?",
+      "answer": "Yes. Research on golf biomechanics shows the legs push against the ground to create the forces that drive rotation; better ground use is one of the main differences between faster and slower swingers."
+    }
+  ],
+  "image": "/images/articles/how-to-use-your-legs-in-the-golf-swing.webp",
+  "imageAlt": "Golfer's legs just after impact on a range: lead leg firm, trail heel lifted and turf flying from the divot",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 Your legs power the golf swing by **pushing against the ground**. In simple terms: **load into the trail side in the backswing, shift pressure toward the lead foot as you start down, then firm up ("post") the lead leg through impact** so your hips can keep turning. Get that sequence right and you'll find speed and solid contact without swinging harder with your arms.

@@ -8,22 +8,58 @@
   "category": "How To",
   "date": "2026-01-06",
   "updated": "2026-10-05",
-  "related": ["/shop/what-is-a-good-golf-score", "/shop/golf-handicap-calculator", "/shop/how-long-does-a-game-of-golf-last", "/shop/what-is-a-golf-stick-called"],
+  "related": [
+    "/shop/what-is-a-good-golf-score",
+    "/shop/golf-handicap-calculator",
+    "/shop/how-long-does-a-game-of-golf-last",
+    "/shop/what-is-a-golf-stick-called"
+  ],
   "sources": [
-    ["MyGolfSpy – What tees should I play? Use this distance chart", "https://mygolfspy.com/news-opinion/instruction/what-tees-should-i-play-use-this-distance-chart/"],
-    ["LiveAbout – What 'the tips' means in golf", "https://www.liveabout.com/what-are-the-tips-on-a-golf-course-1564283"]
+    [
+      "MyGolfSpy – What tees should I play? Use this distance chart",
+      "https://mygolfspy.com/news-opinion/instruction/what-tees-should-i-play-use-this-distance-chart/"
+    ],
+    [
+      "LiveAbout – What 'the tips' means in golf",
+      "https://www.liveabout.com/what-are-the-tips-on-a-golf-course-1564283"
+    ]
   ],
   "amazon": [
-    ["Golf rangefinders", "golf rangefinder"],
-    ["Distance golf balls", "distance golf balls"],
-    ["Golf yardage books / scorecard holders", "golf yardage book holder"]
+    [
+      "Golf rangefinders",
+      "golf rangefinder"
+    ],
+    [
+      "Distance golf balls",
+      "distance golf balls"
+    ],
+    [
+      "Golf yardage books / scorecard holders",
+      "golf yardage book holder"
+    ]
   ],
   "faq": [
-    {"question": "What does 'the tips' mean in golf?", "answer": "The tips are the back tees, the teeing ground furthest from the green on each hole, which makes the course play at its longest. They are often called the championship tees."},
-    {"question": "Should I play from the tips?", "answer": "Only if your distance supports it. A common guide from the 'Tee It Forward' campaign is to multiply your average driver distance by 28 and play the set of tees closest to that total 18-hole yardage."},
-    {"question": "Does playing the tips affect my handicap?", "answer": "Not unfairly. Each set of tees has its own course rating and slope, so your score differential is adjusted for the extra difficulty. Playing tees that are too long usually just makes rounds slower and less fun."},
-    {"question": "What colour are the tips?", "answer": "There is no universal colour. Black, blue or gold are common for the back tees, but every course sets its own scheme, so check the scorecard yardages."}
-  ]
+    {
+      "question": "What does 'the tips' mean in golf?",
+      "answer": "The tips are the back tees, the teeing ground furthest from the green on each hole, which makes the course play at its longest. They are often called the championship tees."
+    },
+    {
+      "question": "Should I play from the tips?",
+      "answer": "Only if your distance supports it. A common guide from the 'Tee It Forward' campaign is to multiply your average driver distance by 28 and play the set of tees closest to that total 18-hole yardage."
+    },
+    {
+      "question": "Does playing the tips affect my handicap?",
+      "answer": "Not unfairly. Each set of tees has its own course rating and slope, so your score differential is adjusted for the extra difficulty. Playing tees that are too long usually just makes rounds slower and less fun."
+    },
+    {
+      "question": "What colour are the tips?",
+      "answer": "There is no universal colour. Black, blue or gold are common for the back tees, but every course sets its own scheme, so check the scorecard yardages."
+    }
+  ],
+  "image": "/images/articles/what-does-playing-the-tips-mean-in-golf.webp",
+  "imageAlt": "Back tee box with black tee markers looking down a long misty par-4 fairway at sunrise",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 "Playing the tips" means playing from the **back tees**, the teeing ground **furthest from each green**, so the course plays at its **longest**. They're often called the championship tees. Colours vary by course (black, blue and gold are common), so check the yardage on the scorecard rather than the colour of the markers.

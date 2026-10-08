@@ -8,23 +8,62 @@
   "category": "Indoor & Practice",
   "date": "2026-01-28",
   "updated": "2026-10-05",
-  "related": ["/shop/best-golf-impact-screen", "/shop/best-golf-sim-projector", "/shop/golf-simulator-room-size", "/shop/golf-simulator-cost"],
+  "related": [
+    "/shop/best-golf-impact-screen",
+    "/shop/best-golf-sim-projector",
+    "/shop/golf-simulator-room-size",
+    "/shop/golf-simulator-cost"
+  ],
   "sources": [
-    ["BenQ – Golf simulator projector buying guide", "https://www.benq.com/en-us/golf-simulator-projector/buying-guide.html"],
-    ["Projector Central – Picking a projector for a golf simulator", "https://www.projectorcentral.com/Picking-a-Projector-for-a-Golf-Simulator.htm"],
-    ["Home Performance Lab – Golf simulator impact screen guide", "https://homeperformancelab.com/best-golf-simulator-impact-screen/"]
+    [
+      "BenQ – Golf simulator projector buying guide",
+      "https://www.benq.com/en-us/golf-simulator-projector/buying-guide.html"
+    ],
+    [
+      "Projector Central – Picking a projector for a golf simulator",
+      "https://www.projectorcentral.com/Picking-a-Projector-for-a-Golf-Simulator.htm"
+    ],
+    [
+      "Home Performance Lab – Golf simulator impact screen guide",
+      "https://homeperformancelab.com/best-golf-simulator-impact-screen/"
+    ]
   ],
   "amazon": [
-    ["Short-throw projectors", "short throw projector golf simulator"],
-    ["Projector ceiling mounts", "projector ceiling mount adjustable"],
-    ["Golf impact screens", "golf impact screen"]
+    [
+      "Short-throw projectors",
+      "short throw projector golf simulator"
+    ],
+    [
+      "Projector ceiling mounts",
+      "projector ceiling mount adjustable"
+    ],
+    [
+      "Golf impact screens",
+      "golf impact screen"
+    ]
   ],
   "faq": [
-    {"question": "What projector do I need for a golf simulator?", "answer": "Usually a short-throw projector (throw ratio around 1.0 or less) with at least 3,000 lumens, more like 4,000+ for screens over 10 ft wide, and an aspect ratio that matches your screen."},
-    {"question": "Where should a golf simulator projector be mounted?", "answer": "On the ceiling just behind and above the hitting area, roughly 2–3 ft behind the tee, so it's out of the swing path and doesn't cast your shadow on the screen."},
-    {"question": "Is 4:3 or 16:9 better for a golf simulator?", "answer": "4:3 (or near-square) fills more of the hitting area in compact rooms; 16:9 or 16:10 gives a wider, more cinematic view and doubles as a home theatre. Match the projector's ratio to the screen."},
-    {"question": "Laser or lamp projector for a golf sim?", "answer": "Laser light sources last around 20,000 hours against roughly 4,000–6,000 for lamps and need less maintenance, but cost more up front."}
-  ]
+    {
+      "question": "What projector do I need for a golf simulator?",
+      "answer": "Usually a short-throw projector (throw ratio around 1.0 or less) with at least 3,000 lumens, more like 4,000+ for screens over 10 ft wide, and an aspect ratio that matches your screen."
+    },
+    {
+      "question": "Where should a golf simulator projector be mounted?",
+      "answer": "On the ceiling just behind and above the hitting area, roughly 2–3 ft behind the tee, so it's out of the swing path and doesn't cast your shadow on the screen."
+    },
+    {
+      "question": "Is 4:3 or 16:9 better for a golf simulator?",
+      "answer": "4:3 (or near-square) fills more of the hitting area in compact rooms; 16:9 or 16:10 gives a wider, more cinematic view and doubles as a home theatre. Match the projector's ratio to the screen."
+    },
+    {
+      "question": "Laser or lamp projector for a golf sim?",
+      "answer": "Laser light sources last around 20,000 hours against roughly 4,000–6,000 for lamps and need less maintenance, but cost more up front."
+    }
+  ],
+  "image": "/images/articles/best-golf-screen-and-projector.webp",
+  "imageAlt": "Ceiling-mounted projector beam lighting a golf simulator impact screen with a coastal golf hole, viewed from behind the hitting mat",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 The screen and projector have to be chosen **together**. The **screen size and aspect ratio** set the image you need, and the **projector's throw ratio and brightness** decide whether it can fill that image from a safe mounting spot. For most home sims that means a **short-throw projector with 3,000–4,000+ lumens, mounted above and just behind the hitting area**, aimed at a screen of the **same aspect ratio**.

@@ -8,23 +8,62 @@
   "category": "Clubs & Shafts",
   "date": "2025-11-06",
   "updated": "2026-10-05",
-  "related": ["/shop/stiff-vs-regular-golf-shaft", "/shop/best-golf-loft-lie-machine-guide", "/shop/best-hzrdus-golf-shafts", "/shop/best-golf-swing-speed-tracker"],
+  "related": [
+    "/shop/stiff-vs-regular-golf-shaft",
+    "/shop/best-golf-loft-lie-machine-guide",
+    "/shop/best-hzrdus-golf-shafts",
+    "/shop/best-golf-swing-speed-tracker"
+  ],
   "sources": [
-    ["LaunchPoint Golf – Steel vs graphite shafts for irons", "https://launchpointgolf.com/articles/steel-vs-graphite-shafts-irons/"],
-    ["Golf Club Brokers – Golf shaft guide", "https://www.golfclubbrokers.com/blog/golf-shaft-guide"],
-    ["Fit My Golf Clubs – KBS shaft chart", "https://www.fitmygolfclubs.com/blog/kbs-shaft-chart"]
+    [
+      "LaunchPoint Golf – Steel vs graphite shafts for irons",
+      "https://launchpointgolf.com/articles/steel-vs-graphite-shafts-irons/"
+    ],
+    [
+      "Golf Club Brokers – Golf shaft guide",
+      "https://www.golfclubbrokers.com/blog/golf-shaft-guide"
+    ],
+    [
+      "Fit My Golf Clubs – KBS shaft chart",
+      "https://www.fitmygolfclubs.com/blog/kbs-shaft-chart"
+    ]
   ],
   "amazon": [
-    ["Steel iron shafts", "steel iron shafts golf"],
-    ["Graphite iron shafts", "graphite iron shafts golf"],
-    ["Golf swing speed radars", "golf swing speed radar"]
+    [
+      "Steel iron shafts",
+      "steel iron shafts golf"
+    ],
+    [
+      "Graphite iron shafts",
+      "graphite iron shafts golf"
+    ],
+    [
+      "Golf swing speed radars",
+      "golf swing speed radar"
+    ]
   ],
   "faq": [
-    {"question": "Are steel or graphite iron shafts better?", "answer": "Neither is better for everyone. Steel (about 110–130 g, or ~94–104 g for lightweight steel) suits faster, aggressive swings that want control and direct feedback. Graphite (about 50–125 g) suits slower swings, golfers with joint pain, and anyone who wants more launch and vibration damping; heavier graphite now performs like steel for many players."},
-    {"question": "What flex iron shaft do I need?", "answer": "As a rough guide, faster 6-iron speeds (around 80+ mph) usually suit stiff steel; slower speeds suit regular or lighter shafts, often graphite. Tempo matters too: quick, aggressive transitions often need a firmer, heavier shaft."},
-    {"question": "How much does it cost to reshaft irons?", "answer": "A full set reshaft typically costs about $500–$900, testing a single 7-iron about $80–$130 and a fitting session about $49–$175, so testing before reshafting is money well spent."},
-    {"question": "Do tour pros use graphite iron shafts?", "answer": "Some do. Players such as Bryson DeChambeau and Tony Finau have used graphite in their irons, showing that modern heavier graphite isn't just for seniors."}
-  ]
+    {
+      "question": "Are steel or graphite iron shafts better?",
+      "answer": "Neither is better for everyone. Steel (about 110–130 g, or ~94–104 g for lightweight steel) suits faster, aggressive swings that want control and direct feedback. Graphite (about 50–125 g) suits slower swings, golfers with joint pain, and anyone who wants more launch and vibration damping; heavier graphite now performs like steel for many players."
+    },
+    {
+      "question": "What flex iron shaft do I need?",
+      "answer": "As a rough guide, faster 6-iron speeds (around 80+ mph) usually suit stiff steel; slower speeds suit regular or lighter shafts, often graphite. Tempo matters too: quick, aggressive transitions often need a firmer, heavier shaft."
+    },
+    {
+      "question": "How much does it cost to reshaft irons?",
+      "answer": "A full set reshaft typically costs about $500–$900, testing a single 7-iron about $80–$130 and a fitting session about $49–$175, so testing before reshafting is money well spent."
+    },
+    {
+      "question": "Do tour pros use graphite iron shafts?",
+      "answer": "Some do. Players such as Bryson DeChambeau and Tony Finau have used graphite in their irons, showing that modern heavier graphite isn't just for seniors."
+    }
+  ],
+  "image": "/images/articles/best-golf-iron-shafts.webp",
+  "imageAlt": "Steel and graphite iron shafts in a rack in a club-fitting workshop, with loose shafts and a workbench behind",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 The best iron shaft is the one that matches your **swing speed, tempo and body**. As a rule: **heavier steel (about 110–130 g)** suits fast, aggressive swings, **lightweight steel (~94–104 g)** suits most average players, and **graphite (about 50–125 g)** suits slower swings and anyone with sore elbows or wrists. Heavier graphite now plays very like steel. Test before you reshaft a whole set.

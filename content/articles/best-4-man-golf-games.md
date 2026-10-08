@@ -8,22 +8,57 @@
   "category": "Golf Basics",
   "date": "2026-02-25",
   "updated": "2026-10-05",
-  "redirectFrom": ["/shop/best-3-person-golf-games"],
-  "related": ["/blog/how-to-play-a-scramble-in-golf", "/blog/how-to-play-best-ball-golf", "/blog/how-do-skins-work-in-golf", "/shop/golf-handicap-calculator"],
+  "redirectFrom": [
+    "/shop/best-3-person-golf-games"
+  ],
+  "related": [
+    "/blog/how-to-play-a-scramble-in-golf",
+    "/blog/how-to-play-best-ball-golf",
+    "/blog/how-do-skins-work-in-golf",
+    "/shop/golf-handicap-calculator"
+  ],
   "sources": [
-    ["USGA – Rules of Golf, Rule 21 (Stableford, Par/Bogey, Maximum Score)", "https://www.usga.org/content/usga/home-page/custom-search-pages/rules/2019-golf-rules-and-interpretations/fr-rule-21.html"]
+    [
+      "USGA – Rules of Golf, Rule 21 (Stableford, Par/Bogey, Maximum Score)",
+      "https://www.usga.org/content/usga/home-page/custom-search-pages/rules/2019-golf-rules-and-interpretations/fr-rule-21.html"
+    ]
   ],
   "amazon": [
-    ["Golf scorecard holders", "golf scorecard holder"],
-    ["Golf betting / game counters", "golf score counter"],
-    ["Golf rangefinders", "golf rangefinder"]
+    [
+      "Golf scorecard holders",
+      "golf scorecard holder"
+    ],
+    [
+      "Golf betting / game counters",
+      "golf score counter"
+    ],
+    [
+      "Golf rangefinders",
+      "golf rangefinder"
+    ]
   ],
   "faq": [
-    {"question": "What is the most popular golf game for 4 players?", "answer": "The scramble: all four hit, the team picks the best shot, everyone plays from there. It's fast, friendly and works for mixed abilities."},
-    {"question": "What is a good betting game for a foursome?", "answer": "Skins, Nassau and Wolf are the classics. Skins awards a prize for winning a hole outright; Nassau splits the match into front nine, back nine and overall; Wolf rotates partnerships every hole."},
-    {"question": "How does Stableford scoring work?", "answer": "Points per hole based on your score relative to par (or net par with handicap): typically 0 for double bogey or worse, 1 bogey, 2 par, 3 birdie, 4 eagle. Highest total wins, and blow-up holes cost little."},
-    {"question": "What golf games can 3 players play?", "answer": "Skins, Wolf (with a lone-wolf rule), Stableford, Bingo Bango Bongo and 'nines' (9 points shared per hole) all work well for threesomes."}
-  ]
+    {
+      "question": "What is the most popular golf game for 4 players?",
+      "answer": "The scramble: all four hit, the team picks the best shot, everyone plays from there. It's fast, friendly and works for mixed abilities."
+    },
+    {
+      "question": "What is a good betting game for a foursome?",
+      "answer": "Skins, Nassau and Wolf are the classics. Skins awards a prize for winning a hole outright; Nassau splits the match into front nine, back nine and overall; Wolf rotates partnerships every hole."
+    },
+    {
+      "question": "How does Stableford scoring work?",
+      "answer": "Points per hole based on your score relative to par (or net par with handicap): typically 0 for double bogey or worse, 1 bogey, 2 par, 3 birdie, 4 eagle. Highest total wins, and blow-up holes cost little."
+    },
+    {
+      "question": "What golf games can 3 players play?",
+      "answer": "Skins, Wolf (with a lone-wolf rule), Stableford, Bingo Bango Bongo and 'nines' (9 points shared per hole) all work well for threesomes."
+    }
+  ],
+  "image": "/images/articles/best-4-man-golf-games.webp",
+  "imageAlt": "Four golfers on a tee box while one tees up the ball, with a golf cart and bags beside them",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 The best foursome games keep everyone in it until the 18th. The **scramble** is the friendliest, **best ball** and **Stableford** suit mixed handicaps, and **skins, Wolf and Nassau** add some competition (and small bets). Here are ten formats and how to score each.

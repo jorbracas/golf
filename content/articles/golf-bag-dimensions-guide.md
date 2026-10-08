@@ -8,21 +8,54 @@
   "category": "Bags & Push Carts",
   "date": "2026-03-06",
   "updated": "2026-10-05",
-  "related": ["/shop/best-skb-golf-travel-bag", "/shop/best-14-way-divider-golf-bag", "/blog/how-to-choose-a-golf-bag", "/shop/golf-bag-checklist"],
+  "related": [
+    "/shop/best-skb-golf-travel-bag",
+    "/shop/best-14-way-divider-golf-bag",
+    "/blog/how-to-choose-a-golf-bag",
+    "/shop/golf-bag-checklist"
+  ],
   "sources": [
-    ["Golfers Authority – How tall is a golf bag", "https://golfersauthority.com/how-tall-is-a-golf-bag/"]
+    [
+      "Golfers Authority – How tall is a golf bag",
+      "https://golfersauthority.com/how-tall-is-a-golf-bag/"
+    ]
   ],
   "amazon": [
-    ["Golf travel bags and cases", "golf travel bag hard case"],
-    ["Stand bags", "golf stand bag 14 way"],
-    ["Golf bag organiser racks for garage", "golf bag organizer garage rack"]
+    [
+      "Golf travel bags and cases",
+      "golf travel bag hard case"
+    ],
+    [
+      "Stand bags",
+      "golf stand bag 14 way"
+    ],
+    [
+      "Golf bag organiser racks for garage",
+      "golf bag organizer garage rack"
+    ]
   ],
   "faq": [
-    {"question": "How tall is a standard golf bag?", "answer": "Empty, most bags are 32–36 inches tall. Loaded with clubs, expect about 48–50 inches, because the driver and woods stick out 12–14 inches above the top."},
-    {"question": "How wide is the top of a golf bag?", "answer": "Typically about 8–10 inches across on stand and cart bags, smaller on Sunday bags and up to around 15 inches on staff bags."},
-    {"question": "Will a golf bag fit in my car trunk?", "answer": "A loaded bag needs about 48–50 inches of length. Many sedans fit a bag diagonally; small hatchbacks may need the rear seat folded or the driver removed. Measure your trunk diagonally, not just across."},
-    {"question": "Do airlines charge extra for golf bags?", "answer": "Many airlines treat a golf bag as a standard checked bag if it is within the normal weight limit (often 50 lb / 23 kg), even though it exceeds the usual size limit. Policies vary, so check your airline before you fly."}
-  ]
+    {
+      "question": "How tall is a standard golf bag?",
+      "answer": "Empty, most bags are 32–36 inches tall. Loaded with clubs, expect about 48–50 inches, because the driver and woods stick out 12–14 inches above the top."
+    },
+    {
+      "question": "How wide is the top of a golf bag?",
+      "answer": "Typically about 8–10 inches across on stand and cart bags, smaller on Sunday bags and up to around 15 inches on staff bags."
+    },
+    {
+      "question": "Will a golf bag fit in my car trunk?",
+      "answer": "A loaded bag needs about 48–50 inches of length. Many sedans fit a bag diagonally; small hatchbacks may need the rear seat folded or the driver removed. Measure your trunk diagonally, not just across."
+    },
+    {
+      "question": "Do airlines charge extra for golf bags?",
+      "answer": "Many airlines treat a golf bag as a standard checked bag if it is within the normal weight limit (often 50 lb / 23 kg), even though it exceeds the usual size limit. Policies vary, so check your airline before you fly."
+    }
+  ],
+  "image": "/images/articles/golf-bag-dimensions-guide.webp",
+  "imageAlt": "Stand bag, carry bag and cart bag lined up against a white wall next to a vertical tape measure for size comparison",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 Most golf bags are **32–36 inches tall empty** with a **top opening of about 8–10 inches**. Once you load clubs, the total height is closer to **48–50 inches**, because the driver and woods stand 12–14 inches above the top. That's the number that matters for car boots, lockers and garage racks.

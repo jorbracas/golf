@@ -9,23 +9,62 @@
   "date": "2026-10-05",
   "updated": "2026-10-05",
   "tool": "handicap",
-  "related": ["/shop/what-is-my-golf-handicap-if-i-shoot-100", "/shop/what-is-a-good-golf-score", "/blog/how-to-handicap-golf", "/blog/how-to-lower-your-golf-handicap"],
+  "related": [
+    "/shop/what-is-my-golf-handicap-if-i-shoot-100",
+    "/shop/what-is-a-good-golf-score",
+    "/blog/how-to-handicap-golf",
+    "/blog/how-to-lower-your-golf-handicap"
+  ],
   "sources": [
-    ["USGA – Rules of Handicapping, Rule 5.2a (fewer than 20 scores)", "https://www.usga.org/handicapping/roh/Content/rules/5%202a%20For%20Fewer%20Than%2020%20Scores.htm"],
-    ["Golfsidekick – How the World Handicap System works", "https://www.golfsidekick.com/knowledge/how-the-handicap-system-works/"],
-    ["USGA – Are you an average golfer?", "https://www.usga.org/content/usga/home-page/articles/2024/09/average-golfer-handicap-index.html"]
+    [
+      "USGA – Rules of Handicapping, Rule 5.2a (fewer than 20 scores)",
+      "https://www.usga.org/handicapping/roh/Content/rules/5%202a%20For%20Fewer%20Than%2020%20Scores.htm"
+    ],
+    [
+      "Golfsidekick – How the World Handicap System works",
+      "https://www.golfsidekick.com/knowledge/how-the-handicap-system-works/"
+    ],
+    [
+      "USGA – Are you an average golfer?",
+      "https://www.usga.org/content/usga/home-page/articles/2024/09/average-golfer-handicap-index.html"
+    ]
   ],
   "amazon": [
-    ["Golf scorecard holders", "golf scorecard holder"],
-    ["Golf rangefinders", "golf rangefinder slope"],
-    ["Golf stat notebooks", "golf stats notebook"]
+    [
+      "Golf scorecard holders",
+      "golf scorecard holder"
+    ],
+    [
+      "Golf rangefinders",
+      "golf rangefinder slope"
+    ],
+    [
+      "Golf stat notebooks",
+      "golf stats notebook"
+    ]
   ],
   "faq": [
-    {"question": "How is a golf handicap calculated?", "answer": "For each round, a score differential is calculated as (adjusted gross score − course rating) × 113 ÷ slope rating. Your Handicap Index is the average of your lowest 8 differentials from your most recent 20 rounds, with fewer differentials used (and small adjustments) if you have fewer than 20 scores."},
-    {"question": "How many rounds do I need for a handicap?", "answer": "Under the World Handicap System you can get a Handicap Index after 54 holes, which can be any combination of 18- and 9-hole rounds. With only three scores, your lowest differential is used, minus 2.0."},
-    {"question": "What is the maximum golf handicap?", "answer": "The maximum Handicap Index under the World Handicap System is 54.0."},
-    {"question": "What is the difference between Handicap Index and course handicap?", "answer": "The Handicap Index is your portable measure of ability. Your course handicap converts it to strokes for a specific course and set of tees: Handicap Index × (slope ÷ 113) + (course rating − par)."}
-  ]
+    {
+      "question": "How is a golf handicap calculated?",
+      "answer": "For each round, a score differential is calculated as (adjusted gross score − course rating) × 113 ÷ slope rating. Your Handicap Index is the average of your lowest 8 differentials from your most recent 20 rounds, with fewer differentials used (and small adjustments) if you have fewer than 20 scores."
+    },
+    {
+      "question": "How many rounds do I need for a handicap?",
+      "answer": "Under the World Handicap System you can get a Handicap Index after 54 holes, which can be any combination of 18- and 9-hole rounds. With only three scores, your lowest differential is used, minus 2.0."
+    },
+    {
+      "question": "What is the maximum golf handicap?",
+      "answer": "The maximum Handicap Index under the World Handicap System is 54.0."
+    },
+    {
+      "question": "What is the difference between Handicap Index and course handicap?",
+      "answer": "The Handicap Index is your portable measure of ability. Your course handicap converts it to strokes for a specific course and set of tees: Handicap Index × (slope ÷ 113) + (course rating − par)."
+    }
+  ],
+  "image": "/images/articles/golf-handicap-calculator.webp",
+  "imageAlt": "Completed golf scorecard and pencil next to a smartphone showing a handicap index of 12.6, a golf ball and a tee",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 Enter your recent rounds below with the **course rating** and **slope** from the scorecard (or the course's website). The calculator works out each round's score differential and estimates your **Handicap Index** using World Handicap System rules. It also shows your **course handicap** for the last course you entered.

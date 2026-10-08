@@ -8,22 +8,58 @@
   "category": "Clubs & Shafts",
   "date": "2025-10-06",
   "updated": "2026-10-05",
-  "related": ["/shop/best-golf-driver-heads", "/blog/how-to-measure-golf-driver-length", "/shop/best-loft-driver-golf", "/shop/best-hzrdus-golf-shafts"],
+  "related": [
+    "/shop/best-golf-driver-heads",
+    "/blog/how-to-measure-golf-driver-length",
+    "/shop/best-loft-driver-golf",
+    "/shop/best-hzrdus-golf-shafts"
+  ],
   "sources": [
-    ["USGA – New Model Local Rule limits club length (46 in)", "https://www.usga.org/content/usga/home-page/articles/2021/10/local-rule-usga-randa-limits-club-length.html"],
-    ["Golf Channel – USGA, R&A local rule caps driver length at 46 inches", "https://www.golfchannel.com/news/usga-ra-make-local-rule-cap-pros-driver-length-46-inches"]
+    [
+      "USGA – New Model Local Rule limits club length (46 in)",
+      "https://www.usga.org/content/usga/home-page/articles/2021/10/local-rule-usga-randa-limits-club-length.html"
+    ],
+    [
+      "Golf Channel – USGA, R&A local rule caps driver length at 46 inches",
+      "https://www.golfchannel.com/news/usga-ra-make-local-rule-cap-pros-driver-length-46-inches"
+    ]
   ],
   "amazon": [
-    ["460cc drivers", "460cc golf driver"],
-    ["Driver headcovers", "driver headcover"],
-    ["Golf impact tape", "golf impact tape"]
+    [
+      "460cc drivers",
+      "460cc golf driver"
+    ],
+    [
+      "Driver headcovers",
+      "driver headcover"
+    ],
+    [
+      "Golf impact tape",
+      "golf impact tape"
+    ]
   ],
   "faq": [
-    {"question": "What is the maximum driver head size allowed?", "answer": "460 cubic centimetres (cc), with a small manufacturing tolerance of 10cc, under the Equipment Rules of the USGA and R&A. Heads larger than that are non-conforming and can't be used in competition or for handicap rounds."},
-    {"question": "Is a 460cc driver more forgiving?", "answer": "Generally yes. A bigger head allows a larger face and higher moment of inertia (MOI), so off-centre hits lose less ball speed and direction. That is why nearly all modern drivers are 460cc."},
-    {"question": "Who should use a smaller driver head?", "answer": "Strong players who want a lower-spinning, more workable driver sometimes prefer 440–450cc heads, and some golfers simply like the look at address. For most amateurs, 460cc is the better choice."},
-    {"question": "What is the maximum driver length?", "answer": "The Rules of Golf allow up to 48 inches, but since 2022 committees can adopt a Model Local Rule limiting drivers to 46 inches, which most professional tours use. Most stock drivers are about 45–45.75 inches."}
-  ]
+    {
+      "question": "What is the maximum driver head size allowed?",
+      "answer": "460 cubic centimetres (cc), with a small manufacturing tolerance of 10cc, under the Equipment Rules of the USGA and R&A. Heads larger than that are non-conforming and can't be used in competition or for handicap rounds."
+    },
+    {
+      "question": "Is a 460cc driver more forgiving?",
+      "answer": "Generally yes. A bigger head allows a larger face and higher moment of inertia (MOI), so off-centre hits lose less ball speed and direction. That is why nearly all modern drivers are 460cc."
+    },
+    {
+      "question": "Who should use a smaller driver head?",
+      "answer": "Strong players who want a lower-spinning, more workable driver sometimes prefer 440–450cc heads, and some golfers simply like the look at address. For most amateurs, 460cc is the better choice."
+    },
+    {
+      "question": "What is the maximum driver length?",
+      "answer": "The Rules of Golf allow up to 48 inches, but since 2022 committees can adopt a Model Local Rule limiting drivers to 46 inches, which most professional tours use. Most stock drivers are about 45–45.75 inches."
+    }
+  ],
+  "image": "/images/articles/golf-driver-head-size-guide.webp",
+  "imageAlt": "Three drivers on grass from a small vintage wooden head to a large modern 460cc head, showing how driver size has grown",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 The Rules of Golf cap a driver head at **460 cc**, with a small manufacturing tolerance of 10 cc. Almost every modern driver is built right up to that limit, because a bigger head means a bigger, more forgiving face. Unless you're a strong player who wants a lower-spinning, more workable driver, **460 cc is the right size for you.**

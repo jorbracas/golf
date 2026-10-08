@@ -8,24 +8,66 @@
   "category": "Indoor & Practice",
   "date": "2025-10-14",
   "updated": "2026-10-05",
-  "related": ["/shop/golf-simulator-room-size", "/shop/best-launch-monitors-for-golf", "/shop/golf-simulator-cost", "/shop/best-golf-impact-screen"],
+  "related": [
+    "/shop/golf-simulator-room-size",
+    "/shop/best-launch-monitors-for-golf",
+    "/shop/golf-simulator-cost",
+    "/shop/best-golf-impact-screen"
+  ],
   "sources": [
-    ["Carl's Place – Measuring your space for an indoor golf simulator", "https://www.carlofet.com/blog/measuring-your-space-for-an-indoor-golf-simulator"],
-    ["Golf Simulator Nerd – How much does a golf simulator cost?", "https://www.golfsimulatornerd.com/guides/how-much-does-golf-simulator-cost"],
-    ["BenQ – Golf simulator projector buying guide", "https://www.benq.com/en-us/golf-simulator-projector/buying-guide.html"],
-    ["Home Performance Lab – Golf simulator impact screen guide", "https://homeperformancelab.com/best-golf-simulator-impact-screen/"]
+    [
+      "Carl's Place – Measuring your space for an indoor golf simulator",
+      "https://www.carlofet.com/blog/measuring-your-space-for-an-indoor-golf-simulator"
+    ],
+    [
+      "Golf Simulator Nerd – How much does a golf simulator cost?",
+      "https://www.golfsimulatornerd.com/guides/how-much-does-golf-simulator-cost"
+    ],
+    [
+      "BenQ – Golf simulator projector buying guide",
+      "https://www.benq.com/en-us/golf-simulator-projector/buying-guide.html"
+    ],
+    [
+      "Home Performance Lab – Golf simulator impact screen guide",
+      "https://homeperformancelab.com/best-golf-simulator-impact-screen/"
+    ]
   ],
   "amazon": [
-    ["Golf simulator enclosures", "golf simulator enclosure"],
-    ["Golf impact screens", "golf impact screen"],
-    ["Golf hitting mats", "golf hitting mat"]
+    [
+      "Golf simulator enclosures",
+      "golf simulator enclosure"
+    ],
+    [
+      "Golf impact screens",
+      "golf impact screen"
+    ],
+    [
+      "Golf hitting mats",
+      "golf hitting mat"
+    ]
   ],
   "faq": [
-    {"question": "What do I need for a home golf simulator?", "answer": "A launch monitor, something to hit into (a net or an impact screen with an enclosure), a hitting mat, simulator software, and optionally a projector and computer to display the picture. Many setups start with a launch monitor, net and mat and add the rest later."},
-    {"question": "What should I buy first for a golf simulator?", "answer": "Measure the room first, then buy the launch monitor, because it decides how much depth you need and which software you can run. Screen, enclosure, mat and projector follow."},
-    {"question": "Can I use a TV instead of a projector?", "answer": "Yes. Many golfers start with a TV or tablet beside a net. A projector and impact screen give the full-size immersive picture, but they aren't required to practise with real data."},
-    {"question": "What's the most common golf simulator mistake?", "answer": "Buying parts before checking the room. Ceiling height and depth limit which launch monitors and screens work, and a low ceiling can make the driver unusable."}
-  ]
+    {
+      "question": "What do I need for a home golf simulator?",
+      "answer": "A launch monitor, something to hit into (a net or an impact screen with an enclosure), a hitting mat, simulator software, and optionally a projector and computer to display the picture. Many setups start with a launch monitor, net and mat and add the rest later."
+    },
+    {
+      "question": "What should I buy first for a golf simulator?",
+      "answer": "Measure the room first, then buy the launch monitor, because it decides how much depth you need and which software you can run. Screen, enclosure, mat and projector follow."
+    },
+    {
+      "question": "Can I use a TV instead of a projector?",
+      "answer": "Yes. Many golfers start with a TV or tablet beside a net. A projector and impact screen give the full-size immersive picture, but they aren't required to practise with real data."
+    },
+    {
+      "question": "What's the most common golf simulator mistake?",
+      "answer": "Buying parts before checking the room. Ceiling height and depth limit which launch monitors and screens work, and a low ceiling can make the driver unusable."
+    }
+  ],
+  "image": "/images/articles/best-golf-sim-buying-guide.webp",
+  "imageAlt": "Home golf simulator in a spare room with black enclosure, impact screen showing a fairway, hitting mat, launch monitor behind the ball and ceiling projector",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 The order you buy things in matters more than any single product. **Measure the room → choose the launch monitor → screen and enclosure → hitting mat → projector → software.** Get the first two right and the rest is easy to upgrade later. Get them wrong and you'll be returning things.
