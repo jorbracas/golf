@@ -121,16 +121,16 @@ export const CATEGORY_INTROS: Record<string, string> = {
 }
 
 export const CATEGORY_IMAGES: Record<string, string> = {
-  'Indoor & Practice': 'https://images.unsplash.com/photo-1592919505780-303950717480?w=800&q=80',
-  'Clubs & Shafts': 'https://images.unsplash.com/photo-1611374243504-de7b19e79b8f?w=800&q=80',
-  'Golf Balls': 'https://images.unsplash.com/photo-1593111774240-d529f12cf4ce?w=800&q=80',
-  'Bags & Push Carts': 'https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=800&q=80',
-  'Rangefinders & GPS': 'https://images.unsplash.com/photo-1592919505780-303950717480?w=800&q=80',
-  'Apparel & Shoes': 'https://images.unsplash.com/photo-1560175400-e78e1a7b6f08?w=800&q=80',
-  'Accessories': 'https://images.unsplash.com/photo-1592919505780-303950717480?w=800&q=80',
-  'Golf Carts': 'https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=800&q=80',
-  'Golf Basics': 'https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=800&q=80',
-  'Golf Equipment': 'https://images.unsplash.com/photo-1611374243504-de7b19e79b8f?w=800&q=80',
+  'Indoor & Practice': '/images/covers/cat-indoor.webp',
+  'Clubs & Shafts': '/images/covers/cat-clubs.webp',
+  'Golf Balls': '/images/covers/cat-balls.webp',
+  'Bags & Push Carts': '/images/covers/cat-bags.webp',
+  'Rangefinders & GPS': '/images/covers/cat-rangefinders.webp',
+  'Apparel & Shoes': '/images/covers/cat-apparel.webp',
+  'Accessories': '/images/covers/cat-accessories.webp',
+  'Golf Carts': '/images/covers/cat-carts.webp',
+  'Golf Basics': '/images/covers/cat-basics.webp',
+  'Golf Equipment': '/images/covers/cat-clubs.webp',
 }
 
 export function categorySlug(category: string): string {

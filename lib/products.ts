@@ -25,7 +25,7 @@ export const products: Product[] = [
     description: "The world's most played tour ball. High trajectory, low long game spin, and exceptional Drop-and-Stop greenside control with a firmer feel.",
     features: ['High trajectory, low long game spin', 'Drop-and-Stop short game control', 'Firmer feel than Pro V1', '348 tetrahedral dimple design'],
     who_uses: '',
-    image: 'https://images.unsplash.com/photo-1593111774240-d529f12cf4ce?w=600&q=80',
+    image: '/images/articles/callaway-hex-tour-golf-ball-review.webp',
     badge: 'Popular',
   },
   {
@@ -37,7 +37,7 @@ export const products: Product[] = [
     description: 'Forged precision irons with FLTD CG technology for improved launch and spin. The best feeling P770 to date, refined for the modern tour player.',
     features: ['Solid forged construction', 'FLTD CG for optimal launch', 'Precision milled face and grooves', 'Compact tour-preferred head shape'],
     who_uses: '',
-    image: 'https://images.unsplash.com/photo-1611374243504-de7b19e79b8f?w=600&q=80',
+    image: '/images/articles/best-golf-iron-shafts.webp',
     badge: 'Best Seller',
   },
   {
@@ -49,7 +49,7 @@ export const products: Product[] = [
     description: 'Milled from 303 stainless steel, the Newport 2 is the most trusted putter shape on tour. Dual-milled face for consistent distance control and pure roll.',
     features: ['303 stainless steel milling', 'Dual-milled face texture', 'Interchangeable sole weights', 'Straight step steel shaft'],
     who_uses: '',
-    image: 'https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=600&q=80',
+    image: '/images/articles/most-expensive-golf-putters.webp',
   },
   {
     id: 'ping-i230',
@@ -60,7 +60,7 @@ export const products: Product[] = [
     description: "Players' irons delivering exceptional consistency and feel. MicroMax grooves and a rounded lead edge give tour-level precision with added forgiveness.",
     features: ['MicroMax precision-milled grooves', 'Activated elastomer insert for feel', 'Rounded lead edge for clean turf', 'Consistent distance gapping throughout'],
     who_uses: '',
-    image: 'https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=600&q=80',
+    image: '/images/articles/best-golf-loft-lie-machine-guide.webp',
     badge: "Editor's Pick",
   },
   {
@@ -72,7 +72,7 @@ export const products: Product[] = [
     description: 'The iron of choice for tour professionals demanding maximum workability. Co-forged construction delivers pure feedback on every strike.',
     features: ['Co-forged 1025 carbon steel', 'Max-impact insert', 'Compact players profile', 'Extreme precision CNC milled face'],
     who_uses: '',
-    image: 'https://images.unsplash.com/photo-1560175400-e78e1a7b6f08?w=600&q=80',
+    image: '/images/articles/what-is-a-golf-stick-called.webp',
   },
   {
     id: 'callaway-chrome-tour',
@@ -83,7 +83,7 @@ export const products: Product[] = [
     description: 'Tour urethane cover ball with Graphene-infused dual SoftFast Core. Exceptional speed, spin control, and feel from tee to green.',
     features: ['Graphene-infused dual core', 'Tour urethane cover', 'HEX aerodynamics', 'Soft feel across all clubs'],
     who_uses: '',
-    image: 'https://images.unsplash.com/photo-1592919505780-303950717480?w=600&q=80',
+    image: '/images/articles/titleist-nxt-golf-balls-review.webp',
   },
   {
     id: 'titleist-players4-bag',
@@ -94,7 +94,7 @@ export const products: Product[] = [
     description: 'Lightweight walking bag for the serious golfer. Clean tour aesthetic, practical organisation, and a comfortable dual strap system.',
     features: ['4-way top with full-length dividers', 'Lightweight 3.3 lb construction', 'Premium dual strap system', 'Multiple pockets with valuables pouch'],
     who_uses: '',
-    image: 'https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=600&q=80',
+    image: '/images/articles/golf-bag-dimensions-guide.webp',
   },
   {
     id: 'garmin-approach-s62',
@@ -105,7 +105,7 @@ export const products: Product[] = [
     description: 'Tour-quality GPS in a premium smartwatch. 42,000+ preloaded courses, Virtual Caddie, and full shot tracking on your wrist.',
     features: ['42,000+ preloaded courses', 'PlaysLike distance adjustments', 'Virtual Caddie feature', 'Full round shot tracking'],
     who_uses: '',
-    image: 'https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=600&q=80',
+    image: '/images/articles/what-does-playing-the-tips-mean-in-golf.webp',
     badge: 'Staff Pick',
   },
 ]

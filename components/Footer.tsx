@@ -98,9 +98,9 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-4">
               <p className="text-stone-700 text-xs font-body">
-                Photography:{' '}
-                <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer" className="hover:text-stone-500 transition-colors">
-                  Unsplash
+                Images:{' '}
+                <a href="/credits" className="hover:text-stone-500 transition-colors">
+                  original
                 </a>
               </p>
               <span className="text-stone-700">·</span>

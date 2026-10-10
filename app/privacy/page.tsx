@@ -43,14 +43,6 @@ const processors = [
     retention: 'Access logs: up to 30 days per Vercel policy',
   },
   {
-    name: 'Unsplash (so.do Inc.)',
-    address: '360 rue Saint-Jacques, Montréal, Québec H2Y 1P5, Canada',
-    purpose: 'Photography CDN. When your browser loads images on this website, it connects to Unsplash servers; your IP address is processed as part of that request.',
-    transfer: 'Canada (EU adequacy decision) and US CDN nodes — SCCs apply where applicable',
-    link: 'https://unsplash.com/privacy',
-    retention: 'Per Unsplash CDN infrastructure — typically session logs',
-  },
-  {
     name: 'Amazon.com Services LLC',
     address: 'P.O. Box 81226, Seattle, WA 98108, USA',
     purpose: 'Affiliate tracking. When you click Amazon links, Amazon processes your data per their own privacy policy.',
@@ -109,7 +101,7 @@ export default function PrivacyPage() {
           <div className="card-dark p-8">
             <h2 className="display-heading text-xl text-stone-100 mb-5">2. Scope of This Policy</h2>
             <p className="text-stone-400 font-body text-sm leading-relaxed">
-              This policy applies to <strong className="text-stone-300">4sportsgolf.com</strong> — a golf information and equipment website covering professional golf, buying guides, and practical how-to content. The site does not operate user accounts, contact forms, comments sections, or newsletter subscriptions. The primary personal data processing activities are server access logs (processed by our hosting provider), image delivery (via Unsplash CDN), and Amazon affiliate tracking (when you choose to click product links in our Pro Shop or buying guide articles).
+              This policy applies to <strong className="text-stone-300">4sportsgolf.com</strong> — a golf information and equipment website covering professional golf, buying guides, and practical how-to content. The site does not operate user accounts, contact forms, comments sections, or newsletter subscriptions. The primary personal data processing activities are server access logs (processed by our hosting provider), and Amazon affiliate tracking (when you choose to click product links in our Pro Shop or buying guide articles).
             </p>
           </div>
 
@@ -217,13 +209,13 @@ export default function PrivacyPage() {
 
           {/* 8. Photography */}
           <div className="card-dark p-8">
-            <h2 className="display-heading text-xl text-stone-100 mb-5">8. Photography &amp; Image CDN (Unsplash)</h2>
+            <h2 className="display-heading text-xl text-stone-100 mb-5">8. Images</h2>
             <div className="text-stone-400 font-body text-sm leading-relaxed space-y-3">
               <p>
-                Images on this website are sourced from <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer" className="text-gold-400 hover:text-gold-300 transition-colors">Unsplash</a> and served via Next.js Image Optimization, which proxies requests through our Vercel infrastructure. <strong className="text-stone-300">Your browser connects to our Vercel servers, not directly to Unsplash's CDN</strong>, for all optimised images. However, the original hero background image on the home page may be loaded directly from Unsplash's CDN (<code className="text-stone-500 text-xs">images.unsplash.com</code>), which may process your IP address.
+                All images on this website are hosted on our own Vercel infrastructure. No images are loaded from third-party image services.
               </p>
               <p className="text-stone-500 text-xs">
-                <strong>Important notice:</strong> All photographs are stock images used as layout placeholders. They are not photographs of the named individuals (Edoardo Molinari, Andrea Pavan, Richie Ramsay, Eddie Pepperell). See <Link prefetch={false} href="/credits" className="text-gold-500 hover:text-gold-400 transition-colors">Image Credits</Link>.
+                <strong>Important notice:</strong> The images are original illustrations created for this site. They are not photographs of the named individuals (Edoardo Molinari, Andrea Pavan, Richie Ramsay, Eddie Pepperell). See <Link prefetch={false} href="/credits" className="text-gold-500 hover:text-gold-400 transition-colors">Image Credits</Link>.
               </p>
             </div>
           </div>

@@ -143,15 +143,7 @@ export default function ImpressumPage() {
                 Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
               </p>
               <p>
-                <strong className="text-stone-300">Fotografien:</strong> Alle auf dieser Website verwendeten Fotografien stammen von{' '}
-                <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer" className="text-gold-400 hover:text-gold-300 transition-colors">
-                  Unsplash.com
-                </a>{' '}
-                und werden unter der{' '}
-                <a href="https://unsplash.com/license" target="_blank" rel="noopener noreferrer" className="text-gold-400 hover:text-gold-300 transition-colors">
-                  Unsplash-Lizenz
-                </a>{' '}
-                verwendet, die eine kostenlose kommerzielle Nutzung ohne Namensnennung erlaubt. Die Fotos sind Platzhalterbilder und keine Fotografien der genannten Personen. Vollständige Bildnachweise:{' '}
+                <strong className="text-stone-300">Fotografien:</strong> Die Bilder auf dieser Website sind eigens für 4Sports Golf mit KI-Bildwerkzeugen erstellte und von uns bearbeitete Illustrationen. Sie zeigen allgemeine Szenen und keine Fotografien der genannten Personen oder bestimmter Produkte. Weitere Informationen:{' '}
                 <Link prefetch={false} href="/credits" className="text-gold-400 hover:text-gold-300 transition-colors">
                   Image Credits
                 </Link>.

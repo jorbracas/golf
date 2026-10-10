@@ -19,7 +19,7 @@ export const posts: Post[] = [
     category: 'Tour Preview',
     date: '2025-01-15',
     readTime: '8 min',
-    image: 'https://images.unsplash.com/photo-1560175400-e78e1a7b6f08?w=1200&q=80',
+    image: '/images/covers/post-dp-world-tour.webp',
     featured: true,
     relatedPlayers: ['eddie-pepperell', 'richie-ramsay'],
     content: `The 2025 DP World Tour season promises to be one of the most compelling in recent memory. With the Ryder Cup cycle entering its mid-point, ranking points carry extra weight, and the field of contenders has rarely been more open.
@@ -47,7 +47,7 @@ The equipment landscape continues to evolve rapidly. Multi-material driver const
     category: 'Explained',
     date: '2025-02-03',
     readTime: '6 min',
-    image: 'https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=1200&q=80',
+    image: '/images/covers/post-ryder-cup.webp',
     featured: false,
     relatedPlayers: ['edoardo-molinari', 'richie-ramsay'],
     content: `The Ryder Cup is professional golf's greatest team event. Understanding how players qualify for Europe's side reveals as much about the strategic landscape of the DP World Tour as it does about the event itself.
@@ -71,7 +71,7 @@ Understanding the Ryder Cup points race transforms how you watch the DP World To
     category: 'Equipment',
     date: '2025-02-20',
     readTime: '10 min',
-    image: 'https://images.unsplash.com/photo-1611374243504-de7b19e79b8f?w=1200&q=80',
+    image: '/images/covers/post-irons.webp',
     featured: true,
     content: `Iron technology has advanced more rapidly in the last five years than in the previous twenty. Understanding where different products sit in the market — and why tour professionals choose what they choose — is the starting point for making a smart purchase.
 
@@ -98,7 +98,7 @@ The best iron is the one that suits your current game while leaving room for dev
     category: 'Travel',
     date: '2025-03-01',
     readTime: '12 min',
-    image: 'https://images.unsplash.com/photo-1592919505780-303950717480?w=1200&q=80',
+    image: '/images/covers/post-links-scotland.webp',
     featured: false,
     relatedPlayers: ['richie-ramsay'],
     content: `Scotland is where golf began, and links golf — played on the coastal strips of rough, wind-battered land between the beach and the farmland — remains the purest expression of the game. Every player should experience it at least once.
@@ -130,7 +130,7 @@ Book accommodation in St Andrews well in advance. The town is small and demand i
     category: 'Psychology',
     date: '2025-03-10',
     readTime: '7 min',
-    image: 'https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?w=1200&q=80',
+    image: '/images/covers/post-mental-game.webp',
     featured: false,
     relatedPlayers: ['eddie-pepperell', 'andrea-pavan'],
     content: `Professional golf is a psychologically demanding sport unlike almost any other. The periods of inaction between shots, the solitary nature of competition, the public visibility of every mistake, and the absence of a fixed season create conditions that test mental resilience continuously.
@@ -154,7 +154,7 @@ Eddie Pepperell has spoken more openly than almost any tour professional about t
     category: 'Equipment',
     date: '2025-03-18',
     readTime: '9 min',
-    image: 'https://images.unsplash.com/photo-1593111774240-d529f12cf4ce?w=1200&q=80',
+    image: '/images/covers/post-golf-balls.webp',
     featured: false,
     content: `The golf ball is the only piece of equipment used on every single shot. And yet most amateur golfers pay less attention to ball selection than to almost any other gear decision. This is a mistake worth correcting.
 
