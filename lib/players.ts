@@ -46,7 +46,7 @@ export const players: Player[] = [
     world_ranking_peak: 'Top 50',
     tour: 'DP World Tour',
     status: 'Active',
-    image: '/images/covers/player-molinari.webp',
+    image: '/images/covers/player-molinari-v2.webp',
     bio: 'Edoardo Molinari is an Italian professional golfer who plays on the DP World Tour. Brother of Ryder Cup captain Francesco Molinari, Edoardo has built a distinguished career on the European circuit since turning professional in 2004.',
     bio_extended: `Edoardo Molinari was born in Turin, Italy, into a family deeply rooted in golf culture. His father Giuliano was a respected golf teacher, and his younger brother Francesco would go on to become one of Europe\'s most celebrated golfers, winning The Open Championship in 2018.
 
@@ -105,7 +105,7 @@ Off the course, Edoardo is involved in golf development in Italy and is a vocal 
     world_ranking_peak: 'Top 80',
     tour: 'DP World Tour',
     status: 'Active',
-    image: '/images/covers/player-pavan.webp',
+    image: '/images/covers/player-pavan-v2.webp',
     bio: 'Andrea Pavan is an Italian professional golfer representing Italy on the DP World Tour. A consistent performer on the European circuit, Pavan is known for his composed approach and consistent ball-striking.',
     bio_extended: `Andrea Pavan grew up in Rome with golf in his blood. From an early age, the sport became his defining passion, and by his teenage years it was clear he had the talent and dedication to pursue a professional career.
 
@@ -164,7 +164,7 @@ Andrea is known among fellow professionals for his professionalism and work ethi
     world_ranking_peak: 'Top 60',
     tour: 'DP World Tour',
     status: 'Active',
-    image: '/images/covers/player-ramsay.webp',
+    image: '/images/covers/player-ramsay-v2.webp',
     bio: 'Richie Ramsay is a Scottish professional golfer from Aberdeen, one of the most respected figures in British golf. A multiple European Tour winner, Ramsay is known for his powerful game and fierce competitive spirit.',
     bio_extended: `Richie Ramsay was born and raised in Aberdeen, Scotland, a city with deep connections to the North Sea oil industry and an equally strong golfing tradition. Growing up near some of Scotland\'s finest links courses forged a playing style built on resilience, shot-making, and the ability to perform in the most demanding conditions.
 
@@ -224,7 +224,7 @@ Beyond his playing record, Ramsay is known within the game for his authenticity 
     world_ranking_peak: 'Top 40',
     tour: 'DP World Tour',
     status: 'Active',
-    image: '/images/covers/player-pepperell.webp',
+    image: '/images/covers/player-pepperell-v2.webp',
     bio: 'Eddie Pepperell is an English professional golfer from Oxford, one of the most charismatic and outspoken personalities on the DP World Tour. Known as much for his wit on social media as his elegant ball-striking, Pepperell brings a refreshing authenticity to professional golf.',
     bio_extended: `Eddie Pepperell was born in Oxford, England, and grew up in a household where intellectual curiosity was as valued as sporting achievement. This background would shape a career defined by depth of thought, self-awareness, and a willingness to say things others in professional sport prefer to leave unsaid.
 

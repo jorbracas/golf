@@ -121,16 +121,16 @@ export const CATEGORY_INTROS: Record<string, string> = {
 }
 
 export const CATEGORY_IMAGES: Record<string, string> = {
-  'Indoor & Practice': '/images/covers/cat-indoor.webp',
-  'Clubs & Shafts': '/images/covers/cat-clubs.webp',
-  'Golf Balls': '/images/covers/cat-balls.webp',
-  'Bags & Push Carts': '/images/covers/cat-bags.webp',
-  'Rangefinders & GPS': '/images/covers/cat-rangefinders.webp',
-  'Apparel & Shoes': '/images/covers/cat-apparel.webp',
-  'Accessories': '/images/covers/cat-accessories.webp',
-  'Golf Carts': '/images/covers/cat-carts.webp',
-  'Golf Basics': '/images/covers/cat-basics.webp',
-  'Golf Equipment': '/images/covers/cat-clubs.webp',
+  'Indoor & Practice': '/images/covers/cat-indoor-v2.webp',
+  'Clubs & Shafts': '/images/covers/cat-clubs-v2.webp',
+  'Golf Balls': '/images/covers/cat-balls-v2.webp',
+  'Bags & Push Carts': '/images/covers/cat-bags-v2.webp',
+  'Rangefinders & GPS': '/images/covers/cat-rangefinders-v2.webp',
+  'Apparel & Shoes': '/images/covers/cat-apparel-v2.webp',
+  'Accessories': '/images/covers/cat-accessories-v2.webp',
+  'Golf Carts': '/images/covers/cat-carts-v2.webp',
+  'Golf Basics': '/images/covers/cat-basics-v2.webp',
+  'Golf Equipment': '/images/covers/cat-clubs-v2.webp',
 }
 
 export function categorySlug(category: string): string {

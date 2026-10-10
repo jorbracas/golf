@@ -15,7 +15,7 @@ export default function HomePage() {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden grain">
         {/* FIX: use Next/Image instead of CSS backgroundImage — optimised, WebP, preloaded */}
         <Image
-          src="/images/covers/home-hero.webp"
+          src="/images/covers/home-hero-v2.webp"
           alt=""
           fill
           priority
