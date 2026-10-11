@@ -2,32 +2,13 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-
-type Prefs = {
-  essential: true
-  marketing: boolean
-}
-
-const COOKIE_KEY = '4sg_consent_v1'
-
-function getStoredPrefs(): Prefs | null {
-  if (typeof window === 'undefined') return null
-  try {
-    const raw = localStorage.getItem(COOKIE_KEY)
-    return raw ? JSON.parse(raw) : null
-  } catch {
-    return null
-  }
-}
-
-function storePrefs(prefs: Prefs) {
-  localStorage.setItem(COOKIE_KEY, JSON.stringify(prefs))
-}
+import { getStoredPrefs, storePrefs, type Prefs } from '@/lib/consent'
 
 export default function CookieBanner() {
   const [visible, setVisible] = useState(false)
   const [panel, setPanel] = useState<'main' | 'settings'>('main')
   const [marketing, setMarketing] = useState(false)
+  const [analytics, setAnalytics] = useState(false)
   const [animateOut, setAnimateOut] = useState(false)
 
   useEffect(() => {
@@ -46,15 +27,15 @@ export default function CookieBanner() {
   }
 
   function acceptAll() {
-    dismiss({ essential: true, marketing: true })
+    dismiss({ essential: true, analytics: true, marketing: true })
   }
 
   function acceptSelected() {
-    dismiss({ essential: true, marketing })
+    dismiss({ essential: true, analytics, marketing })
   }
 
   function rejectAll() {
-    dismiss({ essential: true, marketing: false })
+    dismiss({ essential: true, analytics: false, marketing: false })
   }
 
   if (!visible) return null
@@ -103,7 +84,7 @@ export default function CookieBanner() {
               </div>
 
               <p className="text-stone-400 text-xs font-body leading-relaxed mb-5">
-                We use essential cookies to keep the site running. We also use affiliate tracking cookies from Amazon — clicking product links may set Amazon cookies on your device. No analytics or advertising cookies are set by us.{' '}
+                We use essential storage to keep the site running. With your consent we also use Google Analytics to count visits and see which guides are useful, and Amazon may set affiliate cookies when you click product links. No advertising cookies are set by us.{' '}
                 <Link prefetch={false} href="/privacy" className="text-gold-500 hover:text-gold-300 underline underline-offset-2 transition-colors">
                   Privacy Policy
                 </Link>
@@ -117,6 +98,13 @@ export default function CookieBanner() {
                     <span className="text-xs font-body text-stone-300">Essential cookies</span>
                   </div>
                   <span className="text-xs font-body text-teal-500 font-medium">Always on</span>
+                </div>
+                <div className="flex items-center justify-between py-2.5 px-3 bg-fairway-900/50 border border-fairway-700">
+                  <div className="flex items-center gap-2.5">
+                    <div className="w-2 h-2 rounded-full bg-sky-500 flex-shrink-0" />
+                    <span className="text-xs font-body text-stone-300">Analytics (Google Analytics)</span>
+                  </div>
+                  <span className="text-xs font-body text-stone-500">Optional</span>
                 </div>
                 <div className="flex items-center justify-between py-2.5 px-3 bg-fairway-900/50 border border-fairway-700">
                   <div className="flex items-center gap-2.5">
@@ -200,6 +188,39 @@ export default function CookieBanner() {
                 </div>
               </div>
 
+              {/* Analytics */}
+              <div className="mb-4 pb-4 border-b border-fairway-700">
+                <div className="flex items-start justify-between gap-4">
+                  <div className="flex-1">
+                    <div className="flex items-center gap-2 mb-1">
+                      <div className="w-2 h-2 rounded-full bg-sky-500" />
+                      <span className="text-stone-200 text-sm font-body font-medium">Analytics</span>
+                    </div>
+                    <p className="text-stone-500 text-xs font-body leading-relaxed">
+                      Google Analytics counts visits and shows which pages are read, so we know what to improve. It sets cookies and processes your IP address (shortened by Google). Off unless you switch it on.
+                    </p>
+                  </div>
+                  <button
+                    role="switch"
+                    aria-checked={analytics}
+                    aria-label="Analytics cookies"
+                    onClick={() => setAnalytics(!analytics)}
+                    className={`relative flex-shrink-0 mt-0.5 w-10 h-6 rounded-full transition-colors duration-200 ${
+                      analytics ? 'bg-gold-500' : 'bg-fairway-600'
+                    }`}
+                  >
+                    <div className={`absolute top-1 w-4 h-4 bg-white rounded-full transition-transform duration-200 ${analytics ? 'translate-x-5' : 'translate-x-1'}`} />
+                  </button>
+                </div>
+                <div className="mt-3 space-y-1">
+                  {['_ga, _ga_* (Google Analytics, up to 2 years)'].map((c) => (
+                    <p key={c} className="text-stone-600 text-xs font-body pl-4 border-l border-fairway-700">
+                      {c}
+                    </p>
+                  ))}
+                </div>
+              </div>
+
               {/* Marketing / Amazon */}
               <div className="mb-6">
                 <div className="flex items-start justify-between gap-4">
@@ -216,6 +237,7 @@ export default function CookieBanner() {
                   <button
                     role="switch"
                     aria-checked={marketing}
+                    aria-label="Affiliate tracking"
                     onClick={() => setMarketing(!marketing)}
                     className={`relative flex-shrink-0 mt-0.5 w-10 h-6 rounded-full transition-colors duration-200 ${
                       marketing ? 'bg-gold-500' : 'bg-fairway-600'

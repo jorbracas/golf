@@ -13,13 +13,22 @@ export const metadata: Metadata = {
 // Cookie table data
 const cookieTable = [
   {
-    name: '4sg_consent_v1',
+    name: '4sg_consent_v2',
     type: 'Essential',
     storage: 'localStorage',
     purpose: 'Stores your cookie consent preferences so the banner is not shown on every visit.',
     duration: 'Until you clear browser storage',
     thirdParty: 'No — set by us',
     legalBasis: 'Art. 6(1)(c) GDPR — legal obligation to record consent',
+  },
+  {
+    name: '_ga, _ga_<ID>',
+    type: 'Analytics (Google Analytics 4)',
+    storage: 'Cookie (4sportsgolf.com, first party)',
+    purpose: 'Distinguishes visitors and sessions so we can count visits and see which pages are read. Set only after you accept analytics cookies.',
+    duration: 'Up to 2 years',
+    thirdParty: 'Set by our site via Google Analytics',
+    legalBasis: 'Art. 6(1)(a) GDPR and § 25(1) TDDDG — your consent',
   },
   {
     name: 'session-id, ubid-*, x-main, etc.',
@@ -41,6 +50,14 @@ const processors = [
     transfer: 'USA — Standard Contractual Clauses (SCCs, Art. 46 GDPR)',
     link: 'https://vercel.com/legal/privacy-policy',
     retention: 'Access logs: up to 30 days per Vercel policy',
+  },
+  {
+    name: 'Google Ireland Limited',
+    address: 'Gordon House, Barrow Street, Dublin 4, Ireland',
+    purpose: 'Web analytics (Google Analytics 4), only if you consent. Processes pseudonymous identifiers, device and browser data, pages viewed and approximate location. IP addresses are not stored in Google Analytics 4.',
+    transfer: 'Possible transfer to Google LLC, USA — EU-US Data Privacy Framework (Art. 45 GDPR) and Standard Contractual Clauses',
+    link: 'https://policies.google.com/privacy',
+    retention: 'Analytics data retained for 14 months, then deleted',
   },
   {
     name: 'Amazon.com Services LLC',
@@ -101,7 +118,7 @@ export default function PrivacyPage() {
           <div className="card-dark p-8">
             <h2 className="display-heading text-xl text-stone-100 mb-5">2. Scope of This Policy</h2>
             <p className="text-stone-400 font-body text-sm leading-relaxed">
-              This policy applies to <strong className="text-stone-300">4sportsgolf.com</strong> — a golf information and equipment website covering professional golf, buying guides, and practical how-to content. The site does not operate user accounts, contact forms, comments sections, or newsletter subscriptions. The primary personal data processing activities are server access logs (processed by our hosting provider), and Amazon affiliate tracking (when you choose to click product links in our Pro Shop or buying guide articles).
+              This policy applies to <strong className="text-stone-300">4sportsgolf.com</strong> — a golf information and equipment website covering professional golf, buying guides, and practical how-to content. The site does not operate user accounts, contact forms, comments sections, or newsletter subscriptions. The primary personal data processing activities are server access logs (processed by our hosting provider), web analytics with Google Analytics (only with your consent), and Amazon affiliate tracking (when you choose to click product links in our Pro Shop or buying guide articles).
             </p>
           </div>
 
@@ -125,7 +142,7 @@ export default function PrivacyPage() {
             <h2 className="display-heading text-xl text-stone-100 mb-5">4. Cookies &amp; Local Storage</h2>
             <div className="text-stone-400 font-body text-sm leading-relaxed space-y-4">
               <p>
-                This website itself sets one item in your browser's localStorage to remember your cookie preferences. When you click Amazon affiliate links, Amazon sets third-party cookies on your device.
+                This website sets one item in your browser's localStorage to remember your cookie preferences. If you accept analytics, Google Analytics sets first-party cookies to count visits. When you click Amazon affiliate links, Amazon sets third-party cookies on your device.
                 You can manage or withdraw your consent at any time using the button below.
               </p>
 

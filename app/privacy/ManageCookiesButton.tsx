@@ -4,6 +4,7 @@ export function ManageCookiesButton() {
   return (
     <button
       onClick={() => {
+        localStorage.removeItem('4sg_consent_v2')
         localStorage.removeItem('4sg_consent_v1')
         window.location.reload()
       }}
