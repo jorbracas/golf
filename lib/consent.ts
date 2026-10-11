@@ -2,7 +2,7 @@
 export const CONSENT_KEY = '4sg_consent_v2'
 export const CONSENT_EVENT = '4sg-consent-change'
 // Google Analytics 4 measurement ID. Loaded only after the visitor accepts analytics cookies.
-export const GA_ID = process.env.NEXT_PUBLIC_GA_ID || ''
+export const GA_ID = process.env.NEXT_PUBLIC_GA_ID || 'G-MKFWQZWL72'
 
 export type Prefs = { essential: true; analytics: boolean; marketing: boolean }
 
