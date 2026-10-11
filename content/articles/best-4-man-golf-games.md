@@ -15,7 +15,7 @@
     "/blog/how-to-play-a-scramble-in-golf",
     "/blog/how-to-play-best-ball-golf",
     "/blog/how-do-skins-work-in-golf",
-    "/shop/golf-handicap-calculator"
+    "/shop/golf-scoring-terms"
   ],
   "sources": [
     [

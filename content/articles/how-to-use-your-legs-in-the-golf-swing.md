@@ -12,7 +12,7 @@
     "/blog/how-to-stop-swaying-in-the-golf-swing",
     "/blog/how-to-get-more-distance-in-golf",
     "/blog/golf-setup-posture",
-    "/shop/best-golf-swing-speed-tracker"
+    "/blog/golf-ball-position-chart"
   ],
   "sources": [
     [

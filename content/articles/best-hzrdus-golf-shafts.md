@@ -12,7 +12,7 @@
     "/shop/best-golf-shaft-for-driver",
     "/shop/stiff-vs-regular-golf-shaft",
     "/shop/best-golf-shaft-kick-point",
-    "/shop/best-golf-swing-speed-tracker"
+    "/shop/golf-shaft-flex-chart"
   ],
   "sources": [
     [

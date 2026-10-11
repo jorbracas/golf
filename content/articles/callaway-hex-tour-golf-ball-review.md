@@ -12,7 +12,7 @@
     "/shop/callaway-custom-golf-balls-review",
     "/shop/callaway-golf-balls-hx-hot-review",
     "/shop/best-old-golf-balls",
-    "/shop/mens-vs-womens-golf-balls"
+    "/shop/golf-ball-size"
   ],
   "sources": [
     [

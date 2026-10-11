@@ -6,6 +6,7 @@ const TOOLS = {
   handicap: dynamic(() => import('./HandicapCalculator')),
   'cart-range': dynamic(() => import('./CartRangeCalculator')),
   'simulator-room': dynamic(() => import('./SimulatorRoomCalculator')),
+  'club-distance': dynamic(() => import('./ClubDistanceCalculator')),
 }
 
 export type ToolId = keyof typeof TOOLS

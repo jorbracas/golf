@@ -12,7 +12,7 @@
     "/shop/golf-simulator-cost",
     "/shop/golf-simulator-room-size",
     "/shop/best-golf-sim-buying-guide",
-    "/shop/best-budget-golf-launch-monitor-under-500"
+    "/shop/golf-club-distance-chart"
   ],
   "sources": [
     [

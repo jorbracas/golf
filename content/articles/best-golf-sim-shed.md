@@ -12,7 +12,7 @@
     "/shop/golf-simulator-room-size",
     "/shop/golf-simulator-cost",
     "/shop/best-golf-sim-buying-guide",
-    "/shop/best-launch-monitors-for-golf"
+    "/shop/garage-golf-simulator"
   ],
   "sources": [
     [

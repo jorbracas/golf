@@ -12,7 +12,7 @@
     "/shop/best-golf-bags-for-women",
     "/shop/best-ladies-golf-bag-lightweight",
     "/blog/golf-tips-for-women",
-    "/shop/what-is-a-golf-stick-called"
+    "/shop/fairway-wood-vs-hybrid"
   ],
   "sources": [
     [

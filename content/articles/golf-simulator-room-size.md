@@ -13,7 +13,7 @@
     "/shop/best-golf-sim-buying-guide",
     "/shop/best-golf-enclosure",
     "/shop/best-golf-sim-projector",
-    "/shop/best-launch-monitors-for-golf"
+    "/shop/garage-golf-simulator"
   ],
   "sources": [
     [

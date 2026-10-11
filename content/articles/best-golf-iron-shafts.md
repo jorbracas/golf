@@ -12,7 +12,7 @@
     "/shop/stiff-vs-regular-golf-shaft",
     "/shop/best-golf-loft-lie-machine-guide",
     "/shop/best-hzrdus-golf-shafts",
-    "/shop/best-golf-swing-speed-tracker"
+    "/shop/golf-shaft-flex-chart"
   ],
   "sources": [
     [

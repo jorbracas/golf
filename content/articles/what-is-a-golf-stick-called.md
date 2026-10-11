@@ -15,7 +15,7 @@
     "/shop/golf-bag-checklist",
     "/shop/golf-driver-head-size-guide",
     "/shop/callaway-edge-womens-golf-set-review",
-    "/shop/what-is-a-good-golf-score"
+    "/shop/golf-club-loft-chart"
   ],
   "sources": [
     [

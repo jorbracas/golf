@@ -12,7 +12,7 @@
     "/shop/best-golf-driver-heads",
     "/blog/how-to-measure-golf-driver-length",
     "/shop/best-loft-driver-golf",
-    "/shop/best-hzrdus-golf-shafts"
+    "/shop/golf-club-loft-chart"
   ],
   "sources": [
     [

@@ -12,7 +12,7 @@
     "/shop/best-old-golf-balls",
     "/shop/callaway-hex-tour-golf-ball-review",
     "/shop/mens-vs-womens-golf-balls",
-    "/shop/best-soft-feel-golf-balls"
+    "/shop/golf-ball-size"
   ],
   "sources": [
     [

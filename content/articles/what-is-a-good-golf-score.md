@@ -17,7 +17,7 @@
     "/shop/golf-handicap-calculator",
     "/shop/what-is-my-golf-handicap-if-i-shoot-100",
     "/blog/how-to-lower-your-golf-handicap",
-    "/blog/how-to-take-score-in-golf"
+    "/shop/golf-scoring-terms"
   ],
   "sources": [
     [

@@ -12,7 +12,7 @@
     "/shop/what-is-a-good-golf-score",
     "/shop/golf-handicap-calculator",
     "/shop/how-long-does-a-game-of-golf-last",
-    "/shop/what-is-a-golf-stick-called"
+    "/shop/golf-club-distance-chart"
   ],
   "sources": [
     [
