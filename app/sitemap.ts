@@ -24,9 +24,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/blog`, lastModified: buildDate, changeFrequency: 'daily', priority: 0.9 },
     { url: `${BASE}/players`, lastModified: buildDate, changeFrequency: 'monthly', priority: 0.7 },
     { url: `${BASE}/about`, lastModified: buildDate, changeFrequency: 'yearly', priority: 0.4 },
-    { url: `${BASE}/disclosure`, lastModified: buildDate, changeFrequency: 'yearly', priority: 0.3 },
-    { url: `${BASE}/privacy`, lastModified: buildDate, changeFrequency: 'yearly', priority: 0.3 },
-    { url: `${BASE}/impressum`, lastModified: buildDate, changeFrequency: 'yearly', priority: 0.3 },
     ...SHOP_CATEGORIES.filter((c) => getShopArticlesByCategory(c).length > 0).map((c) => ({
       url: `${BASE}/shop/category/${categorySlug(c)}`,
       lastModified: buildDate,
