@@ -9,23 +9,62 @@
   "date": "2026-10-11",
   "updated": "2026-10-11",
   "tool": "club-distance",
-  "related": ["/shop/golf-club-loft-chart", "/shop/golf-wedge-degrees", "/shop/golf-shaft-flex-chart", "/shop/best-golf-swing-speed-tracker"],
+  "related": [
+    "/shop/golf-club-loft-chart",
+    "/shop/golf-wedge-degrees",
+    "/shop/golf-shaft-flex-chart",
+    "/shop/best-golf-swing-speed-tracker"
+  ],
   "sources": [
-    ["USGA – Quantitative Analysis of Recreational Golfer Club Hitting Distances (Dec 2023)", "https://usga.org/content/dam/usga/images/course-care/GolferExperience/DI_Golfer_Performance_Measurement%202023%20Update.pdf"],
-    ["GolfWRX – How far should you hit your golf clubs? (TrackMan tour averages)", "https://www.golfwrx.com/62549/how-far-should-you-hit-your-golf-clubs/"],
-    ["TrackMan – What is club speed?", "https://www.trackman.com/blog/what-is-club-speed"]
+    [
+      "USGA – Quantitative Analysis of Recreational Golfer Club Hitting Distances (Dec 2023)",
+      "https://usga.org/content/dam/usga/images/course-care/GolferExperience/DI_Golfer_Performance_Measurement%202023%20Update.pdf"
+    ],
+    [
+      "GolfWRX – How far should you hit your golf clubs? (TrackMan tour averages)",
+      "https://www.golfwrx.com/62549/how-far-should-you-hit-your-golf-clubs/"
+    ],
+    [
+      "TrackMan – What is club speed?",
+      "https://www.trackman.com/blog/what-is-club-speed"
+    ]
   ],
   "amazon": [
-    ["Personal launch monitors", "personal golf launch monitor"],
-    ["Golf swing speed radars", "golf swing speed radar"],
-    ["Golf rangefinders", "golf rangefinder"]
+    [
+      "Personal launch monitors",
+      "personal golf launch monitor"
+    ],
+    [
+      "Golf swing speed radars",
+      "golf swing speed radar"
+    ],
+    [
+      "Golf rangefinders",
+      "golf rangefinder"
+    ]
   ],
   "faq": [
-    {"question": "How far does the average golfer hit each club?", "answer": "A USGA study of recreational golfers found average male distances of about 226 yards with the driver, 149 with a 7-iron and 117 with a pitching wedge. For women the figures were 144, 98 and 80 yards."},
-    {"question": "How far should I hit my 7-iron?", "answer": "Most male amateurs hit a 7-iron somewhere between 120 and 160 yards, and most women between 80 and 120. It depends mainly on swing speed and strike: tour players average around 172 yards of carry."},
-    {"question": "How far does a 10 handicap hit a driver?", "answer": "The USGA's data puts a typical male 10 handicap at about 235 yards with the driver, a 20 handicap at about 205 and a 30 handicap at about 175. For women the equivalents are about 177, 154 and 131 yards."},
-    {"question": "How many yards should there be between clubs?", "answer": "Around 10–15 yards between irons is normal. Gaps shrink for slower swing speeds and grow for faster ones. If two clubs go the same distance, one of them is probably not earning its place in the bag."}
-  ]
+    {
+      "question": "How far does the average golfer hit each club?",
+      "answer": "A USGA study of recreational golfers found average male distances of about 226 yards with the driver, 149 with a 7-iron and 117 with a pitching wedge. For women the figures were 144, 98 and 80 yards."
+    },
+    {
+      "question": "How far should I hit my 7-iron?",
+      "answer": "Most male amateurs hit a 7-iron somewhere between 120 and 160 yards, and most women between 80 and 120. It depends mainly on swing speed and strike: tour players average around 172 yards of carry."
+    },
+    {
+      "question": "How far does a 10 handicap hit a driver?",
+      "answer": "The USGA's data puts a typical male 10 handicap at about 235 yards with the driver, a 20 handicap at about 205 and a 30 handicap at about 175. For women the equivalents are about 177, 154 and 131 yards."
+    },
+    {
+      "question": "How many yards should there be between clubs?",
+      "answer": "Around 10–15 yards between irons is normal. Gaps shrink for slower swing speeds and grow for faster ones. If two clubs go the same distance, one of them is probably not earning its place in the bag."
+    }
+  ],
+  "image": "/images/articles/golf-club-distance-chart.webp",
+  "imageAlt": "Golfer holding an iron on a driving range mat at sunrise, looking out at target greens and flags at different distances",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 Most amateur men hit a **driver about 205–235 yards**, a **7-iron about 130–150 yards** and a **pitching wedge about 100–120 yards**. Tour pros carry the driver around 270 yards and a 7-iron around 170. Below are the real averages from USGA and TrackMan data, and a calculator that builds a chart from your own swing speed.

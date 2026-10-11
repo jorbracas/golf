@@ -8,22 +8,58 @@
   "category": "Clubs & Shafts",
   "date": "2026-10-11",
   "updated": "2026-10-11",
-  "related": ["/shop/stiff-vs-regular-golf-shaft", "/shop/best-golf-shaft-for-driver", "/shop/best-golf-iron-shafts", "/shop/best-golf-swing-speed-tracker"],
+  "related": [
+    "/shop/stiff-vs-regular-golf-shaft",
+    "/shop/best-golf-shaft-for-driver",
+    "/shop/best-golf-iron-shafts",
+    "/shop/best-golf-swing-speed-tracker"
+  ],
   "sources": [
-    ["GOLF.com – The shaft flex you should play based on your swing speed", "https://golf.com/instruction/shaft-flex-you-should-play-based-on-swing-speed/"],
-    ["TGW – Golf shaft flex guide", "https://www.tgw.com/golf-guide/golf-shaft-flex-guide/"]
+    [
+      "GOLF.com – The shaft flex you should play based on your swing speed",
+      "https://golf.com/instruction/shaft-flex-you-should-play-based-on-swing-speed/"
+    ],
+    [
+      "TGW – Golf shaft flex guide",
+      "https://www.tgw.com/golf-guide/golf-shaft-flex-guide/"
+    ]
   ],
   "amazon": [
-    ["Golf swing speed radars", "golf swing speed radar"],
-    ["Regular flex drivers", "driver regular flex"],
-    ["Senior flex golf club sets", "senior flex golf club set"]
+    [
+      "Golf swing speed radars",
+      "golf swing speed radar"
+    ],
+    [
+      "Regular flex drivers",
+      "driver regular flex"
+    ],
+    [
+      "Senior flex golf club sets",
+      "senior flex golf club set"
+    ]
   ],
   "faq": [
-    {"question": "What swing speed is stiff flex?", "answer": "Stiff flex is usually recommended for driver swing speeds of about 97–104 mph. Above about 105 mph, extra stiff is the usual suggestion."},
-    {"question": "What swing speed is regular flex?", "answer": "Regular flex generally suits driver speeds of roughly 84–96 mph, which covers a large share of male amateurs."},
-    {"question": "Is a stiffer shaft more accurate?", "answer": "Not by itself. A shaft that's too stiff for your speed can launch low and leak right (for right-handers), while one that's too soft can balloon or hook, though launch-monitor tests show the effect varies a lot between golfers. The right flex is the one that matches your speed and tempo."},
-    {"question": "Is shaft flex the same across brands?", "answer": "No. There is no industry standard, so one brand's regular can feel like another's stiff. Use the chart as a starting point and test before you buy."}
-  ]
+    {
+      "question": "What swing speed is stiff flex?",
+      "answer": "Stiff flex is usually recommended for driver swing speeds of about 97–104 mph. Above about 105 mph, extra stiff is the usual suggestion."
+    },
+    {
+      "question": "What swing speed is regular flex?",
+      "answer": "Regular flex generally suits driver speeds of roughly 84–96 mph, which covers a large share of male amateurs."
+    },
+    {
+      "question": "Is a stiffer shaft more accurate?",
+      "answer": "Not by itself. A shaft that's too stiff for your speed can launch low and leak right (for right-handers), while one that's too soft can balloon or hook, though launch-monitor tests show the effect varies a lot between golfers. The right flex is the one that matches your speed and tempo."
+    },
+    {
+      "question": "Is shaft flex the same across brands?",
+      "answer": "No. There is no industry standard, so one brand's regular can feel like another's stiff. Use the chart as a starting point and test before you buy."
+    }
+  ],
+  "image": "/images/articles/golf-shaft-flex-chart.webp",
+  "imageAlt": "Driver shaft visibly flexing during a fast swing, with the golfer's gloved hands in focus and the clubhead blurred",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 Match the flex to your **driver swing speed**. **Under 72 mph: ladies (L). 72–83 mph: senior (A). 84–96 mph: regular (R). 97–104 mph: stiff (S). 105 mph and up: extra stiff (X).** Speed is the starting point, then tempo and feel fine-tune it.

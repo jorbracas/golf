@@ -8,22 +8,58 @@
   "category": "Indoor & Practice",
   "date": "2026-10-11",
   "updated": "2026-10-11",
-  "related": ["/shop/golf-simulator-room-size", "/shop/golf-simulator-cost", "/shop/best-golf-impact-screen", "/shop/best-launch-monitors-for-golf"],
+  "related": [
+    "/shop/golf-simulator-room-size",
+    "/shop/golf-simulator-cost",
+    "/shop/best-golf-impact-screen",
+    "/shop/best-launch-monitors-for-golf"
+  ],
   "sources": [
-    ["Golfers Authority – Golf simulator garage size", "https://golfersauthority.com/golf-simulator-garage-size/"],
-    ["PlayBetter – Ceiling height for a garage golf simulator", "https://www.playbetter.com/blogs/golf-simulator-space/ceiling-height-for-a-garage-golf-simulator-what-you-need-to-know-before-buying"]
+    [
+      "Golfers Authority – Golf simulator garage size",
+      "https://golfersauthority.com/golf-simulator-garage-size/"
+    ],
+    [
+      "PlayBetter – Ceiling height for a garage golf simulator",
+      "https://www.playbetter.com/blogs/golf-simulator-space/ceiling-height-for-a-garage-golf-simulator-what-you-need-to-know-before-buying"
+    ]
   ],
   "amazon": [
-    ["Retractable golf impact screens", "retractable golf impact screen"],
-    ["Golf simulator enclosures", "golf simulator enclosure"],
-    ["Golf hitting mats", "golf hitting mat commercial"]
+    [
+      "Retractable golf impact screens",
+      "retractable golf impact screen"
+    ],
+    [
+      "Golf simulator enclosures",
+      "golf simulator enclosure"
+    ],
+    [
+      "Golf hitting mats",
+      "golf hitting mat commercial"
+    ]
   ],
   "faq": [
-    {"question": "Is a garage big enough for a golf simulator?", "answer": "Usually, if the ceiling is at least 9 ft where you swing. Aim for about 10–14 ft of width and 15–18 ft of depth. One bay of a two-car garage often works well."},
-    {"question": "Can I still park my car with a golf simulator in the garage?", "answer": "Yes, with a retractable screen and a portable or ceiling-mounted setup. The screen rolls up, the mat moves aside, and the car goes back in."},
-    {"question": "What about the garage door?", "answer": "The door and its tracks often hang lower than the ceiling. Measure clearance with the door open and closed. Many golfers switch to a wall-mounted (jackshaft) opener to clear the swing area."},
-    {"question": "Can a golf simulator stay in a cold garage?", "answer": "Most equipment tolerates cold, but damp is the bigger risk for electronics and screens. Bring the launch monitor and laptop inside, use a dehumidifier, and let the projector warm up before playing in winter."}
-  ]
+    {
+      "question": "Is a garage big enough for a golf simulator?",
+      "answer": "Usually, if the ceiling is at least 9 ft where you swing. Aim for about 10–14 ft of width and 15–18 ft of depth. One bay of a two-car garage often works well."
+    },
+    {
+      "question": "Can I still park my car with a golf simulator in the garage?",
+      "answer": "Yes, with a retractable screen and a portable or ceiling-mounted setup. The screen rolls up, the mat moves aside, and the car goes back in."
+    },
+    {
+      "question": "What about the garage door?",
+      "answer": "The door and its tracks often hang lower than the ceiling. Measure clearance with the door open and closed. Many golfers switch to a wall-mounted (jackshaft) opener to clear the swing area."
+    },
+    {
+      "question": "Can a golf simulator stay in a cold garage?",
+      "answer": "Most equipment tolerates cold, but damp is the bigger risk for electronics and screens. Bring the launch monitor and laptop inside, use a dehumidifier, and let the projector warm up before playing in winter."
+    }
+  ],
+  "image": "/images/articles/garage-golf-simulator.webp",
+  "imageAlt": "Two-car garage at night with a car parked in one bay and a golf simulator with impact screen, hitting mat and ceiling projector in the other",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 A garage is the most common place for a home simulator because it has the height and depth most rooms don't. You need roughly a **9–10 ft ceiling** where you swing, **10–14 ft of width** and about **15–18 ft of depth**. Add a **retractable screen** and the car can still park there.

@@ -8,22 +8,58 @@
   "category": "Golf Basics",
   "date": "2026-10-11",
   "updated": "2026-10-11",
-  "related": ["/shop/what-is-a-good-golf-score", "/shop/golf-handicap-calculator", "/blog/what-does-playing-the-tips-mean-in-golf", "/shop/best-4-man-golf-games"],
+  "related": [
+    "/shop/what-is-a-good-golf-score",
+    "/shop/golf-handicap-calculator",
+    "/blog/what-does-playing-the-tips-mean-in-golf",
+    "/shop/best-4-man-golf-games"
+  ],
   "sources": [
-    ["Wikipedia – Par (score)", "https://en.wikipedia.org/wiki/Par_(score)"],
-    ["USGA – Rules of Golf, Rule 21 (Stableford and other scoring formats)", "https://www.usga.org/content/usga/home-page/custom-search-pages/rules/2019-golf-rules-and-interpretations/fr-rule-21.html"]
+    [
+      "Wikipedia – Par (score)",
+      "https://en.wikipedia.org/wiki/Par_(score)"
+    ],
+    [
+      "USGA – Rules of Golf, Rule 21 (Stableford and other scoring formats)",
+      "https://www.usga.org/content/usga/home-page/custom-search-pages/rules/2019-golf-rules-and-interpretations/fr-rule-21.html"
+    ]
   ],
   "amazon": [
-    ["Golf scorecard holders", "golf scorecard holder"],
-    ["Golf stat tracking devices", "golf shot tracking sensors"],
-    ["Golf rules books", "rules of golf book"]
+    [
+      "Golf scorecard holders",
+      "golf scorecard holder"
+    ],
+    [
+      "Golf stat tracking devices",
+      "golf shot tracking sensors"
+    ],
+    [
+      "Golf rules books",
+      "rules of golf book"
+    ]
   ],
   "faq": [
-    {"question": "What does par mean in golf?", "answer": "Par is the number of strokes a skilled golfer is expected to need on a hole, normally 3, 4 or 5. Course par is the total for all 18 holes, usually 70–72."},
-    {"question": "What is a birdie and an eagle?", "answer": "A birdie is one under par on a hole (a 3 on a par 4). An eagle is two under (a 3 on a par 5). An albatross, also called a double eagle, is three under."},
-    {"question": "What does GIR mean in golf?", "answer": "Green in regulation: reaching the green in two strokes fewer than par, so in one shot on a par 3, two on a par 4 or three on a par 5. It's one of the most useful stats for measuring ball-striking."},
-    {"question": "What does pin high mean?", "answer": "Your ball has finished level with the flag in distance, neither short nor long, even if it's off to one side."}
-  ]
+    {
+      "question": "What does par mean in golf?",
+      "answer": "Par is the number of strokes a skilled golfer is expected to need on a hole, normally 3, 4 or 5. Course par is the total for all 18 holes, usually 70–72."
+    },
+    {
+      "question": "What is a birdie and an eagle?",
+      "answer": "A birdie is one under par on a hole (a 3 on a par 4). An eagle is two under (a 3 on a par 5). An albatross, also called a double eagle, is three under."
+    },
+    {
+      "question": "What does GIR mean in golf?",
+      "answer": "Green in regulation: reaching the green in two strokes fewer than par, so in one shot on a par 3, two on a par 4 or three on a par 5. It's one of the most useful stats for measuring ball-striking."
+    },
+    {
+      "question": "What does pin high mean?",
+      "answer": "Your ball has finished level with the flag in distance, neither short nor long, even if it's off to one side."
+    }
+  ],
+  "image": "/images/articles/golf-scoring-terms.webp",
+  "imageAlt": "Golf scorecard with circled and squared scores and a pencil on a golf cart seat, the green blurred behind at sunset",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 **Par** is the number of strokes a skilled golfer should need on a hole, usually 3, 4 or 5. Everything else is counted from it: **one under par is a birdie, two under an eagle, three under an albatross**. **One over is a bogey, two over a double bogey**. Below is the full list, plus the stats and slang you'll hear in any clubhouse.

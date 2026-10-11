@@ -8,22 +8,58 @@
   "category": "Golf Balls",
   "date": "2026-10-11",
   "updated": "2026-10-11",
-  "related": ["/shop/best-low-spin-golf-balls", "/shop/best-pinnacle-gold-distance-golf-balls", "/blog/how-do-you-get-spin-on-a-golf-ball", "/shop/golf-club-distance-chart"],
+  "related": [
+    "/shop/best-low-spin-golf-balls",
+    "/shop/best-pinnacle-gold-distance-golf-balls",
+    "/blog/how-do-you-get-spin-on-a-golf-ball",
+    "/shop/golf-club-distance-chart"
+  ],
   "sources": [
-    ["The R&A – Rules of Equipment, Part 4: Conformance of balls", "https://www.randa.org/roe/the-rules-of-equipment/part-4-conformance-of-balls"],
-    ["USGA – Equipment Rules, the ball", "https://www.usga.org/custom-search-pages/rules/equipment-rules/rule-14611.html"]
+    [
+      "The R&A – Rules of Equipment, Part 4: Conformance of balls",
+      "https://www.randa.org/roe/the-rules-of-equipment/part-4-conformance-of-balls"
+    ],
+    [
+      "USGA – Equipment Rules, the ball",
+      "https://www.usga.org/custom-search-pages/rules/equipment-rules/rule-14611.html"
+    ]
   ],
   "amazon": [
-    ["Tour-level golf balls", "tour golf balls urethane"],
-    ["Distance golf balls", "distance golf balls"],
-    ["Golf ball retriever", "golf ball retriever"]
+    [
+      "Tour-level golf balls",
+      "tour golf balls urethane"
+    ],
+    [
+      "Distance golf balls",
+      "distance golf balls"
+    ],
+    [
+      "Golf ball retriever",
+      "golf ball retriever"
+    ]
   ],
   "faq": [
-    {"question": "What is the diameter of a golf ball?", "answer": "At least 1.680 inches (42.67 mm). That is the minimum allowed under the Rules of Golf, and in practice almost every ball is made right at that size."},
-    {"question": "How much does a golf ball weigh?", "answer": "No more than 1.620 ounces (45.93 grams). Most conforming balls weigh very close to that limit."},
-    {"question": "Is there a maximum size for a golf ball?", "answer": "No. The rules set a minimum diameter and a maximum weight only. A bigger ball would be legal but would fly shorter because of extra drag, so manufacturers don't make them."},
-    {"question": "How big is a golf hole compared to the ball?", "answer": "The hole is 4¼ inches (108 mm) wide, about 2.5 times the ball's diameter."}
-  ]
+    {
+      "question": "What is the diameter of a golf ball?",
+      "answer": "At least 1.680 inches (42.67 mm). That is the minimum allowed under the Rules of Golf, and in practice almost every ball is made right at that size."
+    },
+    {
+      "question": "How much does a golf ball weigh?",
+      "answer": "No more than 1.620 ounces (45.93 grams). Most conforming balls weigh very close to that limit."
+    },
+    {
+      "question": "Is there a maximum size for a golf ball?",
+      "answer": "No. The rules set a minimum diameter and a maximum weight only. A bigger ball would be legal but would fly shorter because of extra drag, so manufacturers don't make them."
+    },
+    {
+      "question": "How big is a golf hole compared to the ball?",
+      "answer": "The hole is 4¼ inches (108 mm) wide, about 2.5 times the ball's diameter."
+    }
+  ],
+  "image": "/images/articles/golf-ball-size.webp",
+  "imageAlt": "Golf ball resting on the edge of the hole on a green, shot at ball level so the cup is visible",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 A golf ball must be **at least 1.680 inches (42.67 mm) in diameter** and weigh **no more than 1.620 ounces (45.93 g)**. Those two limits come from the Rules of Equipment written by The R&A and the USGA. Almost every ball on sale sits right on both: as small and as heavy as the rules allow, because that flies furthest.

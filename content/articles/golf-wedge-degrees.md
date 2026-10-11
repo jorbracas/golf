@@ -8,23 +8,62 @@
   "category": "Clubs & Shafts",
   "date": "2026-10-11",
   "updated": "2026-10-11",
-  "related": ["/shop/golf-club-loft-chart", "/shop/best-60-wedge-golf-guide", "/shop/golf-club-distance-chart", "/blog/how-to-chip-in-golf"],
+  "related": [
+    "/shop/golf-club-loft-chart",
+    "/shop/best-60-wedge-golf-guide",
+    "/shop/golf-club-distance-chart",
+    "/blog/how-to-chip-in-golf"
+  ],
   "sources": [
-    ["MyGolfSpy – Wedge loft chart for novice golfers: lofts, gaps and what they mean (2026)", "https://mygolfspy.com/news-opinion/instruction/wedge-loft-chart-for-novice-golfers-lofts-gaps-and-what-they-mean/"],
-    ["Titleist – Vokey guide to wedge bounce", "https://www.titleist.com/teamtitleist/b/tourblog/posts/vokey-ultimate-guide-to-wedges-wedge-bounce-explained"],
-    ["USGA – Quantitative Analysis of Recreational Golfer Club Hitting Distances (2023)", "https://usga.org/content/dam/usga/images/course-care/GolferExperience/DI_Golfer_Performance_Measurement%202023%20Update.pdf"]
+    [
+      "MyGolfSpy – Wedge loft chart for novice golfers: lofts, gaps and what they mean (2026)",
+      "https://mygolfspy.com/news-opinion/instruction/wedge-loft-chart-for-novice-golfers-lofts-gaps-and-what-they-mean/"
+    ],
+    [
+      "Titleist – Vokey guide to wedge bounce",
+      "https://www.titleist.com/teamtitleist/b/tourblog/posts/vokey-ultimate-guide-to-wedges-wedge-bounce-explained"
+    ],
+    [
+      "USGA – Quantitative Analysis of Recreational Golfer Club Hitting Distances (2023)",
+      "https://usga.org/content/dam/usga/images/course-care/GolferExperience/DI_Golfer_Performance_Measurement%202023%20Update.pdf"
+    ]
   ],
   "amazon": [
-    ["Gap wedges (50–52°)", "gap wedge 52 degree"],
-    ["Sand wedges (56°)", "sand wedge 56 degree"],
-    ["Lob wedges (60°)", "lob wedge 60 degree"]
+    [
+      "Gap wedges (50–52°)",
+      "gap wedge 52 degree"
+    ],
+    [
+      "Sand wedges (56°)",
+      "sand wedge 56 degree"
+    ],
+    [
+      "Lob wedges (60°)",
+      "lob wedge 60 degree"
+    ]
   ],
   "faq": [
-    {"question": "What degree is a pitching wedge?", "answer": "Most pitching wedges are between 41° and 47°. Game-improvement sets sit around 41–44°, traditional players' irons around 45–47°."},
-    {"question": "What degree is a gap wedge?", "answer": "Usually 48–52°, with 50° and 52° the most common. It fills the gap between the pitching wedge and the sand wedge."},
-    {"question": "Is a 56 or 60 degree wedge better for beginners?", "answer": "A 56° sand wedge is the more useful first wedge. It handles bunkers, chips and full shots. A 60° is harder to control on full swings and is best added later."},
-    {"question": "How many wedges should I carry?", "answer": "Most golfers carry three or four including the pitching wedge, spaced about 4–6° apart, for example 46°, 50°, 54° and 58°."}
-  ]
+    {
+      "question": "What degree is a pitching wedge?",
+      "answer": "Most pitching wedges are between 41° and 47°. Game-improvement sets sit around 41–44°, traditional players' irons around 45–47°."
+    },
+    {
+      "question": "What degree is a gap wedge?",
+      "answer": "Usually 48–52°, with 50° and 52° the most common. It fills the gap between the pitching wedge and the sand wedge."
+    },
+    {
+      "question": "Is a 56 or 60 degree wedge better for beginners?",
+      "answer": "A 56° sand wedge is the more useful first wedge. It handles bunkers, chips and full shots. A 60° is harder to control on full swings and is best added later."
+    },
+    {
+      "question": "How many wedges should I carry?",
+      "answer": "Most golfers carry three or four including the pitching wedge, spaced about 4–6° apart, for example 46°, 50°, 54° and 58°."
+    }
+  ],
+  "image": "/images/articles/golf-wedge-degrees.webp",
+  "imageAlt": "Four golf wedges lying face up on grass next to three golf balls in morning light",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 A **pitching wedge is usually 41–47°**. Beyond that, a **gap wedge is 48–52°**, a **sand wedge 54–58°** and a **lob wedge 58–64°**. The key isn't the exact numbers but the spacing: wedges about **4–6° apart** give you even distance gaps of roughly 10–15 yards.

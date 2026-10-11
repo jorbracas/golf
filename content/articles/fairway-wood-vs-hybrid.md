@@ -8,22 +8,58 @@
   "category": "Clubs & Shafts",
   "date": "2026-10-11",
   "updated": "2026-10-11",
-  "related": ["/shop/golf-club-loft-chart", "/shop/golf-club-distance-chart", "/shop/best-forgiving-golf-irons-guide", "/shop/what-is-a-golf-stick-called"],
+  "related": [
+    "/shop/golf-club-loft-chart",
+    "/shop/golf-club-distance-chart",
+    "/shop/best-forgiving-golf-irons-guide",
+    "/shop/what-is-a-golf-stick-called"
+  ],
   "sources": [
-    ["Golf Insider UK – Fairway wood vs hybrid (Will Shaw, PhD, PGA Pro)", "https://golfinsideruk.com/fairway-wood-vs-hybrid/"],
-    ["GOLFTEC – 4 hybrid vs 7 wood", "https://golftec.com/video/4-hybrid-vs-7-wood-battle-which-one-dominates"]
+    [
+      "Golf Insider UK – Fairway wood vs hybrid (Will Shaw, PhD, PGA Pro)",
+      "https://golfinsideruk.com/fairway-wood-vs-hybrid/"
+    ],
+    [
+      "GOLFTEC – 4 hybrid vs 7 wood",
+      "https://golftec.com/video/4-hybrid-vs-7-wood-battle-which-one-dominates"
+    ]
   ],
   "amazon": [
-    ["7-woods", "7 wood golf club"],
-    ["4-hybrids", "4 hybrid golf club"],
-    ["Hybrid headcovers", "hybrid headcover"]
+    [
+      "7-woods",
+      "7 wood golf club"
+    ],
+    [
+      "4-hybrids",
+      "4 hybrid golf club"
+    ],
+    [
+      "Hybrid headcovers",
+      "hybrid headcover"
+    ]
   ],
   "faq": [
-    {"question": "Is a hybrid easier to hit than a fairway wood?", "answer": "For most amateurs, yes from the rough and from uneven lies, because the shorter shaft and compact head are easier to control. From a good fairway lie or a tee, many players find a fairway wood just as easy and a little longer."},
-    {"question": "Does a 7-wood go further than a 4-hybrid?", "answer": "Their lofts are almost the same (around 21–23°), but the 7-wood often carries further thanks to its longer shaft: around 20 yards in a GOLFTEC test. It also launches higher and lands softer; the hybrid flies lower and is easier from the rough."},
-    {"question": "What iron does a hybrid replace?", "answer": "Roughly the iron with the same number: a 4-hybrid replaces a 4-iron, a 5-hybrid a 5-iron. Check lofts rather than numbers, though, because they vary by brand."},
-    {"question": "Should high handicappers carry fairway woods or hybrids?", "answer": "Both, and fewer long irons. A 5-wood plus a couple of hybrids in place of the 4- and 5-iron is a common, forgiving setup."}
-  ]
+    {
+      "question": "Is a hybrid easier to hit than a fairway wood?",
+      "answer": "For most amateurs, yes from the rough and from uneven lies, because the shorter shaft and compact head are easier to control. From a good fairway lie or a tee, many players find a fairway wood just as easy and a little longer."
+    },
+    {
+      "question": "Does a 7-wood go further than a 4-hybrid?",
+      "answer": "Their lofts are almost the same (around 21–23°), but the 7-wood often carries further thanks to its longer shaft: around 20 yards in a GOLFTEC test. It also launches higher and lands softer; the hybrid flies lower and is easier from the rough."
+    },
+    {
+      "question": "What iron does a hybrid replace?",
+      "answer": "Roughly the iron with the same number: a 4-hybrid replaces a 4-iron, a 5-hybrid a 5-iron. Check lofts rather than numbers, though, because they vary by brand."
+    },
+    {
+      "question": "Should high handicappers carry fairway woods or hybrids?",
+      "answer": "Both, and fewer long irons. A 5-wood plus a couple of hybrids in place of the 4- and 5-iron is a common, forgiving setup."
+    }
+  ],
+  "image": "/images/articles/fairway-wood-vs-hybrid.webp",
+  "imageAlt": "Fairway wood and hybrid side by side on the fairway, showing the larger, flatter wood head next to the compact hybrid head",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 **Fairway woods** are longer, with a bigger, flatter head. They're best off the tee and from clean fairway lies, and they're the easier club for many slower swingers to get airborne. **Hybrids** are shorter and more iron-like, better from the **rough, uneven lies and tight spots**. Most amateurs benefit from carrying **both** in place of their long irons.

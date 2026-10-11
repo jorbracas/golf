@@ -8,22 +8,58 @@
   "category": "Clubs & Shafts",
   "date": "2026-10-11",
   "updated": "2026-10-11",
-  "related": ["/shop/golf-wedge-degrees", "/shop/golf-club-distance-chart", "/shop/fairway-wood-vs-hybrid", "/shop/best-golf-loft-lie-machine-guide"],
+  "related": [
+    "/shop/golf-wedge-degrees",
+    "/shop/golf-club-distance-chart",
+    "/shop/fairway-wood-vs-hybrid",
+    "/shop/best-golf-loft-lie-machine-guide"
+  ],
   "sources": [
-    ["MyGolfSpy – Wedge loft chart for novice golfers (2026)", "https://mygolfspy.com/news-opinion/instruction/wedge-loft-chart-for-novice-golfers-lofts-gaps-and-what-they-mean/"],
-    ["Golf Insider UK – Fairway wood vs hybrid", "https://golfinsideruk.com/fairway-wood-vs-hybrid/"]
+    [
+      "MyGolfSpy – Wedge loft chart for novice golfers (2026)",
+      "https://mygolfspy.com/news-opinion/instruction/wedge-loft-chart-for-novice-golfers-lofts-gaps-and-what-they-mean/"
+    ],
+    [
+      "Golf Insider UK – Fairway wood vs hybrid",
+      "https://golfinsideruk.com/fairway-wood-vs-hybrid/"
+    ]
   ],
   "amazon": [
-    ["Golf club loft and lie gauges", "golf club loft lie gauge"],
-    ["Gap wedges", "gap wedge 50 degree"],
-    ["Hybrid golf clubs", "hybrid golf club"]
+    [
+      "Golf club loft and lie gauges",
+      "golf club loft lie gauge"
+    ],
+    [
+      "Gap wedges",
+      "gap wedge 50 degree"
+    ],
+    [
+      "Hybrid golf clubs",
+      "hybrid golf club"
+    ]
   ],
   "faq": [
-    {"question": "What is the loft of a 7-iron?", "answer": "Usually between about 27° and 34°. Game-improvement 7-irons sit at the strong end (27–31°) and traditional players' irons at the weaker end (32–34°)."},
-    {"question": "Why are modern irons stronger lofted?", "answer": "Lower centres of gravity and faster faces let manufacturers reduce loft while keeping the ball in the air, which adds distance. The trade-off is bigger gaps at the bottom of the set, between the pitching wedge and the sand wedge."},
-    {"question": "What loft is a 3-wood?", "answer": "Most 3-woods are 15–16°. A 5-wood is usually 18–19° and a 7-wood 21–22°."},
-    {"question": "How do I find the loft of my clubs?", "answer": "Check the manufacturer's spec sheet for your model, which lists the loft of every club. Lofts can drift with use, so a club fitter can measure them on a loft and lie machine."}
-  ]
+    {
+      "question": "What is the loft of a 7-iron?",
+      "answer": "Usually between about 27° and 34°. Game-improvement 7-irons sit at the strong end (27–31°) and traditional players' irons at the weaker end (32–34°)."
+    },
+    {
+      "question": "Why are modern irons stronger lofted?",
+      "answer": "Lower centres of gravity and faster faces let manufacturers reduce loft while keeping the ball in the air, which adds distance. The trade-off is bigger gaps at the bottom of the set, between the pitching wedge and the sand wedge."
+    },
+    {
+      "question": "What loft is a 3-wood?",
+      "answer": "Most 3-woods are 15–16°. A 5-wood is usually 18–19° and a 7-wood 21–22°."
+    },
+    {
+      "question": "How do I find the loft of my clubs?",
+      "answer": "Check the manufacturer's spec sheet for your model, which lists the loft of every club. Lofts can drift with use, so a club fitter can measure them on a loft and lie machine."
+    }
+  ],
+  "image": "/images/articles/golf-club-loft-chart.webp",
+  "imageAlt": "Set of golf clubs lined up on a fitting-studio workbench from driver and woods through the irons to the putter, showing their different face angles",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 Loft is the angle of the clubface relative to the shaft, and it decides most of how high and far each club sends the ball. Typical lofts are **9–12° for a driver, 15° for a 3-wood, 27–34° for a 7-iron, 41–47° for a pitching wedge and 54–58° for a sand wedge**. The exact numbers vary by model, and they have changed a lot in 20 years.

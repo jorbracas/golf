@@ -8,22 +8,58 @@
   "category": "Technique",
   "date": "2026-10-11",
   "updated": "2026-10-11",
-  "related": ["/blog/golf-setup-posture", "/blog/how-to-chip-in-golf", "/shop/best-alignment-sticks-for-golf-swing", "/shop/golf-swing-driver-vs-irons"],
+  "related": [
+    "/blog/golf-setup-posture",
+    "/blog/how-to-chip-in-golf",
+    "/shop/best-alignment-sticks-for-golf-swing",
+    "/shop/golf-swing-driver-vs-irons"
+  ],
   "sources": [
-    ["Performance Golf – Golf ball position by club", "https://www.performancegolf.com/blog/golf-ball-position-by-club-the-ultimate-guide"],
-    ["Golf Monthly – Ball position basics", "https://www.golfmonthly.com/videos/long-game-tips/ball-position-basics-video"]
+    [
+      "Performance Golf – Golf ball position by club",
+      "https://www.performancegolf.com/blog/golf-ball-position-by-club-the-ultimate-guide"
+    ],
+    [
+      "Golf Monthly – Ball position basics",
+      "https://www.golfmonthly.com/videos/long-game-tips/ball-position-basics-video"
+    ]
   ],
   "amazon": [
-    ["Golf alignment sticks", "golf alignment sticks"],
-    ["Golf hitting mats", "golf hitting mat"],
-    ["Golf training aids for setup", "golf setup training aid"]
+    [
+      "Golf alignment sticks",
+      "golf alignment sticks"
+    ],
+    [
+      "Golf hitting mats",
+      "golf hitting mat"
+    ],
+    [
+      "Golf training aids for setup",
+      "golf setup training aid"
+    ]
   ],
   "faq": [
-    {"question": "Where should the ball be for a driver?", "answer": "Just inside your lead heel, the furthest-forward position of any club. That lets you catch the ball slightly on the upswing, which adds launch and reduces spin."},
-    {"question": "Where should the ball be for irons?", "answer": "Mid and short irons (5- to 9-iron) go roughly in the centre of the stance. Long irons can move slightly forward of centre."},
-    {"question": "Should the ball be in the middle for wedges?", "answer": "For full wedge shots, centre or up to one ball back of centre. For chips, around the middle with a narrower stance and the weight forward."},
-    {"question": "Why does ball position matter so much?", "answer": "It decides where in the swing the club meets the ball. Too far back and the ball tends to fly low, often pushed right or, with the driver, hooked; too far forward and you can hit it fat, thin or pull it left (for right-handers)."}
-  ]
+    {
+      "question": "Where should the ball be for a driver?",
+      "answer": "Just inside your lead heel, the furthest-forward position of any club. That lets you catch the ball slightly on the upswing, which adds launch and reduces spin."
+    },
+    {
+      "question": "Where should the ball be for irons?",
+      "answer": "Mid and short irons (5- to 9-iron) go roughly in the centre of the stance. Long irons can move slightly forward of centre."
+    },
+    {
+      "question": "Should the ball be in the middle for wedges?",
+      "answer": "For full wedge shots, centre or up to one ball back of centre. For chips, around the middle with a narrower stance and the weight forward."
+    },
+    {
+      "question": "Why does ball position matter so much?",
+      "answer": "It decides where in the swing the club meets the ball. Too far back and the ball tends to fly low, often pushed right or, with the driver, hooked; too far forward and you can hit it fat, thin or pull it left (for right-handers)."
+    }
+  ],
+  "image": "/images/articles/golf-ball-position-chart.webp",
+  "imageAlt": "Top-down view of a golfer's feet at address with two alignment sticks forming a T that points at the ball in the centre of the stance",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 The quick version: **driver just inside the lead heel**, **fairway woods and hybrids a ball's width or so inside that**, **long irons slightly forward of centre**, **mid and short irons in the centre**, and **wedges centre to one ball back**. The putter goes slightly forward of centre. The changes between clubs are small, a ball or two, not inches.

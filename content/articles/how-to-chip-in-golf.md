@@ -8,22 +8,58 @@
   "category": "Technique",
   "date": "2026-10-11",
   "updated": "2026-10-11",
-  "related": ["/shop/golf-wedge-degrees", "/blog/golf-ball-position-chart", "/shop/best-chipping-nets-for-golf", "/shop/best-golf-mat-for-chipping"],
+  "related": [
+    "/shop/golf-wedge-degrees",
+    "/blog/golf-ball-position-chart",
+    "/shop/best-chipping-nets-for-golf",
+    "/shop/best-golf-mat-for-chipping"
+  ],
   "sources": [
-    ["Golf Monthly – How to chip in golf (Weston, Foston, Mankert)", "https://golfmonthly.com/tips/short-game-tips/how-to-chip-in-golf"],
-    ["MyGolfSpy – Can your weight be too far forward when chipping?", "https://mygolfspy.com/news-opinion/instruction/can-your-weight-be-too-far-forward-when-chipping/"]
+    [
+      "Golf Monthly – How to chip in golf (Weston, Foston, Mankert)",
+      "https://golfmonthly.com/tips/short-game-tips/how-to-chip-in-golf"
+    ],
+    [
+      "MyGolfSpy – Can your weight be too far forward when chipping?",
+      "https://mygolfspy.com/news-opinion/instruction/can-your-weight-be-too-far-forward-when-chipping/"
+    ]
   ],
   "amazon": [
-    ["Chipping nets", "golf chipping net"],
-    ["Chipping mats", "golf chipping mat"],
-    ["Sand wedges", "sand wedge 56 degree"]
+    [
+      "Chipping nets",
+      "golf chipping net"
+    ],
+    [
+      "Chipping mats",
+      "golf chipping mat"
+    ],
+    [
+      "Sand wedges",
+      "sand wedge 56 degree"
+    ]
   ],
   "faq": [
-    {"question": "What is the correct way to chip in golf?", "answer": "Take a narrow stance, put about 55–65% of your weight on your lead foot, play the ball around the middle of your stance with the hands slightly ahead, and make a small shoulder-driven stroke with little wrist action, keeping your weight forward throughout."},
-    {"question": "What club should I chip with?", "answer": "Use the least loft that safely carries the ball onto the green. With no obstacles in the way, an 8- or 9-iron chip-and-run is often more reliable than a wedge. Use a sand or lob wedge only when you need height."},
-    {"question": "Why do I keep chunking my chips?", "answer": "Usually because your weight moves back onto your trail foot or your wrists flick at the ball, so the club bottoms out behind it. Keep your weight forward and your chest moving toward the target through the shot."},
-    {"question": "Should I break my wrists when chipping?", "answer": "Very little. A standard chip is a rocking motion of the shoulders and arms with the wrists quiet. Wrist hinge adds height and spin but also makes contact less consistent."}
-  ]
+    {
+      "question": "What is the correct way to chip in golf?",
+      "answer": "Take a narrow stance, put about 55–65% of your weight on your lead foot, play the ball around the middle of your stance with the hands slightly ahead, and make a small shoulder-driven stroke with little wrist action, keeping your weight forward throughout."
+    },
+    {
+      "question": "What club should I chip with?",
+      "answer": "Use the least loft that safely carries the ball onto the green. With no obstacles in the way, an 8- or 9-iron chip-and-run is often more reliable than a wedge. Use a sand or lob wedge only when you need height."
+    },
+    {
+      "question": "Why do I keep chunking my chips?",
+      "answer": "Usually because your weight moves back onto your trail foot or your wrists flick at the ball, so the club bottoms out behind it. Keep your weight forward and your chest moving toward the target through the shot."
+    },
+    {
+      "question": "Should I break my wrists when chipping?",
+      "answer": "Very little. A standard chip is a rocking motion of the shoulders and arms with the wrists quiet. Wrist hinge adds height and spin but also makes contact less consistent."
+    }
+  ],
+  "image": "/images/articles/how-to-chip-in-golf.webp",
+  "imageAlt": "Golfer chipping from the fringe with hands ahead of the ball, the ball in the air heading toward the flag",
+  "imageWidth": 1536,
+  "imageHeight": 1024
 }
 ---
 A good chip is a small, simple motion. **Narrow stance, weight about 55–65% on your lead side, ball around the middle of the stance, hands slightly ahead of the ball, and a rocking stroke with the shoulders, not the wrists.** Keep your weight forward from start to finish and let the loft of the club do the lifting.
